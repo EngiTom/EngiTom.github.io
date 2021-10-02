@@ -10,7 +10,7 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+# theme                    : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Tom Zhang"
   avatar           : "/assets/images/me.jpg"
-  bio              : "Contact me to join the coding club or math team! "
+  bio              : "Inspirit AI Ambassador and Coding Club leader."
   location         : "Connecticut, USA"
   email            : "zhangtom2088@gmail.com"
   links:
@@ -122,6 +122,12 @@ author:
     - label: "Discord Server"
       icon: "fab fa-fw fa-discord"
       url: "https://discord.gg/fPAtmchhtp"
+    - label: "Coding Club Sign-up"
+      icon: "fab fa-fw fa-wpforms"
+      url: "https://forms.gle/cFjMp5jCMvjiHjk58"
+    - label: "Free MIT Stanford AI Webinar"
+      icon: "fab fa-fw fa-wpforms"
+      url: "https://bit.ly/inspirit-webinar"
 
 # Site Footer
 footer:
@@ -141,6 +147,12 @@ footer:
     - label: "Discord Server"
       icon: "fab fa-fw fa-discord"
       url: "https://discord.gg/fPAtmchhtp"
+    - label: "Coding Club Sign-up Form"
+      icon: "fab fa-fw fa-wpforms"
+      url: "https://forms.gle/cFjMp5jCMvjiHjk58"
+    - label: "Free MIT Stanford AI Webinar"
+      icon: "fab fa-fw fa-wpforms"
+      url: "https://bit.ly/inspirit-webinar"
 
 
 # Reading Files
@@ -275,10 +287,8 @@ defaults:
   # home
   - scope:
       path: ""
-      type: home
+      type: posts
     values:
-      layout: single
-      author_profile: true
       read_time: true
       show_date: true
       toc: true
