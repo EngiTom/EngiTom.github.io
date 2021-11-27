@@ -57,7 +57,7 @@ After witnessing one of my favorite teachers become stricter in an attempt to te
 
 I have racked my brain for hours thinking of how I would even begin to approach that situation as a teacher. If I were to teach a class of well-behaved students, it would be pretty easy; the only type of interaction that has to take place is when I one-sidedly spew information and they absorb it. The same cannot be said for a group of students who are not paying attention. 
 
-So, my goal is to get you to stop worrying so much. However, you are educated/indoctrinated, so it won't be easy. For the uninitiated, it would be easy to say, "NO FEAR!" but for you, it will require some different remedy. 
+So, my goal is to get you to stop worrying so much. However, you are educated/indoctrinated, so it won't be easy. For the uninitiated, it would be easy to say, "No fear!" but for you, it will require some different remedy. 
 
 ### Mental Tension
 
