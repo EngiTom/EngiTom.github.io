@@ -125,9 +125,6 @@ author:
     - label: "Coding Club Sign-up"
       icon: "fab fa-fw fa-wpforms"
       url: "https://forms.gle/cFjMp5jCMvjiHjk58"
-    - label: "Free MIT Stanford AI Webinar"
-      icon: "fab fa-fw fa-wpforms"
-      url: "https://bit.ly/inspirit-webinar"
 
 # Site Footer
 footer:
@@ -150,10 +147,6 @@ footer:
     - label: "Coding Club Sign-up Form"
       icon: "fab fa-fw fa-wpforms"
       url: "https://forms.gle/cFjMp5jCMvjiHjk58"
-    - label: "Free MIT Stanford AI Webinar"
-      icon: "fab fa-fw fa-wpforms"
-      url: "https://bit.ly/inspirit-webinar"
-
 
 # Reading Files
 include:
