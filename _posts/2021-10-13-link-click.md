@@ -47,4 +47,4 @@ In contrast to *Detective Conan*, which gave up the idea of ending the series by
 
 Technically, *Link Click* could have been a one season masterpiece if the writers wanted it that way, but I personally think that making more seasons is fine as long as they don't mess it up by demonstrating they just want to milk the series for money. I would say that three to five seasons should occur, and then the series should end for good. 
 
-However, there are many mysteries that have not been revealed in the series, which I will list out in the next post. Do not read the next one because it will contain SPOILERS!!!
+However, there are many mysteries that have not been revealed in the series.
