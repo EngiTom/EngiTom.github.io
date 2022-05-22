@@ -55,7 +55,7 @@ In addition, working in the Unity developing platform with multiple people at on
 We didn't win anything, but learning is winning. Next time, I hope that we can make a useful React website. 
 
 {% raw %}
-<iframe frameborder="no" width="960" height="600" src="https://i.simmer.io/@jarate/sumo-ball" style="text-align: center"></iframe>
+<iframe frameborder="no" width="720" height="380" src="https://i.simmer.io/@jarate/sumo-ball" style="text-align: center"></iframe>
 {% endraw %}
 
 ## New York Federal Reserve High School Challenge
