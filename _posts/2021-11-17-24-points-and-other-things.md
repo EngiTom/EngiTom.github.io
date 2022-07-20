@@ -49,6 +49,8 @@ On the first day of the event, it was really quiet, but it definitely got a lot 
 
 I also met a very kind peer from Scandinavia that has a similar background to me, so it was definitely very nice to be able to relate to someone on that kind of level. 
 
+Notes from 8 months in the future: always communicate intentions clearly in all relationships, do not grip tightly onto personal perceptions, and keep small talk to the first week. 
+
 ## USACO
 
 I am back on the USACO grind after a long hiatus, and I am glad that I can still remember some concepts from silver. I was worried I would have to start from bronze again, but I don't think that will be necessary. Hopefully, I will be able to get to gold by around January. 
