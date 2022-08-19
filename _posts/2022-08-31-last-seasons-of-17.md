@@ -34,7 +34,7 @@ Sure, this is the most efficient way of operating from the perspective of spread
 
 2. The strength of a field is largely based on how many new people are willing to go into it. For example, on YouTube, when someone searches "physics", the results include a lot of advancements in astronomy and quantum mechanics. This is largely because of the sheer amount of content coming out of the fields. With other parts of physics, like materials science or fluid dynamics, the results are very sparse. 
 
-3. Of course, the people making the videos don't need to be experts, but they do need information from experts. If the experts are able to communicate on a level that assumes no prior information, this goal is met easily. 
+3. If it is too hard to get into a field, then it will create issues for new people and decrease the popularity even if the field has merit. For instance, while Newton and Leibniz both contributed a lot to calculus, if Leibniz was not so good at communication, calculus would have taken a lot longer to become mainstream. 
 
 ## DALLE
 I got access to DALLE, OpenAI's text-based image generation model. I had some fun with it, it does a decent job for the most part. My favorite image is the one used in this post's header image. 
