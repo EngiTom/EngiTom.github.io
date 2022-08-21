@@ -76,16 +76,29 @@ Overall, *Catcher* was pretty good and I didn't really see anything that would m
 ## Link Crew
 I joined my school's Link Crew club, which lets 11th and 12th graders guide freshmen through the year. I have to give them a guide of the school, so I will definitely include some shortcuts that basically only I use. 
 
-A great one is cutting through the courtyard. The courtyard is approximately rectangular, so the shortcut only works diagonally. Three of the doors are basically unlocked all the time and the one other door is open most times. This is a great exercise in cartographical thinking because sometimes one might consider a shortcut that isn't diagonal, and that just ends up being a regular walk outside. 
+A great one is cutting through the courtyard. The courtyard is approximately rectangular, so the shortcut only works diagonally. Three of the doors are basically unlocked all the time and the one other door is open most times. This is a great exercise in cartographical thinking because sometimes one might consider a shortcut that isn't diagonal, and that just ends up being a regular walk outside (which isn't necessarily a bad thing). 
 
+### Advice
 I would also like to give them some advice in general:
-- Don't worry about your grades all the time
-- Don't be afraid to join clubs
-- Organize your time with a calendar and spread the work
-- Ask and answer lots of questions
+- Don't worry about your grades too much (but try your best in class by participating and studying)
+- Don't be afraid to join clubs (but don't overwhelm yourself with too many)
+- Organize your time with a calendar and spread the work (but always take breaks \[something like pomodoro\])
+- Ask and answer lots of questions (but value others's time and try to think of your own answer)
 
-I also have another piece of advice on a topic that many do not talk about because it is taboo: do not judge people by their class levels. 
+I also have another piece of advice on a topic that many do not talk about because it is taboo: do not compare yourself to others and make judgements. 
 
-There are lots of AP students who become prideful because they are taking more AP classes than other students. This creates a very toxic environment for competition because it becomes more about increasing score rather than knowledge. Becoming more knowledgable is only a byproduct or rather, excrement, of being in that environment. On the flip side, there are a lot of students who know others are in higher level classes, and begin to doubt themselves and fear the others as a result.
+There are lots of students who become prideful because they are taking more AP classes than other students. This creates a very toxic environment for competition because it becomes more about increasing score rather than knowledge. In that type of environment, becoming more knowledgable is only a byproduct or rather, excrement of being there. On the flip side, there are a lot of students who know others are in higher level classes, and begin to doubt themselves and put others on a pedestal. 
 
 In both cases, the students prevent themselves from growing as a result of their mindset, either due to complacency or doubt. Ultimately, the importance of being humble and being confident is that the type of mindset creates the person that one becomes in the future. 
+
+### Self-care
+While it is good to engage with others, and my advice so far has been mostly involving that, you should also take care of yourself. This basically means to do something that you enjoy, probably alone, but it should be relaxing or fulfilling in some way. 
+
+Here are some examples:
+- Walk around
+- Exercise
+- Sit outside in the backyard and watch the clouds
+- Play/listen to music
+- Read books
+- Draw
+- Nap
