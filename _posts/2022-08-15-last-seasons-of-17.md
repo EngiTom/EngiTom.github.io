@@ -84,10 +84,11 @@ I would also like to give them some advice in general:
 - Don't be afraid to join clubs (but don't overwhelm yourself with too many)
 - Organize your time with a calendar and spread the work (but always take breaks \[something like pomodoro\])
 - Ask and answer lots of questions (but value others's time and try to think of your own answer)
+- Do a lot of what you want so that you don't become what you don't want.
 
-I also have another piece of advice on a topic that many do not talk about because it is taboo: do not compare yourself to others and make judgements. 
+I also have another piece of advice on a topic that many do not talk about because it is pretty tough to talk about: do not compare yourself to others and make judgements. 
 
-There are lots of students who become prideful because they are taking more AP classes than other students. This creates a very toxic environment for competition because it becomes more about increasing score rather than knowledge. In that type of environment, becoming more knowledgable is only a byproduct or rather, excrement of being there. On the flip side, there are a lot of students who know others are in higher level classes, and begin to doubt themselves and put others on a pedestal. 
+There are lots of students who become prideful because they are taking more high-level classes than other students. This creates a very toxic environment for competition because it becomes more about increasing score rather than knowledge. In that type of environment, becoming more knowledgable is only a byproduct or rather, excrement of being there. On the flip side, there are a lot of students who know others are in higher-level classes, and begin to doubt themselves and put others on a pedestal. 
 
 In both cases, the students prevent themselves from growing as a result of their mindset, either due to complacency or doubt. Ultimately, the importance of being humble and being confident is that the type of mindset creates the person that one becomes in the future. 
 
