@@ -11,7 +11,7 @@ toc_sticky: true
 categories: [Projects]
 ---
 
-"That season, whatever you call it, often feels more like the new year than the New Year itself." —"A Short, Welcome Season" by Verlyn Klinkenborg
+"That season, whatever you call it, often feels more like the new year than the New Year itself." — "A Short, Welcome Season" by Verlyn Klinkenborg
 
 ## Seasonal beauty
 In search of autumnal beauty, I've been walking far away from my house lately to see a remote part of town deep in the woods. I once walked there with my dad and my sister, but it wasn't yet fall. He claimed that it is one of the most beautiful places when the leaves turn red. 
