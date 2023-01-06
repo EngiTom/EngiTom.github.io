@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Jumpstart"
-date: 2023-01-06 00:00:00 -05:00
+date: 2023-01-06 00:59:00 -05:00
 author_profile: true
 header: 
   image: assets/images/frogcloud.png
@@ -74,7 +74,7 @@ A list some concepts I want to include in videos:
 - Timeline starting from 9th grade
 - Timeline starting from 11th grade May 15th
 - How to pick essay topic
--
+- How to answer questions
 
 ## The Moment Has Passed
 Well, December break has ended, and the next break is in February, so I hope that I can keep going until then. 
