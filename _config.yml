@@ -103,28 +103,19 @@ analytics:
 author:
   name             : "Tom Zhang"
   avatar           : "/assets/images/me.jpg"
-  bio              : "Math team captain and coding club president"
+  bio              : "Caltech"
   location         : "Connecticut, USA"
   email            : "zhangtom2088@gmail.com"
   links:
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCyj_vwme_dV8-YjySCjsdrw"
-    - label: "Kaggle"
-      icon: "fab fa-fw fa-kaggle"
-      url: "https://www.kaggle.com/pr1m3r"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/EngiTom"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/7omuu/"
-    - label: "Discord Server"
-      icon: "fab fa-fw fa-discord"
-      url: "https://discord.gg/fPAtmchhtp"
-    - label: "Coding Club Sign-up"
-      icon: "fab fa-fw fa-wpforms"
-      url: "https://forms.gle/cFjMp5jCMvjiHjk58"
 
 # Site Footer
 footer:
@@ -132,21 +123,12 @@ footer:
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCyj_vwme_dV8-YjySCjsdrw"
-    - label: "Kaggle"
-      icon: "fab fa-fw fa-kaggle"
-      url: "https://www.kaggle.com/pr1m3r"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/EngiTom"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/7omuu/"
-    - label: "Discord Server"
-      icon: "fab fa-fw fa-discord"
-      url: "https://discord.gg/fPAtmchhtp"
-    - label: "Coding Club Sign-up Form"
-      icon: "fab fa-fw fa-wpforms"
-      url: "https://forms.gle/cFjMp5jCMvjiHjk58"
 
 # Reading Files
 include:
