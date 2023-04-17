@@ -144,4 +144,4 @@ Of course, people like to think that being around people who are more proficient
 
 Be sure not to become too attached to the idea of "They are worse = I could never make that mistake." You might even find that they do some things better than you expected. Creating a fundamental separation between worse and better doesn't make sense because that is only on average. There could be many discrepancies at any point, so associating with absolutes will not lead to learning. 
 
-I will spare you the LoL for this one. 
+I will spare you the LoL analogy for this one. 
