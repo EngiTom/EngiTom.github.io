@@ -8,7 +8,7 @@ header:
   caption: "Photo credit: [**Giacomo Carra**](https://unsplash.com/photos/rO67lWfS4CU)"
 toc: true
 toc_sticky: true
-categories: [College, Fun, Math, Cooking, ]
+categories: [College, Fun, Math, Cooking, Singing]
 ---
 
 "The truth is rarely pure and never simple." — Oscar Wilde, *The Importance of Being Ernest*
