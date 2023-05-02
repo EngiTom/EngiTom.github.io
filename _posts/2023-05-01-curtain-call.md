@@ -11,7 +11,7 @@ toc_sticky: true
 categories: [College, Fun, Math, Cooking, Singing]
 ---
 
-"The truth is rarely pure and never simple." — Oscar Wilde, *The Importance of Being Ernest*
+"The truth is rarely pure and never simple." — Oscar Wilde, *The Importance of Being Earnest*
 
 "Love sought is good, but given unsought is better." — Shakespeare, *Twelfth Night*
 
