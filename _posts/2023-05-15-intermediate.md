@@ -58,6 +58,8 @@ You may be wondering, why use intra-Ab/Ag interactions rather than the direct in
 
 Now you may be wondering, well, wouldn't you also not know where the interaction of the Ab is? In that case, it is known that a special area inside the Ab protein, the complementarity-determining region (CDR) can be used to roughly approximate the effect of the protein. 
 
+EDIT: For the Ag protein, it is possible to use software such as Schrodinger's SiteMap in order to find the likely binding sites.  
+
 As an example of counting interactions, if residues A, B, C in Ag interact with residues D, E, F in Ab, then I will try to see if A, B, C interacts with each other. These intra-Ag interaction combinations can be recorded in a 20 by 20 heatmap/table of the 20 types of amino acids. I would repeat the same process for the Ab except toss out D, E, F in favor of CDR region which has a numerically similar range of rows in the PDB file. 
 
 Afterward, we will end up with two symmetrical heatmaps for the Ab and Ag, respectively, of a single PDB file. 
