@@ -58,7 +58,7 @@ You may be wondering, why use intra-Ab/Ag interactions rather than the direct in
 
 Now you may be wondering, well, wouldn't you also not know where the interaction of the Ab is? In that case, it is known that a special area inside the Ab protein, the complementarity-determining region (CDR) can be used to roughly approximate the effect of the protein. 
 
-EDIT: For the Ag protein, it is possible to use software such as Schrodinger's SiteMap in order to find the likely binding sites.  
+EDIT 1: For the Ag protein, it is possible to use software such as Schrodinger's SiteMap in order to find the likely binding sites.  
 
 As an example of counting interactions, if residues A, B, C in Ag interact with residues D, E, F in Ab, then I will try to see if A, B, C interacts with each other. These intra-Ag interaction combinations can be recorded in a 20 by 20 heatmap/table of the 20 types of amino acids. I would repeat the same process for the Ab except toss out D, E, F in favor of CDR region which has a numerically similar range of rows in the PDB file. 
 
@@ -70,3 +70,7 @@ Now, with thousands of heatmaps available, we can first cut every heatmap in hal
 Now, we have a dataset of valid and invalid pairs in the form of 20 by 21 images (it will be an exercise to the reader as to why it is 20 by 21 instead of 20 by 20), and can train a CNN to predict whether an image is valid or invalid. 
 
 Hopefully, the CNN will actually have some reasonable accuracy after 10-fold cross-validation. 
+
+EDIT 2: The project is going much more smoothly than expected, but the design and creation of the heatmap is quite a puzzle. The main issue is, if I loop through the residues and look for interactions, I will be counting interactions of the same type in two ways. For example, if I had many Alanine (A) and Proline (P) interactions, they would be recorded as both A-P and P-A. On the heatmap, those correspond to two different halves of the heatmap which must be condensed down to a single triangle. So, only a single organization can exist.
+
+EDIT 2, cont.: I think lexicographically ascending (alphabetical order) would work well. However, I either convert every P-A to an A-P during the adding to the dictionary or I just do that after the code runs. They both take roughly the same computation time (fast), but I would prefer to not need to sort everything out at the end since I would need to search every possible combination of amino acids and then modify the dictionary's values; however, by changing the order immediately after finding the combination, it is a simple comparison, and then I can add the correct combination to the dictionary. 
