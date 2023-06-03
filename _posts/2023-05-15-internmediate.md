@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Intermediate"
+title: "Internmediate"
 date: 2023-05-15 00:00:01 -04:00
 author_profile: true
 header: 
