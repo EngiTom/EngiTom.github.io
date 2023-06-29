@@ -4,7 +4,7 @@ title: "Internmediate"
 date: 2023-05-15 00:00:01 -04:00
 author_profile: true
 header: 
-  image: assets\images\hasan-almasi.jpg
+  image: assets/images/hasan-almasi.jpg
   caption: "Photo credit: [Hasan Almasi](https://unsplash.com/photos/rRTtg-jTQ_s)" 
 toc: true
 toc_sticky: true
