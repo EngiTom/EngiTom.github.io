@@ -29,7 +29,7 @@ Speaking of J, in AP CSP, I learned that DMO is the INTJ Myers-Briggs personalit
 Speaking of the same J, DMO said that teachers are generally J's in the personality type because they must be capable of judging students and finding the common mistakes. I can definitely see how I fit that because I sometimes jump to false conclusions, which is a small downside. 
 
 ### Self-satisfaction
-There is a girl in Class 1 who is in the multi class that I visit. When Mr. J was teaching about the electric fields, she asked the question, "Would that be considered a vector field?"
+There is a girl in Class 1 who is in the multi class that I visit. When Mr. J was teaching about electric fields, she asked the question, "Would that be considered a vector field?"
 
 What a terrible question! First, it's very obvious to someone taking multi that it is a vector field because it's literally a field of vectors. Second, the question was clearly asked to satisfy her ego as the only person in the class who knows what a vector field is. 
 
