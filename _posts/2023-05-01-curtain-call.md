@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Curtain Call"
-date: 2023-05-01 00:00:01 -04:00
+date: 2023-05-01 00:01:01 -04:00
 author_profile: true
 header: 
   image: assets/images/giacomo-carra.jpg

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Internmediate"
-date: 2023-05-15 00:00:01 -04:00
+date: 2023-05-15 00:01:01 -04:00
 author_profile: true
 header: 
   image: assets/images/hasan-almasi.jpg
