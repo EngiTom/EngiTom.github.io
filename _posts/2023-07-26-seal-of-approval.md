@@ -8,7 +8,7 @@ header:
   caption: "Photo credit: Valve, FDG5, Nanoco, Rhamkin, zythe_" 
 toc: true
 toc_sticky: true
-categories: [Gaming]
+categories: [Gaming, Music, Movies, YouTube]
 ---
 
 "The winter months are always the most difficult for the pyroshark, so the summer sun gives them plenty of time for the necessary hunt." — Jerma985
