@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "One Cruel Summer's Day"
-date: 2023-09-14 00:01:01 -04:00
+date: 2023-09-14 00:01:01 -07:00
 author_profile: true
 header: 
   image: assets/images/longbeach.jpg
@@ -27,7 +27,7 @@ I never knew organizing clothes could be so emotional, but I had many flashbacks
 It's funny how much my world has changed in these last four years, and I would like to thank people for being there, even if I dislike them, because without darkness the light cannot shine.
 
 ## All That Love and Emotion
-This has been an emotional summer for me, with a someone mentioned in my previous posts, such as ["Smort"](https://engitom.github.io/friends/travel/smort/), hereby referred to as A. 
+This has been an emotional summer for me, with a someone mentioned in my previous posts, such as ["Smort"](https://engitom.github.io/friends/travel/smort/). There will be no initial given. 
 
 In that post, I mentioned that she liked me. As it turns out, we liked each other. For the last two months, we've basically called for hours every day, to the point of ruining both our sleep schedules. It's sorta funny how obsessed we were with each other, watching shows and listening to songs. However, she is going to an east coast school (a classic story for long-time followers of the blog). 
 
