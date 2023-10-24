@@ -104,7 +104,7 @@ author:
   name             : "Tom Zhang"
   avatar           : "/assets/images/me.jpg"
   bio              : "Caltech '27"
-  location         : "Connecticut, USA"
+  location         : "Pasadena, CA"
   email            : "zhangtom2088@gmail.com"
   links:
     - label: "YouTube"
@@ -116,6 +116,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/7omuu/"
+    - label: "Spotify"
+      icon: "fab fa-fw fa-spotify"
+      url: "https://open.spotify.com/artist/1NvEtG0iZzoVffDwRSAlrn"
 
 # Site Footer
 footer:
@@ -129,6 +132,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/7omuu/"
+    - label: "Spotify"
+      icon: "fab fa-fw fa-spotify"
+      url: "https://open.spotify.com/artist/1NvEtG0iZzoVffDwRSAlrn"
 
 # Reading Files
 include:

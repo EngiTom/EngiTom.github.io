@@ -25,7 +25,7 @@ However, the culture of the houses died after COVID, so people don't do crazy st
 The only constant in the houses is the quality of the people, which is almost always very high. It seems strange to describe a thousand people this way, but everyone at the school is very nice, and I know I'll enjoy spending four years getting to know them. 
 
 ## Randomly Rotated Ricketts Roommates
-I rotated into Ricketts Hovse (v because it is a south house), which evenly splits freshmen into singles and doubles. However, the pick order is based on a card draw. I drew a 20th percentile card (3 of diamonds), so it was basically guaranteed that I would live in a double. I was open to either, but I did want a single for privacy. Behind me there were 3 people who all had to live in doubles, two of which were girls. 
+I rotated into Ricketts Hovse (v because it is a south house and letter v is a downward arrow shape), which evenly splits freshmen into singles and doubles. However, the pick order is based on a card draw. I drew a 20th percentile card (3 of diamonds), so it was basically guaranteed that I would live in a double. I was open to either, but I did want a single for privacy. Behind me there were 3 people who all had to live in doubles, two of which were girls. 
 
 The guy behind me, P, didn't really want to be in a double either. We didn't know each other's names until we got into the room, but we actually got along very well. We are actually pretty different people; he is more extroverted and had house \[REDACTED\] as his first choice, while I am more introverted and had house \[REDACTED\] as my first choice. 
 

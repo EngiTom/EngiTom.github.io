@@ -13,7 +13,7 @@ categories: [College, Relationship]
 
 "He got my heart beat / Skipping down 16th Avenue." — Taylor Swift, "I Think He Knows (Taylor's Version)"
 
-"And I never knew I could feel that much." — Taylor Swift, "The Way I Loved You (Taylor's Version)"\
+"And I never knew I could feel that much." — Taylor Swift, "The Way I Loved You (Taylor's Version)"
 
 Note: this post was written on Sep 14 but published on Oct 7.
 
@@ -27,11 +27,11 @@ I never knew organizing clothes could be so emotional, but I had many flashbacks
 It's funny how much my world has changed in these last four years, and I would like to thank people for being there, even if I dislike them, because without darkness the light cannot shine.
 
 ## All That Love and Emotion
-This has been an emotional summer for me, with a someone mentioned in my previous posts, such as ["Smort"](https://engitom.github.io/friends/travel/smort/). There will be no initial given. 
+This has been an emotional summer for me, with someone mentioned in my previous posts, in ["Smort"](https://engitom.github.io/friends/travel/smort/). 
 
 In that post, I mentioned that she liked me. As it turns out, we liked each other. For the last two months, we've basically called for hours every day, to the point of ruining both our sleep schedules. It's sorta funny how obsessed we were with each other, watching shows and listening to songs. However, she is going to an east coast school (a classic story for long-time followers of the blog). 
 
-So, she started school about two weeks ago and has been busy ever since. A week ago, she proposed that we simply be friends, which meant deleting most of our contacts other than Instagram. I agreed because I couldn't see a way to make long distance work. However, what I really wanted was to be good friends that can still talk to each other. After a heated argument, we cut all ties. Today, I tried reaching out again, and we cut all ties for real. 
+So, she started school about two weeks ago and has been busy ever since. A week ago, she proposed that we simply be friends, which meant deleting most of our contacts other than Instagram. I agreed because I couldn't see a way to make long distance work. However, what I really wanted was to be good friends that can still talk to each other. After a heated argument, we cut all ties. Today, I tried reaching out again, and we burned the bridge. 
 
 ### Replaceable Parts
 I played Civ 6 for a bit after the break up and found an technology called "Replaceable Parts" that gives access to mechanized infantry, which reminded me of how feelings work. 
