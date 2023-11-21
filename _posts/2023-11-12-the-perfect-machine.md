@@ -56,7 +56,7 @@ He was wondering why I would give him MIT shirts until he saw the back of the sh
 I replied that I'm always happy to provide for the needy, because what if he were to lose his job due to letting classes out early to lunch?[^2]
 
 ### Appearances
-are important, as shown by Caltech when they put new grass near the cannon so that the tourists would think more highly of the school. They also repainted some of the railings near the track (it was rusted red before) to make it look nicer. 
+are important, as shown by Caltech when they put new grass near the cannon so that the tourists would think more highly of the school. They also repainted some of the railings near the track (it was rusted red before) to make it look nicer. These investments are kind of strange, because for the rest of the year, the school doesn't really do anything to maintain that appearance. It's like when people only clean their house when someone is coming over. 
 
 ## How to Make an Origami Paper Star - Tom's World [^1]
 After seeing the origami club at the club fair, I was inspired to learn how to fold paper stars. It's actually surprisingly easy.
