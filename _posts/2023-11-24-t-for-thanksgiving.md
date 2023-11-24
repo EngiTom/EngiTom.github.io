@@ -81,7 +81,7 @@ For dinner, I helped peel garlic and decorate for Ricketts, eating a lot of turk
 J and E were also there, and we talked about the newest chapter of JJK. 
 
 ## T for Trippy Time Travel
-In my [post from 2022 Nov 23, "Stuff To Do,"](https://engitom.github.io/projects/stuff-to-do/#bedtime-geometry) I wrote a section titled, "Bedtime Geometry" but forgot to write any words in it. 
+In my post from 2022 Nov 23, ["Stuff To Do,"](https://engitom.github.io/projects/stuff-to-do/#bedtime-geometry) "Bedtime Geometry" has no words because I forgot to write it. 
 
 However, after thinking for ten seconds, I figured out what I wanted to write back then, so here is a bit of time travel, if you will:
 
