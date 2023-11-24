@@ -43,6 +43,9 @@ A related song:
 {% include video id="BG6L03nCRzw" provider="youtube" %}
 
 ### Bedtime geometry
+Edit from 2023 November: I guess I never wrote this section??? Well, I don't know what I was gonna write so I guess I'm not gonna write it.
+
+Wait, I just realized! Go to the newest post!
 
 ## Project idea app
 I have an idea for an app that tells the user an interesting and productive thing that they can learn every day. I would call the app "doer" since people would learn to do stuff. 

@@ -138,6 +138,6 @@ My favorite part was definitely at the end when everyone performed together and 
 
 In essence, not only is it important to celebrate good results; it's crucial to understand how to get there for future reference. This is kind of like how while the Great Pyramids of Giza or the Hale Telescope are impressive feats, the fundamental amazement comes from wondering how they were built rather than their surface-level monumentality. 
 
-## Footnotes:
+## Footnotes
 [^1]: I used to watch an origami YouTube channel called [Rob's World](https://www.youtube.com/@RobsWorld) and his titles were in that format. 
 [^2]: DMO never lets a class out early to lunch with the excuse that he could be fired (there is no way he would get fired). 

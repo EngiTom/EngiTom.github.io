@@ -4,7 +4,7 @@ title: "One Must Imagine"
 date: 2023-11-20 00:00:01 -08:00
 author_profile: true
 header: 
-  image: assets/images/hale1.jpeg
+  image: assets/images/eggntomato.jpg
   caption: "Photo credit: Me" 
 toc: true
 toc_sticky: true
@@ -173,7 +173,7 @@ When you buy using a broker-dealer like Robinhood, there are limit and market or
 
 There is a buy limit order and a sell limit order. The buy limit order buys when the price goes below some price threshold and a sell limit order is the opposite. 
 
-## Footnotes:
+## Footnotes
 [^1]: Reference to Noah's Ark.
 [^2]: x + (-x) = 0
 [^3]: ["The Nights" by Avicii](https://open.spotify.com/track/0ct6r3EGTcMLPtrXHDvVjc?si=7a25cfa7dd8f45ec)
