@@ -129,6 +129,10 @@ However, there have also been studies done which reveal that relationships are m
 
 However, this information is not easy to apply, since the idea of monetary success and happiness are so ingrained in society and form our personal biases. Perhaps the only way is to first append the value of relationships onto money rather than try to replace it immediately. 
 
+{:refdef: style="text-align: center;"}
+![timeandmoney](/assets/images/timeandmoney.png)
+{:refdef}
+
 ## Le Festin
 {% include spotifySong.html id="02JIdsrod3BYucThfUFDUX" %}
 
