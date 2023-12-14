@@ -44,7 +44,7 @@ While there may be no issues with small inconsistencies in beliefs across time, 
 
 Take the example of imposter syndrome at top universities: someone believes they are **inferior to most of their classmates** in some way and do not belong. However, that means they put a portion of their **self-value into their achievements**; simultaneously, they probably have a few achievements that **only a small percentage of people could have**. So, the solution seems to be to balance those ideas out after some thought. 
 
-That was just one example of how people hold contradictory beliefs. Crucially, these opposing beliefs are born *or had* out of necessity in the moment; it is sometimes more helpful to believe in a contradicting ideas than maintain consistency [^1]. 
+That was just one example of how people hold contradictory beliefs. Crucially, these opposing beliefs are born *or had* out of necessity in the moment; it is sometimes more helpful to believe in a contradicting ideas than maintain consistency[^1]. 
 
 Furthermore, contradiction is not necessarily bad; it just means that you need to pick your poison when the time comes and accept the consequences. For example, if you **forgot to do your homework** and you believe in both the importance of being truthful and *getting good grades*, you may either choose to *apologize to your teacher and accept a late penalty*, or *lie about your dog eating your homework* **(feel free to use this excuse)** *and then hand it in later*. 
 
