@@ -11,7 +11,7 @@ toc_sticky: true
 categories: [College]
 ---
 
-“将军，我们已经有一个礼拜没有吃到冰淇淋了！” — 《甲方乙方》 (1997)
+“将军，我们已经有一个礼拜没有吃到冰淇淋了！” — 《甲方乙方》(1997)
 
 “General, it's been a week since we've eaten ice cream！” — *The Dream Factory* (1997)
 
