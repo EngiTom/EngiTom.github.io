@@ -27,8 +27,7 @@
         {% endif %}
       </span>
 
-      {% set my_statement = "x" %}
-      {% if my_statement in '<div class="page__inner-wrap"></div>' %}
+      {% if page.layout == "single" %}
         <span class="page__meta-sep"></span>
 
         <span>
