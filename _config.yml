@@ -105,8 +105,11 @@ author:
   avatar           : "/assets/images/me.jpg"
   bio              : "Caltech '27"
   location         : "Pasadena, CA"
-  email            : "zhangtom2088@gmail.com"
+  email            : "txzhang@caltech.edu"
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/tom-zhang-99524a220/"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCyj_vwme_dV8-YjySCjsdrw"
@@ -123,6 +126,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/tom-zhang-99524a220/"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCyj_vwme_dV8-YjySCjsdrw"
