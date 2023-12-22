@@ -8,7 +8,7 @@ header:
   caption: "Photo credit: [**Aaron Burden**](https://unsplash.com/photos/shallow-focus-photography-of-bubble-on-leaves-xtIYGB0KEqc)" 
 toc: true
 toc_sticky: true
-categories: [College, Admissions]
+categories: [College, Admissions, Guide]
 ---
 
 "Pursue excellence, and success will chase you... pants down." — Rancho, *3 Idiots* (2009)
