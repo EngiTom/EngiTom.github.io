@@ -27,9 +27,8 @@
         {% endif %}
       </span>
 
-      {% if page.layout == "single" and page.header %}
+      {% if page.layout == "single" and include.type != "grid" %}
         <span class="page__meta-sep"></span>
-
         <span>
           <em id="pv" class="pageviews">
             <i class="fa-duotone fa-circle-dot"></i>
