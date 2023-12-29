@@ -5,6 +5,7 @@ date: 2023-07-26 00:01:01 -04:00
 author_profile: true
 header: 
   image: assets/images/sealy.png
+  teaser: assets/images/teasers/sealy.png
   caption: "Photo credit: Valve, FDG5, Nanoco, Rhamkin, zythe_" 
 toc: true
 toc_sticky: true

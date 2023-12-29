@@ -5,6 +5,7 @@ date: 2023-12-27 00:00:01 -05:00
 author_profile: true
 header: 
   image: assets/images/santamonica.jpg
+  teaser: assets/images/teasers/santamonica.jpg
   caption: "Photo credit: Me" 
 toc: true
 toc_sticky: true

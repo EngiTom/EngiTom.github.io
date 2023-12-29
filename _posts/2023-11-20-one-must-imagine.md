@@ -5,6 +5,7 @@ date: 2023-11-20 00:00:01 -08:00
 author_profile: true
 header: 
   image: assets/images/eggntomato.jpg
+  teaser: assets/images/teasers/eggntomato.jpg
   caption: "Photo credit: Me" 
 toc: true
 toc_sticky: true

@@ -5,6 +5,7 @@ date: 2021-10-22 19:00:00 -04:00
 author_profile: true
 header: 
   image: assets/images/antoine-dautry.jpg
+  teaser: assets/images/teasers/antoine-dautry.jpg
   caption: "Photo credit: [**Antoine Dautry**](https://unsplash.com/photos/_zsL306fDck)"
 toc: true
 toc_sticky: true

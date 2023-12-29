@@ -5,6 +5,7 @@ date: 2023-09-08 00:01:01 -04:00
 author_profile: true
 header: 
   image: assets/images/shannon-potter.jpg
+  teaser: assets/images/teasers/shannon-potter.jpg
   caption: "Photo credit: [Shannon Potter](https://unsplash.com/photos/VjP0l-APtpo)" 
 toc: true
 toc_sticky: true

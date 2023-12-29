@@ -5,6 +5,7 @@ date: 2022-11-09 21:00:00 -05:00
 author_profile: true
 header: 
   image: assets/images/stroller.png
+  teaser: assets/images/teasers/stroller.png
   caption: "Photo credit: DALLE and me"
 toc: true
 toc_sticky: true

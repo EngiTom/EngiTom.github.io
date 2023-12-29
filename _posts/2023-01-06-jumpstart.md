@@ -5,6 +5,7 @@ date: 2023-01-06 00:59:00 -05:00
 author_profile: true
 header: 
   image: assets/images/frogcloud.png
+  teaser: assets/images/teasers/frogcloud.png
   caption: "Photo credit: DALLE and me"
 toc: true
 toc_sticky: true

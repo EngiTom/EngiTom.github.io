@@ -5,6 +5,7 @@ date: 2022-05-23 15:00:00 -04:00
 author_profile: true
 header: 
   image: assets/images/thermodynamics2022post/sigmund.jpg
+  teaser: assets/images/teasers/thermodynamics2022post/sigmund.jpg
   caption: "Photo credit: [**Sigmund**](https://unsplash.com/photos/ferm0_PchpM)"
 toc: true
 toc_sticky: true

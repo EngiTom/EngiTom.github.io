@@ -5,6 +5,7 @@ date: 2023-09-14 00:01:01 -07:00
 author_profile: true
 header: 
   image: assets/images/longbeach.jpg
+  teaser: assets/images/teasers/longbeach.jpg
   caption: "Photo credit: Me" 
 toc: true
 toc_sticky: true

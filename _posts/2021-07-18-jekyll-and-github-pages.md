@@ -5,6 +5,7 @@ date: 2021-07-18 18:26:50 +00:00
 author_profile: true
 header: 
   image: /assets/images/namakLakeIranHasanAlmasi.jpg
+  teaser: /assets/images/teasers/namakLakeIranHasanAlmasi.jpg
   caption: "Photo credit: [**Hasan Almasi**](https://unsplash.com/photos/5ddKJB6fgTQ)"
 toc: true
 toc_sticky: true

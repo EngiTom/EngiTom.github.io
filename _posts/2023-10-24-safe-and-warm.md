@@ -5,6 +5,7 @@ date: 2023-10-24 00:00:01 -07:00
 author_profile: true
 header: 
   image: assets/images/daniel-norris.jpg
+  teaser: assets/images/teasers/daniel-norris.jpg
   caption: "Photo credit: [Daniel Norris](https://unsplash.com/photos/lobster-in-plate-PdK_Cu876aE)" 
 toc: true
 toc_sticky: true

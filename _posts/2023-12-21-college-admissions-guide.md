@@ -5,6 +5,7 @@ date: 2023-12-21 00:00:01 -05:00
 author_profile: true
 header: 
   image: assets/images/aaron-burden.jpg
+  teaser: assets/images/teasers/aaron-burden.jpg
   caption: "Photo credit: [**Aaron Burden**](https://unsplash.com/photos/shallow-focus-photography-of-bubble-on-leaves-xtIYGB0KEqc)" 
 toc: true
 toc_sticky: true

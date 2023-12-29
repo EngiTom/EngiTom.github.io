@@ -5,6 +5,7 @@ date: 2023-03-30 00:00:00 -04:00
 author_profile: true
 header: 
   image: assets/images/macondo.png
+  teaser: assets/images/teasers/macondo.png
   caption: "Photo credit: Dalle and Me"
 toc: true
 toc_sticky: true

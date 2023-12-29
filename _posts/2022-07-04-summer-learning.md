@@ -5,6 +5,7 @@ date: 2022-07-04 15:00:00 -04:00
 author_profile: true
 header: 
   image: assets/images/dakota-roos.jpg
+  teaser: assets/images/teasers/dakota-roos.jpg
   caption: "Photo credit: [**Dakota Roos**](https://unsplash.com/photos/u7ldh_tgH3s)"
 toc: true
 toc_sticky: true

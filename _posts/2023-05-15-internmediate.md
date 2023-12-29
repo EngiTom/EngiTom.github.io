@@ -5,6 +5,7 @@ date: 2023-05-15 00:01:01 -04:00
 author_profile: true
 header: 
   image: assets/images/hasan-almasi.jpg
+  teaser: assets/images/teasers/hasan-almasi.jpg
   caption: "Photo credit: [Hasan Almasi](https://unsplash.com/photos/rRTtg-jTQ_s)" 
 toc: true
 toc_sticky: true

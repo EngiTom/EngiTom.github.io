@@ -5,6 +5,7 @@ date: 2021-09-10 19:00:00 -04:00
 author_profile: true
 header: 
   image: assets/images/mirror.jpg
+  teaser: assets/images/teasers/mirror.jpg
   caption: "Photo credit: [**Vince Fleming**](https://unsplash.com/photos/Vmr8bGURExo)"
 toc: true
 toc_sticky: true

@@ -5,6 +5,7 @@ date: 2023-02-07 00:22:01 -05:00
 author_profile: true
 header: 
   image: assets/images/akira.jpg
+  teaser: assets/images/teasers/akira.jpg
   caption: "Photo credit: [**Akira**](https://unsplash.com/photos/-sQzDSl0YOY)"
 toc: true
 toc_sticky: true

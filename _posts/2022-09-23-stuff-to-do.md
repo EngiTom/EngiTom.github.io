@@ -5,6 +5,7 @@ date: 2022-09-23 22:00:00 -04:00
 author_profile: true
 header: 
   image: assets/images/dalleautumnsea.png
+  teaser: assets/images/teasers/dalleautumnsea.png
   caption: "Photo credit: DALLE and me"
 toc: true
 toc_sticky: true

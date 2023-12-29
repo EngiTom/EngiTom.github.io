@@ -5,6 +5,7 @@ date: 2022-05-22 15:00:00 -04:00
 author_profile: true
 header: 
   image: assets/images/angello-pro.jpg
+  teaser: assets/images/teasers/angello-pro.jpg
   caption: "Photo credit: [**Angello Pro**](https://unsplash.com/photos/UljbyG2UcVI)"
 toc: true
 toc_sticky: true

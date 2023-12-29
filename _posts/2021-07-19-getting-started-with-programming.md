@@ -5,6 +5,7 @@ date: 2021-07-19 14:00:00 +00:00
 author_profile: true
 header: 
   image: assets/images/sphere.jpg
+  teaser: assets/images/teasers/sphere.jpg
   caption: "Photo credit: [**Michael Dziedzic**](https://unsplash.com/photos/qDG7XKJLKbs)"
 toc: true
 toc_sticky: true

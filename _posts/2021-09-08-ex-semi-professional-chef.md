@@ -5,6 +5,7 @@ date: 2021-09-08 21:00:00 -04:00
 author_profile: true
 header: 
   image: assets/images/food.jpg
+  teaser: assets/images/teasers/food.jpg
   caption: "Photo credit: [**Sharon Pittaway**](https://unsplash.com/photos/KUZnfk-2DSQ)"
 toc: true
 toc_sticky: true

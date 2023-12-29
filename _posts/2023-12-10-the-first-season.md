@@ -5,6 +5,7 @@ date: 2023-12-10 00:00:01 -08:00
 author_profile: true
 header: 
   image: assets/images/loversky.png
+  teaser: assets/images/teasers/loversky.png
   caption: "Photo credit: Me" 
 toc: true
 toc_sticky: true

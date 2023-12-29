@@ -5,6 +5,7 @@ date: 2021-07-25 19:00:00 +00:00
 author_profile: true
 header: 
   image: assets/images/shanghai.jpg
+  teaser: assets/images/teasers/shanghai.jpg
   caption: "Photo credit: [**Denys Nevozhai**](https://unsplash.com/photos/D8iZPlX-2fs)"
 toc: true
 toc_sticky: true

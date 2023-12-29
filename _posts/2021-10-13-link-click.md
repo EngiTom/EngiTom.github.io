@@ -5,6 +5,7 @@ date: 2021-10-13 18:00:00 -04:00
 author_profile: true
 header: 
   image: assets/images/linkclick.jpg
+  teaser: assets/images/teasers/linkclick.jpg
   caption: "Photo credit: Funimation Twitter"
 toc: true
 toc_sticky: true

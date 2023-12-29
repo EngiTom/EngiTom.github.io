@@ -5,6 +5,7 @@ date: 2022-04-15 15:00:00 -04:00
 author_profile: true
 header: 
   image: assets/images/reding.jpg
+  teaser: assets/images/teasers/reding.jpg
   caption: "Photo credit: [**Mathias P.R. Reding**](https://unsplash.com/photos/ps8Q-xx0MZ8)"
 toc: true
 toc_sticky: true

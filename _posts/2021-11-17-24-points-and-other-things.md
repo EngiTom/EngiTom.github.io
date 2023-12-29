@@ -5,6 +5,7 @@ date: 2021-11-17 19:00:00 -05:00
 author_profile: true
 header: 
   image: assets/images/shubham-dhage.jpg
+  teaser: assets/images/teasers/shubham-dhage.jpg
   caption: "Photo credit: [**Shubham Dhage**](https://unsplash.com/photos/TbhRAV5xDtA)"
 toc: true
 toc_sticky: true

@@ -5,6 +5,7 @@ date: 2021-07-21 3:00:00 +00:00
 author_profile: true
 header: 
   image: assets/images/grayblocks.jpg
+  teaser: assets/images/teasers/grayblocks.jpg
   caption: "Photo credit: [**Esther Jiao**](https://unsplash.com/photos/FKZwWLWgGyM)"
 toc: true
 toc_sticky: true

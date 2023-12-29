@@ -5,6 +5,7 @@ date: 2023-12-05 00:00:01 -08:00
 author_profile: true
 header: 
   image: assets/images/lunarring.png
+  teaser: assets/images/teasers/lunarring.png
   caption: "Photo credit: Me" 
 toc: true
 toc_sticky: true

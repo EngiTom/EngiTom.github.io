@@ -5,6 +5,7 @@ date: 2023-12-14 00:00:01 -08:00
 author_profile: true
 header: 
   image: assets/images/omid-armin.jpg
+  teaser: assets/images/teasers/omid-armin.jpg
   caption: "Photo credit: [Omid Armin](https://unsplash.com/photos/a-bunch-of-leaves-that-are-on-the-ground-spYYjjazRXI)" 
 toc: true
 toc_sticky: true

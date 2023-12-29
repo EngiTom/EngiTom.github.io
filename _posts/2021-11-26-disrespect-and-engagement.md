@@ -5,6 +5,7 @@ date: 2021-11-26 15:00:00 -05:00
 author_profile: true
 header: 
   image: assets/images/jana-sabeth.jpg
+  teaser: assets/images/teasers/jana-sabeth.jpg
   caption: "Photo credit: [**Jana Sabeth**](https://unsplash.com/photos/gpNmA7gWfss)"
 toc: true
 toc_sticky: true

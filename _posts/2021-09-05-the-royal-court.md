@@ -5,6 +5,7 @@ date: 2021-09-05 10:00:00 -04:00
 author_profile: true
 header: 
   image: assets/images/classroom.jpg
+  teaser: assets/images/teasers/classroom.jpg
   caption: "Photo credit: [**MChe Lee**](https://unsplash.com/photos/PC91Jm1DlWA)"
 toc: true
 toc_sticky: true

@@ -5,6 +5,7 @@ date: 2023-11-12 00:00:01 -08:00
 author_profile: true
 header: 
   image: assets/images/hale1.jpeg
+  teaser: assets/images/teasers/hale1.jpeg
   caption: "Photo credit: Me" 
 toc: true
 toc_sticky: true

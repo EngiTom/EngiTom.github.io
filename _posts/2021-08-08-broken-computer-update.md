@@ -5,6 +5,7 @@ date: 2021-08-08 20:00:00 -04:00
 author_profile: true
 header: 
   image: assets/images/computer.jpg
+  teaser: assets/images/teasers/computer.jpg
   caption: "Photo credit: [**Alexandre Debiève**](https://unsplash.com/photos/FO7JIlwjOtU)"
 toc: true
 toc_sticky: true

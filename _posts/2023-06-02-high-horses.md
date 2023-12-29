@@ -5,6 +5,7 @@ date: 2023-06-02 00:01:01 -04:00
 author_profile: true
 header: 
   image: assets/images/joseph-daniel.jpg
+  teaser: assets/images/teasers/joseph-daniel.jpg
   caption: "Photo credit: [Joseph Daniel](https://unsplash.com/photos/7FprFl6VIu8)" 
 toc: true
 toc_sticky: true

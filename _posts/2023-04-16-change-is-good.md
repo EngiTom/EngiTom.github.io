@@ -5,6 +5,7 @@ date: 2023-04-16 00:00:01 -04:00
 author_profile: true
 header: 
   image: assets/images/beetle.png
+  teaser: assets/images/teasers/beetle.png
   caption: "Photo credit: Dalle and Me"
 toc: true
 toc_sticky: true

@@ -5,6 +5,7 @@ date: 2021-07-30 12:00:00 +00:00
 author_profile: true
 header: 
   image: assets/images/fencing.jpg
+  teaser: assets/images/teasers/fencing.jpg
   caption: "Photo credit: [**Micaela Parente**](https://unsplash.com/photos/YGgKE6aHaUw)"
 toc: true
 toc_sticky: true

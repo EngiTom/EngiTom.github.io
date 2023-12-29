@@ -5,6 +5,7 @@ date: 2023-10-11 00:00:01 -07:00
 author_profile: true
 header: 
   image: assets/images/propaganda.jpg
+  teaser: assets/images/teasers/propaganda.jpg
   caption: "Photo credit: Me" 
 toc: true
 toc_sticky: true

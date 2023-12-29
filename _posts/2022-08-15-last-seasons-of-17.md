@@ -5,6 +5,7 @@ date: 2022-08-15 15:00:00 -04:00
 author_profile: true
 header: 
   image: assets/images/dalleimg.png
+  teaser: assets/images/teasers/dalleimg.png
   caption: "Photo credit: DALLE and me"
 toc: true
 toc_sticky: true

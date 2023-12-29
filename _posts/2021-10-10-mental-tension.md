@@ -5,6 +5,7 @@ date: 2021-10-10 18:00:00 -04:00
 author_profile: true
 header: 
   image: assets/images/cici-hung.jpg
+  teaser: assets/images/teasers/cici-hung.jpg
   caption: "Photo credit: [**Cici Hung**](https://unsplash.com/photos/41ICIYxcvy8)"
 toc: true
 toc_sticky: true

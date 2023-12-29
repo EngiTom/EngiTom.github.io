@@ -5,6 +5,7 @@ date: 2023-09-08 00:01:01 -04:00
 author_profile: true
 header: 
   image: assets/images/dagakotowaru.png
+  teaser: assets/images/teasers/dagakotowaru.png
   caption: "Photo credit: JoJo Anime Part 4" 
 toc: true
 toc_sticky: true

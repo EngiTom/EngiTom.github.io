@@ -5,6 +5,7 @@ date: 2021-09-12 11:00:00 -04:00
 author_profile: true
 header: 
   image: assets/images/plane.jpg
+  teaser: assets/images/teasers/plane.jpg
   caption: "Photo credit: [**Sinitta Leuren**](https://unsplash.com/photos/g54aAP8dUW8)"
 toc: true
 toc_sticky: true

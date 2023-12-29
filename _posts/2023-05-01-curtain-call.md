@@ -5,6 +5,7 @@ date: 2023-05-01 00:01:01 -04:00
 author_profile: true
 header: 
   image: assets/images/giacomo-carra.jpg
+  teaser: assets/images/teasers/giacomo-carra.jpg
   caption: "Photo credit: [**Giacomo Carra**](https://unsplash.com/photos/rO67lWfS4CU)"
 toc: true
 toc_sticky: true

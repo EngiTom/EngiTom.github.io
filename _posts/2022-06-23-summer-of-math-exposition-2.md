@@ -5,6 +5,7 @@ date: 2022-08-15 15:00:00 -04:00
 author_profile: true
 header: 
   image: assets/images/summerofmath/laura-gilchrist.jpg
+  teaser: assets/images/teasers/summerofmath/laura-gilchrist.jpg
   caption: "Photo credit: [**Laura Gilchrist**](https://unsplash.com/photos/km_T0yIqfwg)"
 toc: true
 toc_sticky: true
