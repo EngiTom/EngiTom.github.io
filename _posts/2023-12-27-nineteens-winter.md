@@ -73,7 +73,7 @@ He is 11 years old.
 ### One-Trick Sellout
 Apparently, he learned how to do ML-based stock price prediction from his dad. I asked him if anyone else in his grade codes or does the same thing. He responded that around ten kids know how to code, and his friend actually also does stock price prediction (and learned from dad, of course). 
 
-It's kind of insane that 5th graders are doing stock price prediction with Python, not just because it is impressive, but because they have already begun career training while other kids are jumping on trampolines and shooting each other with Nerf guns [^3].
+It's kind of insane that 5th graders are doing stock price prediction with Python, not just because it is impressive, but because they have already begun career training while other kids are jumping on trampolines and shooting each other with Nerf guns[^3].
 
 ### Their second son
 is nine years old and doesn't do as much stuff as his brother. However, I noticed that both of them are very bad at paying attention to what people say; I have to repeat every question at least three times before they actually hear it. 
@@ -90,7 +90,7 @@ While they were playing [*Factory Idle*](https://factoryidle.com), a game in whi
 ### Implications
 Based on O's proficiency in *Factory Idle* and other games, he should be able to improve at most things because he is able to identify the path to the objective in simple tasks. 
 
-So, I would prescribe doing more stuff rather than just focusing on quantitative finance [^4]. If he only learns how to do one thing, it would be a waste of all that potential. 
+So, I would prescribe doing more stuff rather than just focusing on quantitative finance[^4]. If he only learns how to do one thing, it would be a waste of all that potential. 
 
 Also, colleges don't even like students who focus on quant, there is no idealism. High school coders should just do projects for social good instead of trying to make money if they want to get into college. 
 
@@ -104,7 +104,7 @@ In that case, why are your kids doing *college app prep in elementary school*?
 Getting older is really strange. When I went to visit my teachers, I noticed all of the students looked way too young. It's obviously because I've been surrounded by adults during college, but it's the kind of gradual change you don't see until it's over. 
 
 ### Year In Review
-This year has been the best, so I'm not expecting much for the next one [^5]. However, this year has also been the worst, so I have high hopes. Some things have not gone well for me, but at least I learned a lot about life.
+This year has been the best, so I'm not expecting much for the next one[^5]. However, this year has also been the worst, so I have high hopes. Some things have not gone well for me, but at least I learned a lot about life.
 
 As for achievements, I hit diamond last split, as I mentioned long ago, but am going to end emerald this split. I have a [paper](https://arxiv.org/abs/2301.09599) in JCP and have a bioinformatics [paper](https://www.biorxiv.org/content/10.1101/2023.12.06.570397v1) coming along. I also learned how to play and sing a lot of songs on guitar, exploring a lot of new C-Pop artists. 
 
