@@ -8,7 +8,8 @@ header:
   caption: "Photo credit: Me" 
 toc: true
 toc_sticky: true
-categories: [College]
+tags: [Thanksgiving]
+categories: [Holiday, Philosophy]
 ---
 
 "缓缓飘落的枫叶像思念，为何挽回要赶在冬天来之前" — 《枫》Jay Chou 周杰伦
