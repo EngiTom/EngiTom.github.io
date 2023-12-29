@@ -54,9 +54,6 @@ comments:
     emit-metadata: "0"
     input-position: "top"
     theme: "dark"
-    lang: "en"
-    loading: "lazy"
-    cross-origin: "anonymous"
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
