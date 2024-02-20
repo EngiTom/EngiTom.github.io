@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Physics in the Shower"
-date: 2024-02-14 00:00:01 -05:00
+date: 2024-02-14 00:00:01 -08:00
 author_profile: true
 header: 
   image: assets/images/skygarage.jpg

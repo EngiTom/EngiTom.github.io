@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Resolution of 366"
-date: 2024-01-29 00:00:01 -05:00
+date: 2024-01-29 00:00:01 -08:00
 author_profile: true
 header: 
   image: assets/images/jigar-panchal.jpg
