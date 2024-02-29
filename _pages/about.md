@@ -13,7 +13,7 @@ I'm interested in
 - CS + science
 - playing guitar and singing
 - listening to music (my top 5 fav artists: 李荣浩, 陈奕迅, Yorushika, Taylor Swift, and Feed Me Jack)
-- writing songs, 7zh on Spotify
+- writing songs, Tom Zhang on Spotify
 - making YT videos about my interests
 - solving fun problems (such as, "How similar are the jokes that my teachers make?") with AI
 - anime; *Link Click, Jujutsu Kaisen, Vinland Saga, Kokoro Connect, Magic Kaito, Detective Conan*, and *Nichijou*
@@ -21,4 +21,4 @@ I'm interested in
 - gaming; TF2, LoL, Civilization 6
 - teaching: a lot of fun
 
-I love meeting people so feel free to contact me through email ([txzhang@caltech.edu](mailto:txzhang@caltech.edu)), [LinkedIn](https://www.linkedin.com/in/tom-zhang-99524a220/), or Instagram ([@7omuu](https://www.instagram.com/7omuu/))
+I love meeting people so feel free to contact me through email ([7om.x.zhang@gmail.com](mailto:7om.x.zhang@gmail.com)), [LinkedIn](https://www.linkedin.com/in/tom-zhang-99524a220/), or Instagram ([@7omuu](https://www.instagram.com/7omuu/))
