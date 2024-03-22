@@ -13,7 +13,7 @@ tags: [Running, C, J, Biography]
 categories: [Friends, Fun, Reading, Music]
 ---
 
-"F is for friends who do stuff together." — Spongebob Squarepants
+"...living in the real world?" — Paramore
 
 ## Smarter Human
 I had lunch with DMO at a local restaurant. It was a load of chicken because he's been upping his running training and he's hungry all the time. 
@@ -38,7 +38,7 @@ DMO told me he was gonna run 14 miles the next day which sounded completely craz
 
 So, this inspired me to start running again. More on this in the next post. 
 
-## F is for Friends
+## The Big Apple
 Apparently, Grand Central Station is not as its name implies, there's also Penn Station a few minutes west of it. It's actually the busiest train station in the Western Hemisphere[^1]!
 
 ### C
@@ -67,7 +67,7 @@ When she joined, she asked why the band is called Shadow Garden and I explained 
 
 I learned this week that she actually already saw JJK, so I was talking about sorcerers and techniques and shadow creatures in a convoluted way for no reason. However, she didn't realize I was talking about JJK, so maybe my explaining needs some work. 
 
-### MoMATH
+#### MoMATH
 The main thing we planned was going to the National Museum of Math. My high school classmate and one of three valedictorians (they all had the same GPA), Z, was actually an intern there. 
 
 I thought it would be like a few floors and maybe have some historical exhibits, sort of like an astronomy museum. Maybe it would have like the original copy of some math manuscripts, but it was more of a kid-oriented place. 
@@ -81,7 +81,7 @@ The knot ones were very interesting because it would be like an introduction to 
 
 I think we both enjoyed the car puzzle the most. It's like a chessboard with cars that can only move back and forth and the goal is to get the red car to the exit by getting the other cars out of the way. 
 
-### Guitar Center
+#### Guitar Center
 We played some guitars at the guitar center and I actually forgot I knew how to play a few country songs with the picking pattern. She actually learned it really fast!
 
 Next, we had to get to the basement, just like *Attack on Titan*, in order to play piano. I showed her "Summer" by Joe Hisaishi, which is probably the most popular piano song that kids learn in China, and she really liked it! 
@@ -92,7 +92,7 @@ She played something that sounded really beautiful and familiar, but I couldn't 
 
 {% include spotifySong.html id="5cRKj1kynNFqiliT2ndZ3y" %}
 
-### Potentially Performing
+#### Potentially Performing
 For the band, we thought of doing a few songs but we have to limit it to two for the spring term open mic night. We tried to do four in the last one and we found out that we weren't very prepared, because we messed up a lot of timings.
 
 We have a strange problem because the gap between my highest note and the other vocalist E's lowest note makes it hard to do a lot of songs. For example, Charlie Puth is too high for me and too low for her.
@@ -102,7 +102,7 @@ We have a strange problem because the gap between my highest note and the other 
 Hopefully the new Hozier song, "Too Sweet," is not too high for me. 
 
 ### ER: Endoplasmic Reticulum
-Next week, I'm going to Manhattan again to eat dinner with university friends E and J, who are doing a program at Jane Street.
+Next week, I'm going to Manhattan again to eat dinner with university friends E and R, who are doing a program at Jane Street.
 
 To make a reservation at the restaurant (Che Li), the deposit fee is $100, which is kind of crazy, but it makes sense that they wouldn't want people to not show up. 
 
