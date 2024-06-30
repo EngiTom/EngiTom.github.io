@@ -1,0 +1,1316 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="https://engitom.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://engitom.github.io/" rel="alternate" type="text/html" /><updated>2024-06-30T13:06:55+00:00</updated><id>https://engitom.github.io/feed.xml</id><title type="html">Engi’s Exchanges</title><subtitle>Learning experiences</subtitle><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><entry><title type="html">Can’t Stop</title><link href="https://engitom.github.io/literature/math/biology/cant-stop/" rel="alternate" type="text/html" title="Can’t Stop" /><published>2024-06-16T08:00:01+00:00</published><updated>2024-06-16T08:00:01+00:00</updated><id>https://engitom.github.io/literature/math/biology/cant-stop</id><content type="html" xml:base="https://engitom.github.io/literature/math/biology/cant-stop/"><![CDATA[<p>“Before I get to work, my day is already a success.” — Jensen Huang</p>
+
+<p>Note: This post was intended to come out on June 16, but did not load. So, I made some edits for readability on June 30 in Shanghai.</p>
+
+<h2 id="continuity-of-knowledge">Continuity of Knowledge</h2>
+<p>Knowledge is often defined by context.</p>
+
+<p>For example, if I ask you to describe a frog, you might say that it’s an amphibian, but that assumes a biological perspective.</p>
+
+<p>From a Shanghai bullfrog soup perspective, frogs 🐸 are just animals that taste like chicken and fish.</p>
+
+<p>This sounds stupid, but it’s totally true and is a useful description in some perspectives.</p>
+
+<h2 id="gadsby">Gadsby</h2>
+<p>I never appreciated the reader response literary lens because it seems so arbitrary and disconnected from concrete facts.</p>
+
+<h3 id="dont-look-back-in-anger">Don’t Look Back In Anger</h3>
+<p>You know how in the movies, people see mirages of oases in the Sahara Desert? Today, it was so hot 🥵 (31°C, 86°F) that <em>I saw a guy opening the door to Browne Dining Hall and walking in</em>.</p>
+
+<p>I was walking to Ven, so I wanted to cut through the dining hall for some A/C, but the <em>door was locked and the lights were off???</em></p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/7ppPZa3TRUSGKaks9wH7VT" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<p>So, I think I had a hallucination of a guy walking into Browne, but when I told G, he didn’t believe that I saw a hallucination. I’m not sure how I could <em>convince someone else of my hallucination though…</em></p>
+
+<h3 id="pathfinding">Pathfinding</h3>
+<p>When seeking shade on a walk, it’s unclear whether to make an <strong>adjustment to the original path just to go under a tree or in the shadow of a building</strong>.</p>
+
+<p><strong>Upside: more time in the shade!</strong></p>
+
+<p><strong>Downside: more time in the sun!</strong></p>
+
+<p>If you try to <strong>walk faster to get to the shade</strong>, you might sweat more, which is <strong>uncomfortable</strong>. If you <strong>walk slower while under the tree to relax</strong>, it <strong>takes longer</strong> to get where you’re going.</p>
+
+<h3 id="building-shade">Building Shade</h3>
+<p>However, I believe there could be an optimization to walking route calculations on map apps <strong>based on the time of day.</strong></p>
+
+<p>For example, if the sun is setting, that means shadows will all be to the east of buildings. <strong>So, optimal paths should include more time walking north on the left side of the street and walking south on the right side of the street.</strong></p>
+
+<p>In the northern hemisphere, the sun is usually in the south, so shadows will be on the north side of buildings. So, walking east, <strong>apps should recommend walking on the right side of the street, and the opposite for walking west.</strong></p>
+
+<p><em>Of course, the opposite system for the southern hemisphere</em>.</p>
+
+<h3 id="gatsby">Gatsby</h3>
+<p>Back on the topic of literature, I saw an Instagram reel in which someone was saying that they support Gatsby and blame Daisy.</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/2nMeu6UenVvwUktBCpLMK9" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<p>After reading a few comments, they all seemed to have a poor understanding of the book’s themes, so I instinctively wanted to comment saying that Gatsby is at fault for trying to bring back a dead relationship, but I didn’t comment.</p>
+
+<p>It seems like no one sees the book in the same way. Some people are focused on who is at blame due to the vehicular manslaughter later on, some people are more focused on hating Tom (Buchanan), and others are simply fans of Gatsby because the title says he’s great.</p>
+
+<p>Reader response also makes a lot of sense from an age perspective. Older people like <em>Moby Dick</em> and teenagers like <em>Catcher in the Rye</em>. The books are the same, but the reader makes all the difference.</p>
+
+<p>So, maybe I shouldn’t be so quick to pass judgement on Gatsby.</p>
+
+<h2 id="anterhouse-">Anterhouse 🐜</h2>
+<p>Perhaps it’s just the heat, but today, I consulted with W, G, and S about an <strong>interhouse ant 🐜 farm</strong> where there’s just a network of transparent tubes between every house.</p>
+
+<p>To feed them, we can simply use the <em>food that always gets thrown away at the end of every house dinner.</em></p>
+
+<p>Every house could have an <strong>Ant Manager</strong>, or <strong>AntMan</strong>. There could also be Ant Directors, or AntD’s<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/3ZOEytgrvLwQaqXreDs2Jx" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<p>Now, after discussing the logistics, I will explain why this is such a great idea:</p>
+
+<ol>
+  <li>The ants would <strong>reduce food waste</strong>, increasing our campus’s <strong>sustainability</strong></li>
+  <li>The fear of antfestations would discourage students from <strong>eating alone</strong> in their room<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>, thus leading to <strong>increased participation</strong> in house dinners</li>
+  <li>Students can <strong>appreciate</strong> the wonders of life and nature</li>
+  <li>Students may <strong>reflect</strong> on the <strong>implications</strong> of their decisions in life, drawing a parallel to those of the ants</li>
+</ol>
+
+<h2 id="three-quarters">Three Quarters</h2>
+<p>A said in her graduation post that she <em>“only spent 12 quarters on this degree”</em> so I guess that means I have enough quarters to afford one trip on the metro 🚍.</p>
+
+<p>Over the last year, I’ve met a lot of cool people, and I’ll carry some of these memories with me forever.</p>
+
+<h3 id="too-much-stuff">Too much stuff</h3>
+<p>The only advice I have is to always only carry with you what you need. <strong>When you have to put it away, there’s only too much and never too little.</strong></p>
+
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>AntDis a great idea? <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>This is extremely sad <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Literature" /><category term="Math" /><category term="Biology" /><category term="Ants" /><category term="Gatsby" /><category term="Maps" /><summary type="html"><![CDATA[“Before I get to work, my day is already a success.” — Jensen Huang]]></summary></entry><entry><title type="html">Cooked</title><link href="https://engitom.github.io/habits/music/art/cooked/" rel="alternate" type="text/html" title="Cooked" /><published>2024-06-03T08:00:01+00:00</published><updated>2024-06-03T08:00:01+00:00</updated><id>https://engitom.github.io/habits/music/art/cooked</id><content type="html" xml:base="https://engitom.github.io/habits/music/art/cooked/"><![CDATA[<p>“I cross out words so that you will see them more.” — Jean-Michel Basquiat</p>
+
+<h2 id="playing-games">Playing Games</h2>
+<p>I used to think that I would never get bored of playing games, but I guess I just don’t enjoy it as much anymore.</p>
+
+<h2 id="schedule">Schedule</h2>
+<p>Next semester, I will be taking Ma 2, CS 156a, Ec 11, CS 24, and some hum.</p>
+
+<p>Just kidding, it’s impossible to get hums as a sophomore. 😝</p>
+
+<p>Instead, I will probably take Ma 6 or CS 13 or Ph 2a.</p>
+
+<h3 id="quantum-computing">Quantum Computing</h3>
+<p>AI is the big thing right now, so of course everyone is taking courses in machine learning like CS 156ab and 155.</p>
+
+<p>However, I get the sense that it might be more interesting to go into quantum computing because Caltech is getting a new quantum research building, and it seems like big things will happen in quantum computation in the next few decades.</p>
+
+<h2 id="music-really-brings-us-all-together">Music really brings us all together</h2>
+<p>W restringed the cello 🎻 in the Avery music room so I learned the first five seconds of Bach’s Cello Suite No. 1, which I first heard in 2nd grade in music class.</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/q2ZHjSA8mkY" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h3 id="mr-a">Mr. A</h3>
+<p>A lot of things carry over from my elementary school experience on the violin but I think that cello is a bit more effort to play.</p>
+
+<p>It’s harder to press down on the strings and it’s hard to figure out where the notes actually are compared to guitar. 🎸</p>
+
+<p>Furthermore, you need to really stretch your fingers to use your pinky to press the 3rd note, and you need to use good posture and keep your left arm up the whole time.</p>
+
+<h3 id="guitar-teacher">Guitar Teacher</h3>
+<p>I’m not sure if I’m qualified to teach guitar, but I think that I do have some fun tips for people.</p>
+
+<ol>
+  <li>Learn to play 1 or 2 chords per day. If you try to learn more, you probably won’t be able to remember that well.</li>
+  <li>Practice switching between chords. You can’t learn rhythm without being able to switch fast.</li>
+  <li>Cut your left hand’s nails. It’s harder to play with nails.</li>
+  <li>Have fun! If you aren’t having fun, then you’ll quit and lose your progress.</li>
+</ol>
+
+<h3 id="belief">Belief</h3>
+<p>Even though the following advice sounds like some positivity BS, it’s very important to believe in yourself.</p>
+
+<p>For example, I thought there was no way I could play guitar and sing for “Treasure” by Bruno Mars because the guitar is offset from the lyrics.</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/55h7vJchibLdUkxdlX3fK7" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<p>However, after two days of practice, I’m able to play it decently well, although without all the fancy flairs.</p>
+
+<p>My band Shadow Garden is performing at Faculty Dessert Night, and we originally planned to do two songs, but it became three songs after the rehearsal at the start of the week.</p>
+
+<h3 id="treasure-to-trash-">Treasure to Trash 🚮</h3>
+<p>After performing at Faculty Dessert Night, I can confidently say that I did not have enough practice on “Treasure” because I</p>
+
+<ol>
+  <li>Played two semitones below the actual song for the first 10 seconds</li>
+  <li>Forgot the lyrics in the second verse</li>
+  <li>Forgot the bridge doesn’t come before the second verse</li>
+  <li>Was singing an octave down on the chorus</li>
+</ol>
+
+<p>So, it didn’t go that well, but it was definitely better than two Open Mic Nights ago.</p>
+
+<p>Speaking of which, we are doing the same three songs we did at Faculty Dessert Night for the Open Mic Night on the coming Friday, so hopefully I remember the lyrics this time.</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/6gpcs5eMhJwax4mIfKDYQk" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<p>I think I’m pretty hard on myself because other people said it was good but I don’t know if they actually mean it.</p>
+
+<h2 id="habits">Habits</h2>
+<p>Although I’m going to the gym relatively often, my eating habits seems to counter the calories that I burn.</p>
+
+<p>Every time after I go to the gym, I head to RD and get a drink, usually lemonade (half-water) or iced black tea. However, until recently, I also bought a cinnamon roll.</p>
+
+<p>Unfortunately, the price of eating a cinnamon roll is eating a cinnamon roll, which is <em>300 calories</em>.</p>
+
+<p>At that point, it’s as if I didn’t go to the gym at all; so, I decided I would stop eating pastries.</p>
+
+<p>Sleep is much more important though in so many ways. Also, drinking more water is a good way to feel less hungry.</p>
+
+<h3 id="keep-the-tape-rolling">Keep the tape rolling</h3>
+<p>I recently watched a YouTube video about the Prince, a musician who could play any instrument and created full songs every day.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/ECGcTM_gk4s" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>Although it may not be possible to reach that level of creation, that’s not what really matters for making art.</p>
+
+<p>What the ideal art means to me is having no fear about before or after and only caring about doing my best in this moment.</p>
+
+<h3 id="figures-huh">Figures, huh</h3>
+<p>My drawing journey started just more than six months ago on Nov 28, 2023.</p>
+
+<p>I’ve been doing figure drawings of live models for maybe 1.25 quarters now, I think the first one I did was on Feb 28 in the second quarter.</p>
+
+<p>Mr. B doesn’t teach much, but when he does, it’s very important. He said to use different colors to mark confident boundaries and shade. After the next drawing he took a look and I said, “I’m using colors!”</p>
+
+<p>He replied, “Well, you’re in the right place!” 😂</p>
+
+<p style="text-align: center;"><img src="/assets/images/figure6324.jpg" alt="figure" />
+May 28, 2024: 15 minute pose</p>
+
+<p>Every time I make a good drawing, I worry about how hard it will be to draw something better than it. My friend O said that it’s a bad idea to think that way, which I agree with.</p>
+
+<p>Prince’s audio engineer said that he always viewed every day not as an attempt to create a masterpiece, but as another day of adding to the catalog.</p>
+
+<p>Art is <strong>not</strong> about improving what’s on the canvas; it’s about improving <strong>yourself</strong>.</p>
+
+<h3 id="ceci-nest-pas-une-pipe">Ceci n’est pas une pipe</h3>
+<p>Another good thing about art is that it reminds me of different ideas and helps draw connections.</p>
+
+<p>For example, after watching a video about Rene Magritte, a father of surrealism, I noticed that the Garfield “You are not immune to propaganda” 😼 paradox mural in Ricketts is actually a version of Magritte’s “This is not a pipe” 🎨 painting.</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/NZCE3ot6lf8" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="whats-new">What’s new?</h2>
+<p>At the start of the year, I said that I could meet everyone at Caltech if I met one new person every day.</p>
+
+<p>That was clearly an overestimation because meeting new people randomly becomes very awkward at some time after the first two months.</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/lKIbT-4UFaE" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>However, it is still very valuable to meet new people because you might like them a lot.</p>
+
+<h3 id="l-guesses">L Guesses</h3>
+<p>For some reason, T asked how long 15 cm is, so everyone at Red Door (E and S) chucked<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup> their hats in the ring.</p>
+
+<p style="text-align: center;"><img src="/assets/images/lguess.jpg" alt="alttext" />
+Three Caltech students guess how long 15 cm is…</p>
+
+<p>S guessed the bottom one (distance from the top of the table), E guessed the middle one, and I guessed the top one.</p>
+
+<p>Now, S and E are incredibly accomplished people, but there is definitely always something new to learn every day.</p>
+
+<h3 id="whats-old">What’s old?</h3>
+<p>I actually forgot the names of a lot of people I knew in high school. Maybe it’s just because there aren’t actually a lot of people I still talk to.</p>
+
+<p>Also, I forgot many details about people that I’ve met earlier in the year at Caltech. It all just goes to show that there’s no need to worry about bad first impressions.</p>
+
+<p>Even with the first school year ending, there is plenty more time to make a bad second, third, fourth… Nth impression.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Although, Prince did write lyrics before recording songs <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Australians (W) like to say “Chuck” instead of “Throw” and I think it’s much better because chuck has two hard consonants. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Habits" /><category term="Music" /><category term="Art" /><category term="Exercise" /><category term="Figure drawing" /><category term="Guitar" /><summary type="html"><![CDATA[“I cross out words so that you will see them more.” — Jean-Michel Basquiat]]></summary></entry><entry><title type="html">You Rock!</title><link href="https://engitom.github.io/geology/taylor%20swift/music/travel/you-rock/" rel="alternate" type="text/html" title="You Rock!" /><published>2024-04-27T08:00:01+00:00</published><updated>2024-04-27T08:00:01+00:00</updated><id>https://engitom.github.io/geology/taylor%20swift/music/travel/you-rock</id><content type="html" xml:base="https://engitom.github.io/geology/taylor%20swift/music/travel/you-rock/"><![CDATA[<p>“It’s called Fossil Falls because…”</p>
+
+<h2 id="rocking-out">Rocking Out</h2>
+<p>On the geology menu course (Ge 1) 3-day field trip, I had a ton of fun and big thanks to Prof. Asimow for continuing to teach the class.</p>
+
+<p>I’ve never been out to this part of the country, but rural California is actually just the wild west. All the buildings have that kind of saloon-look where the font is very bold and has a serif, and the roof is flat but there is a vertical rectangle right on top of the main side.</p>
+
+<p>Looking at some town before Mojave, I felt kind of like I was in <em>Breaking Bad</em> because there was just this area off the road where there was a trailer in the middle of nowhere.</p>
+
+<h3 id="rock-licker">Rock Licker</h3>
+<p>One of the places we went to was Panum Crater 🕳, which is the youngest mountain in NA at 640 <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>. The obsidian is so high-quality that it was traded by the Native Americans all the way east to Missouri.</p>
+
+<p>Here, some of the rocks were very porous, so we started lifting the rocks as a joke, saying that iff someone could lift a large rock, then they were a <em>good guy</em>.</p>
+
+<p>Truly back to the stone age, but I think that it’s good to connect with nature. That’s why I licked a large piece of rhyolite. It had no flavor, not even salty. So, I guess it will not be my new strange addiction<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/BOU_mXAO6eo" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h3 id="podium-of-the-past">Podium of the Past</h3>
+<p>The main attraction was Podium Rock, a big piece of layered obsidian and airy rhyolite.</p>
+
+<p style="text-align: center;"><img src="/assets/images/profpodium.jpg" alt="Podium rock" />
+Professor (Asimow) at the Podium (Rock)!</p>
+
+<h3 id="i-know-youre-looking-at-that-cave">I know you’re looking at that cave…</h3>
+<p>But, we also found a kind of deep cave that we could have spelunked into, but the top seemed kind of sketchy because it was only held up by a little bit. Any disturbance and we could probably get trapped in there.</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/68qjS7DsWSTfxuaKLcPc3j" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<p style="text-align: center;"><img src="/assets/images/mysterycave.jpg" alt="Cave" />
+Mysterious cave… who knows what could be in there.</p>
+
+<p>I started joking that there was a body down there and the prof said he had never seen that cave before 🤔.</p>
+
+<p>At dinner, the prof sat at our table and I said that we need to get diamond armor tonight if we are gonna fight the Ender Dragon tomorrow and he just started giggling and it was just so funny to me because he knew about Minecraft probably from his kids playing it.</p>
+
+<h3 id="foam-eater">Foam Eater</h3>
+<p>At Mono Lake, which has these large tufa pillars made of limestone coming out of the water, the water was very slippery because it’s so alkaline and there was some foam on the shore, so I picked up some of the foam 🌊 and threw it around.</p>
+
+<p style="text-align: center;"><img src="/assets/images/tufas.jpg" alt="tufas" /></p>
+
+<p>The interesting thing about the lake is that the tufa used to be underwater until LA decided to divert its feeder streams to the city. Environmental activists stopped that with a lawsuit which said that it was illegal to take water away from a navigable waterway.</p>
+
+<p>Even then, the city’s lawyers tried to say that the feeder streams are not navigable, so they can take water from them, but the courts used the definition of <em>feeder stream</em> to just say that water cannot be taken from the streams going into the navigable waterway.</p>
+
+<p>If and when the water comes back up, the tufa will be knocked down and new ones will grow underwater.</p>
+
+<h3 id="getting-wild">Getting Wild</h3>
+<p>At the basecamp run by Sarah, a cook who lives nearby, I asked if she has any instruments, and she said that she could bring her guitar for me.</p>
+
+<p>How convenient that it was exactly what I wanted! So, I played some guitar on the second night. Sunset was super beautiful if you don’t think about all the bugs there were.</p>
+
+<p style="text-align: center;"><img src="/assets/images/wildwestsunset.jpg" alt="wildwestsunset" />
+Day 1 Sunset</p>
+
+<p>Anyway, I got bit a few times by mosquitoes because I couldn’t move while I was playing. J and E from the band joined me for a bit of karaoke, which was a pretty good memory.</p>
+
+<h3 id="uncommon-sense">Uncommon Sense</h3>
+<p>It turns out that a wasp got inside the room while I was outside, and no one could kill it or get it outside, so they just sprayed the ceiling with bug spray, which was kind of questionable because I remember getting very sick one time when I slept in a room where bug spray was used the previous day.</p>
+
+<p>Nothing bad happened the following morning, but I hope there’s no long term effects. I also huffed some of the fumes coming from the mop fluid while I was cleaning the floor, so I hope nothing happens there either 🥴.</p>
+
+<h3 id="another-patterson">Another Patterson</h3>
+<p>We learned about radioactive dating (Ooh-la-la~) of rocks and how <a href="https://en.wikipedia.org/wiki/Clair_Cameron_Patterson">Clair Patterson</a> developed a method to find the age of the Earth by comparing uranium and lead ratios.</p>
+
+<p>He needed a very clean room to prevent lead from getting into samples, and was basically the main reason why Americans are not breathing lead from the gas in their cars.</p>
+
+<p>It’s kind of crazy how a geological scientific endeavor ended up helping so many people!</p>
+
+<h3 id="fossil-falls">Fossil Falls</h3>
+<p>At Fossil Falls, which got its name from being the fossil of a waterfall that dried up rather than being a place where people fall down and become fossils, we went almost all the way down the waterfall by climbing down the chimney holes 🕳 over and over.</p>
+
+<p style="text-align: center;"><img src="/assets/images/fossilfalls1.jpg" alt="Fossil Falls 1" />
+Fossil Falls from above</p>
+
+<p>I was scared to go all the way down a long stair-like drop that was probably around 4 meters tall because I thought I wouldn’t be able to climb back up, but since everyone else was down there, I thought I might as well go.</p>
+
+<p style="text-align: center;"><img src="/assets/images/fossilfalls2.jpg" alt="Fossil Falls" />
+Fossil Falls cliff</p>
+
+<p>The view at the bottom was not really worth it, but the bottom to the view was worth it for sure. Sometimes, the only thing to fear is fear itself. And heights and wasps.</p>
+
+<h2 id="meet-the-spy">Meet the Spy</h2>
+<p>Most houses have some version of <a href="https://en.wikipedia.org/wiki/Assassin_(game)">Assassin</a>. Avery’s is called Assery, which is poorly named, but we basically play with water guns 🔫 and power-ups.</p>
+
+<p>Initially, I didn’t sign up, but after the first round, my friend E (who I was going to meet up with in NYC) decided that he was too tired to play, so I stood in for him in the second round which is ongoing.</p>
+
+<p>Some basic rules:</p>
+<ol>
+  <li>No shooting in academic buildings</li>
+  <li>No shooting in <strong>rooms</strong> in houses</li>
+  <li>If you shoot your pursuer, they are <strong>rooted</strong> (can’t move) for 2 minutes, once per hour.</li>
+</ol>
+
+<h3 id="doubly-sharp">Doubly Sharp</h3>
+<p>Our team consists of me, AP, and AV. This is the first time that two people with the <strong>same initial</strong> have shown up in the same blog post, so I think I will just reveal their full initials.</p>
+
+<p>Yesterday at around 12:40 PM, J killed AP before they went to Ge 1. On my way to class, I saw them having a conversation so I rooted J and ran to the lecture hall 🏃‍♂️.</p>
+
+<p>During the lecture, I was trying to take notes while texting N, who is the one trying to kill J.</p>
+
+<p>Outside of the Arms Laboratory of Geology, which contains the <a href="https://www.caltech.edu/about/news/robert-phillip-sharp-dies-851"><strong>Sharp Lecture Hall</strong></a>, N was waiting for me to run out with J chasing me.</p>
+
+<p>However, I left one minute before class ended, so J decided not to chase me and instead went out the back because he heard from a <strong>random woman that there were more people out there with guns</strong>.</p>
+
+<p>At least I got to kill S, who heard that I was outside and tried to root me for J. I don’t think he recognized me while he was riding his bike 🚲. He went past and I just shot him 🔫.</p>
+
+<h3 id="potential-ideas">Potential Ideas</h3>
+<p>I think it would be interesting to make some kind of <strong>remote-controlled car with a camera</strong> attached so that it could scout around corners before you actually cross the angle yourself.</p>
+
+<p>However, the problem is that someone could just take it or flip it upside down.</p>
+
+<p>As a countermeasure, we thought that the car should have a fart spray<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup> that can be fired remotely.</p>
+
+<p>Alternatively, just use a drone to fly around and find people. However, I don’t think that drones can be flown on campus without permission.</p>
+
+<h2 id="boom-boom-boom">Boom boom boom</h2>
+<p>At the Cultural Fair, I played the djembe African drum in a circle with a professional drummer who drummed for <strong>The Lion King</strong>, which was very fun.</p>
+
+<p>T, J, and I were getting really into it but <em>I</em> did not seem to be smiling, where by <em>I</em> I mean a person with that initial. That has never been a problem either!</p>
+
+<p>Anyway, I think that <em>I</em> was not frowning (entirely) because she was not interested in drumming, but because our hands all started to hurt a little bit after some time. My thumb actually still hurts at the interphalangeal (IP) joint.<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup></p>
+
+<h3 id="real-time-facial-recognition">Real-time facial recognition</h3>
+<p>As a bonus, while I was walking away from the fair, I found IM, one of our targets who I have never seen IRL.</p>
+
+<p>In fact, she walked past and didn’t know/care that we were after her, so <strong>I asked V to pull up the directory in the middle of the road</strong> and check if IM actually looks like that. So, after a good <em>30 paces</em>, we ran back up to her and shot her.</p>
+
+<p>In that situation, the <strong>cost of a false positive is very high</strong> compared to the gain from shooting someone in this stupid game because it’s very bad to shoot an innocent person.</p>
+
+<h2 id="red-flags-">Red Flags 🚩</h2>
+<p>Taylor Swift’s new album has a pretty good concept, but it also has some really poor lyrics and the songs sound way too similar. I enjoyed the first song, but I’m not sure why Post Malone was featured but only sang like 30 seconds.</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/6dODwocEuGzHAavXqTbwHv" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<p>I don’t think there is really a good defense of the lyrics (<strong>the 1830s one, obviously</strong>), but I don’t think they are as egregious as people say.</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/3hlGuz3loYoLfI3bpwieWq" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<p>For example, “So High School” has some really weird lines, but I think they only need a little bit of work to be a bit catchier.</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/1GP8VW5Wk2w2obkWjGCGXd" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<h3 id="rankings">Rankings</h3>
+<p>M from my high school runs a TS fan account on Tiktok that has quite a large following, and I saw that she ranked the new album third but put <em>Speak Now</em> last.</p>
+
+<p>Anyway, I enjoy the <em>organic</em> instrumentation and production, but I put this new album close to the self-titled album. I know she will recover.</p>
+
+<h3 id="as-long-as-youre-happy">As long as you’re happy…</h3>
+<p>is something people say when they don’t agree with your opinion but they just want to be nice about it. It’s one of those situations where all the possible responses <strong>converge</strong> to that phrase because it’s just the easiest thing to say.</p>
+
+<p>I think I’ve blabbed a bit too much already, but I’m going to be very vague and just say that one of my friends was able to escape from the consequences of a case of extremely poor judgement. 🚩</p>
+
+<p>Something to do with <em>bacteria in a petridish</em> when you put a drop of soap down…</p>
+
+<p>To finish it off, I will say that sometimes things go so right but turn out to be the opposite of what you want, kind of like the Midas Touch.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>That means 640 years old with an uncertainty of 10 years. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p><a href="https://www.youtube.com/watch?v=BOU_mXAO6eo">This Woman Ate Pounds of Rocks Everyday for 20 Years</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>Mark Rober-inspired. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4" role="doc-endnote">
+      <p>I looked that up just now. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Geology" /><category term="Taylor Swift" /><category term="Music" /><category term="Travel" /><category term="Ge 1" /><category term="Menu Course" /><category term="Assery" /><category term="Tortured Poets Department" /><category term="Friends" /><summary type="html"><![CDATA[“It’s called Fossil Falls because…”]]></summary></entry><entry><title type="html">Your Bi 1 in April</title><link href="https://engitom.github.io/anime/health/hobbies/philosophy/magnitudes/art/your-bi-1-in-april/" rel="alternate" type="text/html" title="Your Bi 1 in April" /><published>2024-04-21T08:00:01+00:00</published><updated>2024-04-21T08:00:01+00:00</updated><id>https://engitom.github.io/anime/health/hobbies/philosophy/magnitudes/art/your-bi-1-in-april</id><content type="html" xml:base="https://engitom.github.io/anime/health/hobbies/philosophy/magnitudes/art/your-bi-1-in-april/"><![CDATA[<p>“It’s the first spring wind!” — <em>Your Lie in April</em></p>
+
+<h2 id="my-bi-loved-bi-1">My Bi-loved Bi 1</h2>
+<p>W invited me to Bi 1 lecture, taught by Prof Rob B. Phillips, and it’s been a lot of fun.</p>
+
+<p>The most important thing taught in Bi 1 is a way to think in scales. As Phillips says, “If you can’t tell me what sets the scale of something, then you don’t understand it.”</p>
+
+<h3 id="i-wrote-this-post-a-few2-days-ago">I wrote this post a few^2 days ago</h3>
+<p>What number is <em>few</em>?</p>
+
+<p>Rob provides the answer of $(few)^2 = 10$</p>
+
+<p>As such, <em>few</em> is the sqrt of 10 which is about 3.16 which is about pi, which is pretty interesting.</p>
+
+<p>This has some implications when doing estimations.</p>
+
+<h3 id="hw">HW</h3>
+<p>For example, if you have a <em>few</em> homework problems to do and it takes <em>few</em> times ten minutes to do each problem, then it will take somewhere on the order of 100 minutes to do a few problems.</p>
+
+<p>However, there is something wrong with saying that six is a few because 6 times few is 18 which is more like 20 rather than 10.</p>
+
+<h3 id="mountains">Mountains</h3>
+<p>As an example, take a moment to consider:</p>
+
+<blockquote>
+  <p>Q: What sets the scale/size of mountains?</p>
+</blockquote>
+
+<blockquote>
+  <p>A: The height that a column of rock can be piled up before the rock beneath it collapses.</p>
+</blockquote>
+
+<p>This is a very different way of thinking and provides much more insight into the nature of reality.</p>
+
+<h2 id="knowledge-and-reality">Knowledge and Reality</h2>
+<p>“I think, therefore I am” is a quote that I heard before taking Hum/Pl 41, aka Knowledge and Reality, but didn’t really get.</p>
+
+<p>I still don’t really get it, but that’s the fun of philosophy: you can ask questions about things that you don’t know.</p>
+
+<p>Prof Chua is a different professor from previous terms of the course but he teaches very well. He’s actually leaving to Singapore to be a professor next year, which is good for them, but maybe less so for us.</p>
+
+<p>He’s quite funny and makes many references to anime, like the example of <em>Fullmetal Alchemist</em> and how the sum of the parts is not necessarily the whole:</p>
+
+<p>If you had a bunch of body parts and just threw them together in a pile, they would not be a person, but if you arrange them in a human shape, then it becomes what we consider to be a human.</p>
+
+<h2 id="running-in-the-20s">Running in the 20s</h2>
+<p>I was able to run a mile under 8:30, which was my initial goal. I guess my new goal will be to be able to run two miles continuously, but at a slower pace.</p>
+
+<h2 id="squirrel-summoners">Squirrel Summoners</h2>
+<p>I was walking from class with W and J, and had the sudden urge to show off my skill of summoning squirrels. Basically, you make clicking noises and wave your arm like a tail and wait for the squirrel to come over.</p>
+
+<p>It worked well, but I wanted more.</p>
+
+<h3 id="ill-have-two-number-9s-a-number-9-large">I’ll have two number 9s, a number 9 large…</h3>
+<p>Together, we all started clicking and waving our arms to attract squirrels. C showed up at some point and joined our trio.</p>
+
+<p>As squirrel shot-caller, I was getting everyone to kind of attract in the same direction so that no squirrel would be surrounded by two people. That would scare them away or make them attack, probably.</p>
+
+<h3 id="unconvincing">Unconvincing</h3>
+<p>I’m not sure why squirrels fall for this, maybe because they think that we are squirrels doing some kind of mating call or maybe they think that we are going to feed them?</p>
+
+<p>Anyway, there was one in a tree that I couldn’t get to come down because it was eating. The others were handling about four squirrels at this point so I regrouped and drew attention from one that was going up behind W.</p>
+
+<p>Eventually, we ended up with around ten squirrels around us and we decided it might get too dangerous to continue further.</p>
+
+<h2 id="your-lie-in-april">Your Lie in April</h2>
+<p>I titled this post “Your Lie in April” but I didn’t actually have time to watch the show at all, but I don’t want to change the title either.</p>
+
+<p><strong>SPOILER ALERT: YOUNG SHELDON FINALE EPISODE</strong></p>
+
+<h3 id="young-sheldon">Young Sheldon</h3>
+<p>However, <em>Young Sheldon</em> came to campus last week to film. It’s basically the prequel to <em>The Big Bang Theory</em> (TV Series 2007-2019) from the perspective of Sheldon Cooper.</p>
+
+<p>Apparently, the prequel actually gets to the point where Sheldon first gets to Caltech. However, they filmed it in the interior west side of the campus near the geology building rather than where the “California Institute of Technology” sign is.</p>
+
+<p>Note: I just looked it up and they were actually recording the finale episode where Sheldon comes to Caltech.</p>
+
+<p>So, they built a replica of the sign for the filming and placed it in the middle of the campus, which was pretty interesting.</p>
+
+<p>Some people actually got to take a picture with the actor while he was on a break, but I was in physics class. Isn’t that kind of funny?</p>
+
+<h2 id="cs-3">CS 3</h2>
+<p>CS 3 might be one of the most annoying courses I’ve ever taken, but it is highly instructive in that sense. However, I must complain about the teaching.</p>
+
+<p>Basically, there is a solo project and group project most weeks and the group project is to program a game while the solo project is about teaching how to program in C.</p>
+
+<p>The group project is split into many components, so no one really knows what’s going on, but here are my key takeaways.</p>
+
+<h3 id="what-does-it-teach">What does it teach?</h3>
+<p>Software design is another name for the course, and the way that things are split up for each member of the group is using header files.</p>
+
+<p>Essentially, by including the .h files in your .c file, you can access the abstract functions from the .h file while pretending that they all work.</p>
+
+<p>When you run your part, as long as the .h file is the same as given, then you will have access to the “correct” functions which were made by the professor and TAs.</p>
+
+<p>It’s actually kind of ingenious, but also hard to understand at first.</p>
+
+<h3 id="how-does-it-teach">How does it teach?</h3>
+<p>The lectures and office hours are quite vague in the help that they give. For example, in order to load an image into the game, there are all these modularization considerations that are just not taught at all.</p>
+
+<p>It’s more up to the student to figure it out. So, if you already know it or have done something similar before, you can map it onto that. Otherwise, good luck!</p>
+
+<h2 id="art-is-not-a-straight-line">Art is not a straight line</h2>
+<p>Artists like Pewdiepie have experienced a random decrease in their drawing skills for no reason. Progress does not happen linearly because there are many overlapping ideas that fight with each other.</p>
+
+<h3 id="s">S</h3>
+<p>The second model for PVA 62c, S, has a much smaller frame than the first model that came in. As a result, it was much harder to draw her in correct proportions.</p>
+
+<p>Proportion and movement are sometimes opposing: if you draw someone with measured proportions and balance, they might appear static. However, if you draw them somewhat <em>incorrectly</em>, you could get some sense of movement from it.</p>
+
+<p>Even Mr. Barry draws the wrong proportions sometimes, but it ends up being interesting anyway.</p>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Anime" /><category term="Health" /><category term="Hobbies" /><category term="Philosophy" /><category term="Magnitudes" /><category term="Art" /><category term="Your Lie In April" /><category term="Running" /><category term="Bi 1" /><category term="Hum 41" /><summary type="html"><![CDATA[“It’s the first spring wind!” — Your Lie in April]]></summary></entry><entry><title type="html">Back</title><link href="https://engitom.github.io/habits/health/hobbies/back/" rel="alternate" type="text/html" title="Back" /><published>2024-03-30T05:00:01+00:00</published><updated>2024-03-30T05:00:01+00:00</updated><id>https://engitom.github.io/habits/health/hobbies/back</id><content type="html" xml:base="https://engitom.github.io/habits/health/hobbies/back/"><![CDATA[<p>“Like a worm in the bud…” — Shakespeare, <em>Twelfth Night</em></p>
+
+<h2 id="order-of-magnitudes">Order of Magnitudes</h2>
+<p>If you stand on a scale with a cup of water and start drinking, the scale will read the same number.</p>
+
+<p>This was a small shower thought I had last night and I started wondering if I could measure something interesting using a scale and a cup of water.</p>
+
+<h3 id="grams-per-gulp">Grams per gulp</h3>
+<p>I wanted to see how many gulps of water it would take until the reading on the electronic scale changed.</p>
+
+<p>After I took 40 gulps, that’s when my mass went up by 300 grams, or 0.3 kg. Now, there could be some error here, but it wouldn’t change the result too much because of how many gulps I took. If I took a smaller number of gulps and it changed readings quickly, the error would be huge.</p>
+
+<h3 id="unit-definition">Unit definition</h3>
+<p>The cool thing about metric units for volume and mass is that one liter of water is almost exactly one kg of water under normal conditions.</p>
+
+<p>Also, a squared meter is equal to 1000 liters.</p>
+
+<h3 id="gulping-the-oceans">Gulping the oceans</h3>
+<p>I looked up how much water there is in the ocean, and I got 1.33 billion cubic km. Then, I converted cubic km to cubic deciliter which is the same as liter.</p>
+
+<p>So, I multiplied by $(10^4)^3$ which gave me $1.33 * 10^{21}$ L.</p>
+
+<p>Finally, if you multiply by 40 gulps and divide by 0.3 L, it means that it will take $1.78 * 10^{23}$ gulps to drink the entire ocean.</p>
+
+<h3 id="do-your-part">Do your part!</h3>
+<p>Dividing by the total population of Earth<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>, which is 8 billion, and got that everyone would need to take $2.2 * 10^{11}$ gulps over their lifetime.</p>
+
+<p>Given the average life expectancy, which is around 73 years, or around 2.3 billion seconds, everyone has to take around 100 gulps per second in order to drink the whole ocean in a single human lifetime.</p>
+
+<p>This model does not account for excretions, but let’s just say that eventually, everyone will end up like Friedrich Wöhler.<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
+
+<h3 id="order-up">Order up!</h3>
+<p>Mr. J, my old chem teacher, really values these kinds of calculations and was glad to hear during my recent visit that Caltech teaches order-of-magnitude estimates.</p>
+
+<p>He calls them Fermi calculations, based on the way that physicist Enrico Fermi used multiple factors and multiplied them together to make estimations.</p>
+
+<p>I used to think that this was the only example of a Fermi estimate, but the most famous example is the Drake equation, which can be used to estimate the number of intelligent alien civilizations in the universe.<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup> This is one of the ways to guess at the solution to the Fermi paradox.</p>
+
+<h3 id="tanfermi">tan(Fermi)</h3>
+<p>It’s funny just how much talent was shifted away from Europe just because of the oppression faced by people of various ethnicities during the WW2 era.</p>
+
+<p>Fermi and Einstein are good examples, but I wonder if the same is happening today or will happen in the future.</p>
+
+<h3 id="scoring">Scoring</h3>
+<p>This sort of dimensional analysis can help with creating scoring methods for various algorithms. For example, deciding when to divide or multiply by a value.</p>
+
+<h2 id="missed-connections">Missed Connections</h2>
+<p>I originally planned to meet up with R, E, and A over break but it just didn’t end up happening for various reasons.</p>
+
+<p>However, at least I was able to hang out with J again before I left. I had never been to Hudson Yards before for some reason but it was pretty cool. We went south on the High Line from Penn Station and ate some tacos in Chelsea Market.</p>
+
+<p>We tried Van Leeuwen Ice Cream and it was pretty solid, but maybe a bit too sweet for me.</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/4IadxL6BUymXlh8RCJJu7T" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<h2 id="the-one-i-tried-to-draw">The one I tried to draw</h2>
+<p>Drawing faces is so hard. Proportions, symmetry, and depth are all important.</p>
+
+<p>For me, it’s hardest to get the correct depth on a tablet using only pencil to sketch. I think the hardest perspective for drawing faces is the front view because it’s harder to create depth.</p>
+
+<p>If you had a box, you could draw from any angle and create some idea of depth, but from the front it’s just a square.</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/2jdAk8ATWIL3dwT47XpRfu" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<p>For the face, I think shading must be used but I don’t know how to do the shading so that’s the main issue.</p>
+
+<h3 id="imitations">Imitations</h3>
+<p>After learning to draw figures, I began to view people’s bodies differently. When I see someone, I try to observe their posture and think of how I would draw them.</p>
+
+<p>One of the main things I noticed is that the legs are not actually under the torso, they are to the side of the pelvis and form the hips which go outward from the waist.</p>
+
+<p>Also, the ribs are actually very close to the hips. I kept drawing the hips way below the ribs for some reason, and the torso ended up very long.</p>
+
+<h2 id="new-students">New Students</h2>
+<p>I just found out that Caltech only admitted 315/13000 students this year, which is 2.4% of the applicants. I think they calculated the yield properly this time and there will be around 230 students (‘27 has 263).</p>
+
+<h3 id="pooling">Pooling</h3>
+<p>Most students are involved in at least one club or activity, but that’s still not enough to save many clubs from extinction.</p>
+
+<p>For example, the school newspaper seems to be running on a very low labor force.</p>
+
+<p>Also, every acapella group has gone extinct except for Out of Context, the group that I’m currently in.</p>
+
+<h3 id="three-wolves-and-one-sheep">Three wolves and one sheep</h3>
+<p>Most house votes that disadvantage underclassmen always pass because sophomores know that changes will occur the next year when they are upperclassmen. So, it’s really just freshmen vs the rest of the school.</p>
+
+<h4 id="potential-solution">Potential solution</h4>
+<p>In votes that discriminate between under and upperclassmen, seniors cannot vote and each frosh vote should count as two votes.</p>
+
+<p>Seniors should not be able to vote on things that will not affect them and frosh are outnumbered 1:2 against sophomores and juniors.</p>
+
+<p>It’s unfortunate that the framers of house constitutions did not consider this.</p>
+
+<h2 id="dtla">DTLA</h2>
+<p>Downtown LA was a lot of fun but it felt unsafe at times when we walked from Grand Central Market (a food court) to the famous Los Angeles Cathedral; the main factor was empty streets, probably because LA is a car city.</p>
+
+<p>However, it was quite convenient to call an Uber to get everyone there. The total cost at the end was less than $11 per person for the cars.</p>
+
+<h3 id="the-broad">The Broad</h3>
+<p>There were a lot of cool art pieces in The Broad, a contemporary art museum which is smaller than the MoMA and Met in NYC but still has many cool pieces.</p>
+
+<p>I really enjoyed a piece where there was a red trapezoid next to a blue trapezoid and it looked like two walls of a room in 3D even though it was flat.</p>
+
+<p>That shape is both the logo for BTS the Los Angeles Cathedral. I’m not sure what this would imply though.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Not including extraterrestrial populations, sorry <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Callback to <a href="https://engitom.github.io/review/you-are-my-special/">“You Are My Special”</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>Not related to notable Canadian, Aubrey Drake Graham <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Habits" /><category term="Health" /><category term="Hobbies" /><category term="Smart Watch" /><category term="Running" /><category term="Art" /><category term="Japanese" /><summary type="html"><![CDATA[“Like a worm in the bud…” — Shakespeare, Twelfth Night]]></summary></entry><entry><title type="html">Habits</title><link href="https://engitom.github.io/habits/health/hobbies/habits/" rel="alternate" type="text/html" title="Habits" /><published>2024-03-23T05:00:01+00:00</published><updated>2024-03-23T05:00:01+00:00</updated><id>https://engitom.github.io/habits/health/hobbies/habits</id><content type="html" xml:base="https://engitom.github.io/habits/health/hobbies/habits/"><![CDATA[<p>“He arranged his things very nicely / and decided to sit in his chair for a while.” — Ezra Jack Keats, <em>Peter’s Chair</em></p>
+
+<h2 id="habits">Habits</h2>
+<p>I never thought I would actually click an ad! But it turns out I am also susceptible to content-targeted analytics.</p>
+
+<p>I was scrolling YouTube shorts when I got an ad for Bend, an app for stretching.</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/4BsLwvaJOTOHDNg7xMpvrL" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<h3 id="bend">Bend</h3>
+<p>It reminds you every day to stretch and it sets timers and tells you what position to go to.</p>
+
+<p>So, it sounded nice and I tried it last night and found it helpful. However, there’s only a seven-day free trial.</p>
+
+<p>At this point, I knew I was definitely not going to pay for this basic app that just shows pictures and sets timers. A middle schooler could have programmed it.</p>
+
+<h3 id="time-tax">Time Tax</h3>
+<p>However, it would cost me time and effort to do it myself and that’s what I weighed in my head as I decided to delete the app just now.</p>
+
+<p>I’m just going to save some YouTube video doing the same thing and I’m going to play that video when I want to stretch.</p>
+
+<h3 id="smart-watch">Smart Watch…</h3>
+<p>I started using a smart watch<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> recently and it’s been changing my health habits a little bit because of the reminder to stand up and the daily exercise goal.</p>
+
+<p>However, the watch seems to run out of battery really fast and it’s uncomfortable to wear when sleeping.</p>
+
+<p>The only time I wear it is when I’m running, and for the rest of the day after that.</p>
+
+<h3 id="running">Running</h3>
+<p>I would occasionally run a mile on the track before dinner while I was at college, but I like to run a rectangular block when I’m at home that’s about 2 km long.</p>
+
+<p>My dad usually does three loops but I try to do two. I learned in a YouTube short that my form was actually wrong and that I’m supposed to try to raise my legs and lean forward instead of trying to step forward.</p>
+
+<p>I just measured my mile time, and it’s actually almost exactly the same as DMO’s average pace for a half-marathon from seven years ago, 7.5 minutes! My time is actually 7 minutes and 35 seconds, so I will work on getting below 7.5 minutes.</p>
+
+<p>I’m not sure how DMO keeps up that speed for 1.5 hours.</p>
+
+<h2 id="art">Art</h2>
+<p>I finally caved in and bought a tablet for taking notes + drawing. The stylus acts a bit weird and it’s very sensitive, so I think I will need to take some time to adjust.</p>
+
+<p>However, I am honing my drawing skills every day. I’m currently trying to draw heads/faces. It’s like a whole different game compared to drawing bodies. Also, I somehow lost my figure drawing skills after not drawing for a while.</p>
+
+<p>However, I am learning how to create backgrounds using digital software. In fact, I drew the splash photo for this post over the last two days.</p>
+
+<h3 id="unscaled">Unscaled</h3>
+<p>This is the negative progress idea that Pewdiepie mentioned in his drawing videos and I can see how demotivating it is.</p>
+
+<p>So, I think it would be good to try different focuses at different times while getting better at fundamentals so that when I jump to the same thing again, I’ll see faster improvement.</p>
+
+<h2 id="japanese">Japanese</h2>
+<p>In preparation for my Japan trip, I am trying to learn a little bit of Japanese. I may have said in some previous post that I am trying to learn it, but I definitely did not practice after that.</p>
+
+<p><a href="https://www.youtube.com/@easyactually">easy, actually</a> is a very nice YT channel that has been trending recently. The style is mimicking that of many other slideshow stick figure videos with commentary.</p>
+
+<p>He made a video about learning languages and mentioned that there are various motivations for learning languages and weak ones like wanting to understand anime will not go very far.</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/E6588DlZW-c" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>So, I’m hoping that since I have a better reason to learn it now, I will be able to keep it up.</p>
+
+<h2 id="the-algorithm">The Algorithm</h2>
+<p>Recommendation algorithms on content platforms feed users what they want to see.</p>
+
+<p>Recently, I’ve been trying to get better at guitar and drawing, so I’m following a lot of educational accounts. This has completely changed the type of content that I get recommended.</p>
+
+<p>It’s annoying that I don’t really get funny videos anymore and it’s unsatisfying that I must stop following artistic accounts in order to get back the funny videos.</p>
+
+<p>However, one way to not deal with the algorithm is to touch some grass, which I plan to do a lot of.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Of an unknown brand <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Habits" /><category term="Health" /><category term="Hobbies" /><category term="Smart Watch" /><category term="Running" /><category term="Art" /><category term="Japanese" /><summary type="html"><![CDATA[“He arranged his things very nicely / and decided to sit in his chair for a while.” — Ezra Jack Keats, Peter’s Chair]]></summary></entry><entry><title type="html">Ain’t It Fun</title><link href="https://engitom.github.io/friends/fun/reading/music/aint-it-fun/" rel="alternate" type="text/html" title="Ain’t It Fun" /><published>2024-03-21T05:00:01+00:00</published><updated>2024-03-21T05:00:01+00:00</updated><id>https://engitom.github.io/friends/fun/reading/music/aint-it-fun</id><content type="html" xml:base="https://engitom.github.io/friends/fun/reading/music/aint-it-fun/"><![CDATA[<p>“…living in the real world?” — Paramore</p>
+
+<h2 id="smarter-human">Smarter Human</h2>
+<p>I had lunch with DMO at a local restaurant. It was a load of chicken because he’s been upping his running training and he’s hungry all the time.</p>
+
+<h3 id="walter-isaacson">Walter Isaacson</h3>
+<p>Even though I don’t enjoy learning most history, I love reading biographies and memoirs. There’s always some applicable lesson about values or actions to take on a personal level.</p>
+
+<p>For example, I was planning my summer Japan trip (more on this later) and asked my friend P if I can stay over at his family’s apartment in Tokyo.</p>
+
+<p>He was unsure because it’s relatively small but he asked his parents, who called my parents and said it was fine.</p>
+
+<p>However, while I was reading Walter Isaacson’s 2003 <em>Benjamin Franklin: An American Life</em>, there was a quote from Franklin’s almanac that I found applicable:</p>
+
+<blockquote>
+  <p>“Fish and guests stink after three days.”</p>
+</blockquote>
+
+<p>So, I felt like maybe even if P’s parents actually wanted me to stay over, they would regret it at some point. However, truisms are not always true.</p>
+
+<h3 id="running">Running</h3>
+<p>DMO told me he was gonna run 14 miles the next day which sounded completely crazy to me even though I knew he ran marathons. I just don’t get how it’s possible to run that fast and that much at once.</p>
+
+<p>7 years ago, he ran a half-marathon (13.1 miles) in 1:39.24, but I’m sure he’s even faster now. So, his pace is about 7.5 minutes per mile, which is kind of crazy because the average American’s pace is 9 minutes per mile for a single mile, but he sustains it.</p>
+
+<p>So, this inspired me to start running again. More on this in the next post.</p>
+
+<h2 id="the-big-apple">The Big Apple</h2>
+<p>Apparently, Grand Central Station is not as its name implies, there’s also Penn Station a few minutes west of it. It’s actually the busiest train station in the Western Hemisphere<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>!</p>
+
+<h3 id="c">C</h3>
+<p>Last week, I went to Manhattan with my friend C, with whom I was in the same 6th grade history class. We actually never talked though.</p>
+
+<p>We somehow got in contact by typing J-pop song lyrics in the comment section of P’s firework post.</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/7pcTLUekZJQnzDOUDuExVJ" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<p>We discussed an interesting idea that a math major friend of hers had for a biotech startup. I contributed some ideas that might help save money on manufacturing costs and she relayed them.</p>
+
+<p>I wished not to be credited for the contributions because the idea was just so good that I don’t think anyone would believe I came up with it. That’s why I will not explain what the startup idea is.</p>
+
+<h4 id="kite">Kite</h4>
+<p>While we walked past a guy smoking pot, she said that when she first heard me speak, she thought I was totally high. LOL</p>
+
+<p>Similarly, my friend G often says that I sound so chill that I must be high all the time, so maybe I just give off that impression.</p>
+
+<h4 id="tankite">tan(kite)</h4>
+<p>On a slight tangent, I kind of want to make a kite</p>
+
+<h3 id="j">J</h3>
+<p>This week, I went to Manhattan with my friend J from college. She joined the band some time during winter term as the bassist, invited by another J.</p>
+
+<p>When she joined, she asked why the band is called Shadow Garden and I explained all of <em>Jujutsu Kaisen</em> in one minute while assuming she doesn’t know what it is.</p>
+
+<p>I learned this week that she actually already saw JJK, so I was talking about sorcerers and techniques and shadow creatures in a convoluted way for no reason. However, she didn’t realize I was talking about JJK, so maybe my explaining needs some work.</p>
+
+<h4 id="momath">MoMATH</h4>
+<p>The main thing we planned was going to the National Museum of Math. My high school classmate and one of three valedictorians (they all had the same GPA), Z, was actually an intern there.</p>
+
+<p>I thought it would be like a few floors and maybe have some historical exhibits, sort of like an astronomy museum. Maybe it would have like the original copy of some math manuscripts, but it was more of a kid-oriented place.</p>
+
+<p>There was a bike with square wheels, which I always wanted to try ever since I saw it in a Vsauce video. It was bumpier than I expected, but maybe it got deformed over time.</p>
+
+<h4 id="puzzling">Puzzling</h4>
+<p>We did a bunch of puzzles together, which was actually very relaxing and a lot of fun.</p>
+
+<p>The knot ones were very interesting because it would be like an introduction to knot theory for kids. And now it is an introduction to knot theory for college kids. Actually, she already took a knot theory course, so maybe it’s just an intro for me.</p>
+
+<p>I think we both enjoyed the car puzzle the most. It’s like a chessboard with cars that can only move back and forth and the goal is to get the red car to the exit by getting the other cars out of the way.</p>
+
+<h4 id="guitar-center">Guitar Center</h4>
+<p>We played some guitars at the guitar center and I actually forgot I knew how to play a few country songs with the picking pattern. She actually learned it really fast!</p>
+
+<p>Next, we had to get to the basement, just like <em>Attack on Titan</em>, in order to play piano. I showed her “Summer” by Joe Hisaishi, which is probably the most popular piano song that kids learn in China, and she really liked it!</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/23HUlzt20YuALl5Q2gWsKu" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<p>She played something that sounded really beautiful and familiar, but I couldn’t figure out what it was. Turns out it’s actually one of the AoT ending songs (which I never got to the middle of).</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/5cRKj1kynNFqiliT2ndZ3y" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<h4 id="potentially-performing">Potentially Performing</h4>
+<p>For the band, we thought of doing a few songs but we have to limit it to two for the spring term open mic night. We tried to do four in the last one and we found out that we weren’t very prepared, because we messed up a lot of timings.</p>
+
+<p>We have a strange problem because the gap between my highest note and the other vocalist E’s lowest note makes it hard to do a lot of songs. For example, Charlie Puth is too high for me and too low for her.</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/5cF0dROlMOK5uNZtivgu50" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<p>Hopefully the new Hozier song, “Too Sweet,” is not too high for me.</p>
+
+<h3 id="er-endoplasmic-reticulum">ER: Endoplasmic Reticulum</h3>
+<p>Next week, I’m going to Manhattan again to eat dinner with university friends E and R, who are doing a program at Jane Street.</p>
+
+<p>To make a reservation at the restaurant (Che Li), the deposit fee is $100, which is kind of crazy, but it makes sense that they wouldn’t want people to not show up.</p>
+
+<p>I went to the one in Flushing before with my dad and brother and thought that it was super good, so I hope they will enjoy it.</p>
+
+<h3 id="nippon">Nippon</h3>
+<p>This summer, I’m going to Japan for about two weeks, which is enough time to go to a city other than Tokyo. I was thinking of going to Kyoto because of its culinary—I mean cultural—significance.</p>
+
+<p>Last year in health class, I remember there was some kind of icebreaker for which country everyone wanted to go to, and around 90% of people said Japan, which makes a lot of sense because they have really great advertising.</p>
+
+<p>I think the general impression of Japan is that it’s very clean, transportation is convenient, food is good, and the culture is interesting. These things are probably true, but I’ll have to go there to find out.</p>
+
+<p>Also, I still have to learn some Japanese even if P is going to be my guide.</p>
+
+<h2 id="f-is-for-fun">F is for Fun</h2>
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/3yrvQHw6pQemsrCQEpMnKv" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<p>I decided to make a list of the things I want to do for fun:</p>
+<ul>
+  <li>Learn cartography</li>
+  <li>Cooking</li>
+  <li>Guitar</li>
+  <li>Japanese</li>
+  <li>Read biographies</li>
+  <li>Make a kite</li>
+  <li>Watch <em>Pirates of the Caribbean</em>, <em>Rango</em>, and <em>Goodfellas</em></li>
+</ul>
+
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p><a href="https://en.wikipedia.org/wiki/New_York_Penn_Station">Wikipedia Penn Station</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Friends" /><category term="Fun" /><category term="Reading" /><category term="Music" /><category term="Running" /><category term="C" /><category term="J" /><category term="Biography" /><summary type="html"><![CDATA[“…living in the real world?” — Paramore]]></summary></entry><entry><title type="html">Play Imitates Work</title><link href="https://engitom.github.io/sleep/red%20door/play-imitates-work/" rel="alternate" type="text/html" title="Play Imitates Work" /><published>2024-02-20T08:00:01+00:00</published><updated>2024-02-20T08:00:01+00:00</updated><id>https://engitom.github.io/sleep/red%20door/play-imitates-work</id><content type="html" xml:base="https://engitom.github.io/sleep/red%20door/play-imitates-work/"><![CDATA[<p>“All of these stars are actually shining just for you.” — <em>The Boxer</em></p>
+
+<h2 id="sleep">Sleep</h2>
+<p>I used to think that it was crazy that humans sleep an average of eight hours per day, which adds up to be 1/3 of a lifetime. Spending 33% of the time not doing anything still seems kind of crazy to me.</p>
+
+<p>My rationale was that if I just slept for six hours a day, then I would get to spend 75% of my life being conscious, which is more than 67%.</p>
+
+<h3 id="i-met-a-traveler-from-an-antique-land">I met a traveler from an antique land…<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></h3>
+<p>I remember Mr. P once said that sleep is more important than staying up to do homework, a statement I accepted without application.</p>
+
+<p>There are definitely health benefits of all kind, including recovering from sickness and injuries and improved memory and focus.</p>
+
+<p>However, I could never feel a big difference between sleeping different amounts of time. There’s a small difference in the dread of needing to get outta bed, but it’s not even close to the difference between eating ice cream and vegetables.</p>
+
+<h3 id="half-sunk-a-shattered-visage-lies">Half sunk, a shattered visage lies…</h3>
+<p>Red Door Cafe is open from 7 AM to 2 AM on weekdays and 3 PM to 2 AM on weekends (different on holidays).</p>
+
+<p>Last night, I went at around 12:30 AM to get an <strong>Orange</strong>, but the cashier thought I said <strong>Corndog</strong>, which was pretty funny.</p>
+
+<p>This afternoon, I went again and noticed that the cashier’s reaction time was much faster compared to last night and there were no errors.</p>
+
+<p>I also noticed that the cooks/baristas get orders wrong more often at night, like making a hot chocolate instead of a latte or something like that.</p>
+
+<p>So, even though I didn’t notice those effects taking place on me, it’s still possible to see it happen to others.</p>
+
+<h2 id="___">___</h2>
+<p>I recently had lunch with Professor Adam Blank (they/them), who teaches CS 2, and a few of my friends.</p>
+
+<h3 id="da-rulez">Da Rulez</h3>
+<p>In CS 2, if a student hands in homework early, they get a number of <strong>grace points</strong> equal to the number of days early.</p>
+
+<p>A group of six students can exchange seven grace points each for a lunch or dinner at the Athenaeum (Caltech alumni club hotel/restaurant) with Adam.</p>
+
+<p>Apparently we were the second group of CS 2 students to ever exchange for a lunch (the first in years), which seems kind of weird, why wouldn’t people want to eat good food?</p>
+
+<h3 id="sat">SAT</h3>
+<p>In Ch 1b, Professor Hosea asked us about whether admissions should look at SAT score, and the people who answered in class all said no. However, I feel like the pressure to say no during the lecture in front of the entire grade is way too high, which definitely resulted in a biased sample.</p>
+
+<p>Adam said that it’s complicated, but they believe that it should only be used as a basic bar set at ~650 for math. This was also the conclusion I reached because every point raised shrinks the number of applicants and the talent diversity exponentially.</p>
+
+<p>For example, if you only take 780 and above for math, then you will only have 2% eligible. Now, add more axes for desirable traits like creativity, curiosity, common-sense, kindness, etc. In the end, the likelihood of capturing a group that’s closest to the average full score is not going to be helped by only taking 2% of the population.</p>
+
+<h3 id="education">Education</h3>
+<p>Adam went to undergrad at Carnegie Mellon and then dropped out of grad school for health reasons, but was accepted to be a professor anyway. This is probably because of all the TAing experience they got by just enjoying the process.</p>
+
+<p>In that way, we are similar, so I might take CS 101 in the spring, a new class Adam is teaching so that students will be prepared to be a TA for CS 2.</p>
+
+<h2 id="life-imitates-art">“Life imitates Art</h2>
+<p>far more than Art imitates Life.” — Oscar Wilde</p>
+
+<p>Today, I went to my first art class at Caltech. I emailed the teacher, Jim Barry, who told me to just come check it out.</p>
+
+<p>I am signed up to take PVA 062C: Drawing and Painting next semester, giving me a total of 51 units.</p>
+
+<h3 id="spring-schedule">Spring Schedule</h3>
+<p>My schedule for next term is:</p>
+<ol>
+  <li>Math 1c practical (9 units)</li>
+  <li>Phys 1c analytical (9 units)</li>
+  <li>CS 3 (9 units)</li>
+  <li>Geology 1 (9 units)</li>
+  <li>Humanities (9 units)</li>
+  <li>CS 101 (3 units)</li>
+  <li>PVA 062C Drawing and Painting (3 units)</li>
+</ol>
+
+<p>CS 101 and PVA 062C should be fun.</p>
+
+<h3 id="the-drawing-board">The drawing board</h3>
+<p>Jim told me to come by at 7 PM to check out the vibes and I sort of liked it even though I didn’t know anyone there.</p>
+
+<p>The art classes don’t have any instructions or assignments, it’s just whatever people want to work on. For me, I want to learn sketching so that I can draw people to show off.</p>
+
+<p>Jim showed me a few books on sketching figures (bodies) and I got through the first few pages of the one he recommended.</p>
+
+<h3 id="why-so-serious">Why So Serious?</h3>
+<p>When he walked by, he noticed (through his artist’s eye) that I was touching my face/head in a way that expressed a negative emotion associated with working.</p>
+
+<p>He said, “Don’t make it into work,” which was something I didn’t really want to hear but I definitely needed to hear.</p>
+
+<p>I was treating art as if it were a subject of study, like math and physics. I was reading the textbook and doing example problems, taking notes.</p>
+
+<h3 id="back-to-the-drawing-board">Back to the drawing board…</h3>
+<p>I don’t even read the textbook or take notes for math or physics, so it’s a strange kind of juxtaposition.</p>
+
+<p>Perhaps I associate a desire for something with working hard for it, and I simply don’t desire to be good at math and physics as much as I currently desire to be better at art.</p>
+
+<p>However, the real problem is that I don’t have enough fun when I do math and physics. I am not enjoying the process of learning even though that’s what turns work into play.</p>
+
+<h3 id="they-come-in-pairs">They come in pairs</h3>
+<p>Jim offered me some candy from a big jar while stating, “<strong>They come in pairs.</strong>”</p>
+
+<p>I took three small jawbreakers, which were called dopplers or something, but Jim stopped me and repeated, “<strong>They come in pairs.</strong>”</p>
+
+<p>So, I took a lollipop. Then, he poured me a cup of hot chocolate, which was actually really good. I think there’s cinnamon in it or some kind of apple spice.</p>
+
+<h3 id="but-i-dont-know-how-to-draw">…but I don’t know how to draw…<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></h3>
+<p>The main purpose of that class is for relaxation, which is something I need to realize. And although I would like to learn some techniques from a teacher, I would also like to have fun, and I’ve never really had fun in a tutoring format.</p>
+
+<p>I always hated piano and swim lessons (and art lessons). The only time I’ve liked things are when I learned them on my own for fun.</p>
+
+<h3 id="what-other-people-think">What other people think</h3>
+<p>There is also a nude model that comes in every class at around 8:30 PM<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup> and poses in the basement. I did not go to the basement this time, but I figured I would go next time. If I were Feynman, I would have gone to see the model today and written about it in this post<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup>, but I hesitated for some reason.</p>
+
+<p>However, I will have plenty of opportunities next semester, or this semester when I go visit again. Jim said if I weren’t able to take the class next semester, I could just go this semester every Wednesday and perhaps I could get credit for it. I would go even if I didn’t get credit!</p>
+
+<h3 id="so-youll-have-to-do-the-drawing">…so you’ll have to do the drawing.</h3>
+<p>In the middle, I texted my friend C that I was learning to draw. She was very supportive (“OH LFG”) and asked me to send pictures. Also, I often send Kirby memes, so she said that I should “DRAW sm [some] KIRBY.”</p>
+
+<p>I gave Kirby an uncanny human face and she said “that’s crazy,” which was super funny. I could have done better though.</p>
+
+<h2 id="play-imitates-work">Play imitates work<sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">5</a></sup></h2>
+<p>If I project my enjoyment of art into the future using my method of taking notes and working super hard every class, I will eventually stop coming because I would find it tedious.</p>
+
+<p>The same is probably true for math and science. If I don’t find a way to enjoy them, I’m going to end up quitting. I need to make it fun for me.</p>
+
+<p>Play imitates Work far more than Work imitates Play, the opposite of what should happen!</p>
+
+<h2 id="chipotle">Chipotle</h2>
+<p>is pretty good, I had it for the first time today with A, W, G, O, C, and a guy I forgot the name of.</p>
+
+<h3 id="zankou-chicken">Zankou Chicken</h3>
+<p>I heard good things about Zankou Chicken, a sort of fast food restaurant near Afters Ice Cream, but I tried it tonight before art class and I don’t think it lived up to the hype. I would rather eat at Cluck2Go if I were going to have that type of meal with just chicken and some other stuff.</p>
+
+<p>They have a giant mirror on one wall so it looks like the inside is twice as big. I was actually wondering, “Why are there two lines for ordering food?” until I realized there was a mirror.</p>
+
+<p>If this were <em>Diary of a Wimpy Kid</em>, I could walk into the mirror and fall over, suing the restaurant for a lot of money.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>From “Ozymandias,” a sonnet by Percy Shelley. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Joke from <a href="https://www.youtube.com/watch?v=jAXioRNYy4s">“The Rat Movie: Mystery of the Mayan Treasure”</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>Yes, I memorized the time. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4" role="doc-endnote">
+      <p>Somewhere in one of the books about Feynman, he says that he sometimes did stuff just so he could tell people he did it. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:5" role="doc-endnote">
+      <p>(Un)fortunately, I am not the first person to think of this. <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Sleep" /><category term="Red Door" /><category term="Health" /><category term="Education" /><category term="Art" /><category term="Work" /><category term="Learning" /><summary type="html"><![CDATA[“All of these stars are actually shining just for you.” — The Boxer]]></summary></entry><entry><title type="html">Physics in the Shower</title><link href="https://engitom.github.io/education/physics-in-the-shower/" rel="alternate" type="text/html" title="Physics in the Shower" /><published>2024-02-14T08:00:01+00:00</published><updated>2024-02-14T08:00:01+00:00</updated><id>https://engitom.github.io/education/physics-in-the-shower</id><content type="html" xml:base="https://engitom.github.io/education/physics-in-the-shower/"><![CDATA[<p>“Nearly everything is really interesting if you go into it deeply enough.” — R. P. Feynman</p>
+
+<h2 id="raise-the-curtain">Raise the Curtain</h2>
+<p>While I was showering, I experienced an interesting physics phenomenon where the hot water caused the nearby air to heat up and created a density gradient where the cold air from the outside of the curtain began to flow inside.</p>
+
+<p>I tried to push the curtain down, but it didn’t work until I decided to turn the showerhead at the curtain and the curtain became heavier and dropped.</p>
+
+<p>This would be a pretty good physics problem involving torques, tensions, and maybe some calculus worked in if you add details about the temperature gradient. Or, treat the curtain as a thin rod in 2-D and have some force field acting on the curtain at each point on the rod.</p>
+
+<h2 id="physics-in-the-mosh-pit">Physics in the Mosh Pit</h2>
+<p>At Ricketts Interhouse (Dinohouse), a group of friends and I decided to go in the mosh pit together for a few minutes and I learned that it’s similar to how fluids behave.</p>
+
+<p>In the mosh pit, if you are not constantly trying to get into the middle, you will be forced out eventually.</p>
+
+<p>I wanted to draw an analogy between the behavior of air in water because air is mostly non-interacting with water, I think. But I looked up what happens when and astronaut blows air into water in space, it actually doesn’t escape like the mosh pit model shows.</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/TBuiuqs96zg" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h3 id="readjusting">Readjusting</h3>
+<p>So, it could mean a few things about my model:</p>
+
+<ol>
+  <li>
+    <p>I was not in a sufficiently large mosh pit (I think it was only about 20 people in diameter)</p>
+  </li>
+  <li>
+    <p>The attraction to the center in the sample mosh pit does not accurately represent hydrogen bonding on a large scale.</p>
+  </li>
+  <li>
+    <p>The ISS example is not an open system because there are surrounding air molecules which affects the water.</p>
+  </li>
+  <li>
+    <p>Tracking the path of a single molecule is insufficient for predicting the overall behavior.</p>
+  </li>
+</ol>
+
+<p>I think all of these depend on each other because if you were in a really large mosh pit, then it would probably look a lot more like the actual behavior of air and water.</p>
+
+<p>Also, if you look at the mosh pit as if it were just a single kind of fluid instead of a combination of water and air, then it probably makes sense that people would just diffuse to areas of low density.</p>
+
+<p>So, I think there’s no parallel between the two situations I mentioned originally, but it was still fun to think about.</p>
+
+<h2 id="wipe-out">Wipe Out</h2>
+<p>The relationship between SURF students and SURF mentors is a lot like an open relationship. There is no commitment until the proposal and you’ll probably never talk again after trying it out.</p>
+
+<h3 id="lower-your-expectations-">Lower your expectations <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></h3>
+<p>In my SURF-finding experience, I first reached out to some AI folks, but they were too good for me.</p>
+
+<h3 id="a-lot">A lot</h3>
+<p>Next, I looked for AI-adjacent fields like astronomy and found a relatively interesting project, but it was given away.</p>
+
+<h3 id="never-settle-for-less">Never settle for less</h3>
+<p>Immediately after, I found a very basic project that could be done in a few days probably where the prof didn’t really know AI at all.</p>
+
+<h3 id="give-up">Give up</h3>
+<p>Finally, I found someone long-distance where there was a lot of mutual interest, but they turned out to be unavailable for logistic reasons.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p><a href="https://www.youtube.com/watch?v=llGvsgN17CQ">Bo Burnham - Lower Your Expectations</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Education" /><category term="Physics" /><summary type="html"><![CDATA[“Nearly everything is really interesting if you go into it deeply enough.” — R. P. Feynman]]></summary></entry><entry><title type="html">Resolution of 366</title><link href="https://engitom.github.io/feynman/luxun/po/resolution-of-366/" rel="alternate" type="text/html" title="Resolution of 366" /><published>2024-01-29T08:00:01+00:00</published><updated>2024-01-29T08:00:01+00:00</updated><id>https://engitom.github.io/feynman/luxun/po/resolution-of-366</id><content type="html" xml:base="https://engitom.github.io/feynman/luxun/po/resolution-of-366/"><![CDATA[<p>“但我坦然，欣然。我将大笑，我将歌唱。” —《野草》鲁迅</p>
+
+<h2 id="366">366</h2>
+<p>2024 has 366 days, providing one extra day to be wasted. Though I don’t think it will make up for the 28 days I’ve wasted so far.</p>
+
+<p>In that wasted time, I read for fun, which is something new that I thought I’d try.</p>
+
+<h2 id="surely-you-must-be-joking-mr-feynman"><em>Surely You Must Be Joking, Mr. Feynman!</em></h2>
+<p>is a biography from the perspective of Richard Feynman, an artist and bongoist from Long Island, New York. His most noted works are his diagrams, which many in the physics community have created copies of.</p>
+
+<h3 id="emotional-content">Emotional Content</h3>
+<p>The general perception of Feynman is that he is an insensitive hedonist, probably because it is a digestible narrative, but there are moments where things affect him emotionally that I think showcase a very different facet of his personality.</p>
+
+<blockquote>
+  <p>I was walking past a department store with dresses in the window, and I thought Arlene would like one of them. That was too much for me.</p>
+</blockquote>
+
+<p>His wife passed away due to tuberculosis while he was working at Los Alamos and he didn’t cry until months later because he knew he had to stay focused on the project at hand.</p>
+
+<p>This moment definitely shows that insensitive gets mixed up with unemotional.</p>
+
+<h3 id="conundrums-of-philosophy">Conundrums of Philosophy</h3>
+<p>Questions like “What is beauty?” that fall under the purview of conundrums of philosophy<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> can also be answered by scientists:</p>
+
+<blockquote>
+  <p>I understood at last what art is really for, at least in certain respects. It gives somebody, individually, pleasure. You can make something that somebody likes <em>so much</em> that they’re depressed, or they’re happy, on account of that damn thing you made!</p>
+</blockquote>
+
+<p>After I learned to sing in 2018, I would sometimes write and record birthday songs for my friends, which they appreciated a lot. So, in some sense, I sing mostly because other people enjoy it.</p>
+
+<p>Would it be better if the act of singing itself could be fulfilling? I would sing more, but I don’t think it would have as much value.</p>
+
+<h3 id="hypnosis">Hypnosis</h3>
+<p>I’ve never believed in ESP, telekinesis, or hypnosis, I just kind of grouped them in the category of superstition/sham. However, Feynman gives a very reasonable explanation of hypnosis.</p>
+
+<blockquote>
+  <p>So I found hypnosis to be a very interesting experience. All the time you’re saying to yourself, “I could do that, but I won’t”—which is just another way of saying that you can’t.</p>
+</blockquote>
+
+<p>I think, “I could do that, but I won’t” all the time, so it was a very good reminder. It’s probably most people’s rationale for not answering questions in lecture.</p>
+
+<p>In CS 2, Prof Blank asks questions with a variety of difficulty and most people don’t raise their hands because of either fear, hypnosis, or actually don’t know the answer.</p>
+
+<p>At some point, the entranced also don’t know the answer because they were actually lost long ago.</p>
+
+<p>That’s when the prof makes us discuss!</p>
+
+<h3 id="self-unfulfilling-prophecy">Self-Unfulfilling Prophecy</h3>
+<p>I haven’t been writing as much because I ran out of ideas, which is why I just did a class review as the other post. However, writing that post was monotonous and exhausting, so I just stopped writing.</p>
+
+<p>Actually, I almost quit the blog because I kept having this idea of “I’m just going to come back to it later” but it’s like the idea of hypnosis. It’s a kind of inductive inaction, so <strong>JUST DO IT!</strong></p>
+
+<p>I should probably only write when I get a really good idea that I enjoy writing about.</p>
+
+<h2 id="music-production">Music Production</h2>
+<p>I am trying to learn music production, so I downloaded Waveform, which is a free digital audio interface. By the way, I wasn’t sure what DAW stood for until I just looked it up, I just know it’s <em>that kind of software that lets you make music</em>.</p>
+
+<h3 id="slapaphone">Slapaphone</h3>
+<p>I learned to play the slapaphone in XXXXXXX Hovse courtyard and while annoying some people at 22:00 who were probably trying to work.</p>
+
+<p>However, it wasn’t too egregious because the XXXXX<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup> don’t sleep anyway.</p>
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/1rr2DJOxV0sHXeUXCAz1yf" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<h2 id="burning">Burning</h2>
+<blockquote>
+  <p>“The cure for boredom is curiosity, there is no cure for curiosity” — Dorothy Parker.</p>
+</blockquote>
+
+<p>Something I noticed from reading about Feynman is that he is truly curious to the core. He’s always excited to learn new things and needs to get to the bottom of how it all works.</p>
+
+<p>I think that’s a trait necessary in science because otherwise, you end up not really learning much even when the opportunity arises.</p>
+
+<p>For example, sometimes when I read an article, I read a new phrase like “epitope” and I won’t know what it means but I won’t look it up either. The problem with this is that it creates uncertainty which will only mess up my understanding down the line.</p>
+
+<h3 id="ma-1c">Ma 1c</h3>
+<p>One of the things concerning me about Ma 1c analytical is that it includes topology and differential geometry and is “very hard” according to math major upperclassman J.</p>
+
+<p>If I take practical, it might be too easy, but analytical might be too hard. I suppose I could use the first few weeks to decide.</p>
+
+<p>However, I think that it would be against the principle of curiosity to not take the course because it’s hard to learn.</p>
+
+<h2 id="po">Po</h2>
+<p>While I was volunteering for the Caltech Math Meet, I was running to deliver a pizza from Red Door to Bechtel Dining Hall so that a very hard-working organizer, S, could eat for the first time that day.</p>
+
+<p>Coincidentally, I saw a guy sitting outside who kind of looked like Po-Shen Loh. So, I asked him, “Are you Po-Shen Loh?”<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup></p>
+
+<p>The Asian man with glasses replied with “Yes!” and a big smile.</p>
+
+<p>Well now I was sure.</p>
+
+<p>So, we exchanged greetings and I asked him if he knew A, who did some online tutoring for his program, which was very interesting because she mentioned that she had to take improv classes in preparation for it.</p>
+
+<p>He said that his wife, Debbie, is actually the one who organizes that program, which I thought was very fun because it’s like the whole family does math stuff.</p>
+
+<p>I asked if I could get a picture after I delivered the pizza, and he gave me a thumbs up.</p>
+
+<h3 id="after-delivering-the-pizza">After delivering the pizza…</h3>
+<p>I came back and there was a math postdoc there who was talking to Po, visibly shaking.</p>
+
+<p>He was explaining that he had taken one of his classes in college, but when Po asked what year it was, the postdoc stuttered so hard he couldn’t speak for a while, “T-t-…-t… t-t-…-two thousand n-nine.”</p>
+
+<p>It was very understandable that he would be nervous to meet such a great mathematician, but maybe not that much.</p>
+
+<p>Anyway, I got a selfie with him and I noticed later that my bottom row of teeth were showing in my smile, which is my tell for being nervous.</p>
+
+<h3 id="lgt-seminar">LGT Seminar</h3>
+<p>Later that night, Po crashed LGT<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup> and mostly frosh started piling in because I guess the upperclassmen have already seen him a lot.</p>
+
+<p>Po was imparting many pieces of wisdom that I heard from my friends who were there because I was doing math homework in Annenberg.</p>
+
+<p>I actually considered going to ask him how to do the homework, but that seemed bothersome for him.</p>
+
+<p>Anyway, he said a few interesting things:</p>
+
+<h4 id="roommate">Roommate</h4>
+<p>His mechanical engineer roommate in Blacker Hovse had the complete opposite sleep schedule, sleeping at 7 AM and waking up at 4 PM, while he would sleep at 10 PM and wake up at 7 AM.</p>
+
+<p>That roommate would go around campus at night and modify elevators and stuff like that.</p>
+
+<p>Will Heltsley later became the Vice-President of Propulsion at SpaceX.</p>
+
+<h4 id="cs-major">CS Major</h4>
+<p>Back in the early 2000s, the <em>default</em> major at Caltech was actually physics instead of CS. I wonder why that change occurred and what the next big major will be?</p>
+
+<p>Anyway, he thinks that the popularity of CS is related to software engineering (SWE) jobs paying very well, but that SWE job security will be greatly reduced by the advancement of machine learning models that can write code.</p>
+
+<h4 id="happiness">Happiness</h4>
+<p>He asked why everyone looks so happy and then realized that they were all frosh. He then mentioned that back then, Caltech was not a very happy place, which I can kind of visualize.</p>
+
+<p>According to R’s testimony, Po was insinuating “you guys should be sadder.”<sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">5</a></sup></p>
+
+<p>That’s why no one is allowed to go to the roof of Caltech Hall without executive permission from the top brass—or any buildings as a matter of fact!</p>
+
+<h2 id="konstantin">Konstantin</h2>
+<p>I was lucky enough to be selected randomly to participate in a student faculty lunch where I was able to talk to Prof Konstantin Batygin of the PMA department. I first saw him in a Veritasium video about Planet 9, but also saw him a lot in Avery since school started because his family lives in Avery House.</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/pe83T9hISoY" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>He is actually part of a rock band, The Seventh Season, that performs at clubs and has concerts on campus. According to him, the professor gig is just a way to build his fanbase.</p>
+
+<p>It was very interesting to talk to him because he has a lot of fun stories about the band and is a very friendly person overall.</p>
+
+<h3 id="musical-encounters">Musical Encounters</h3>
+<p>We ran into each other a lot in the Avery Music Room and the SAC Jam Room around the time of the second Ricketts Open Mic Night because I was practicing with my band and he was practicing with his band for some performance at a club.</p>
+
+<h3 id="balance-of-modes">Balance of Modes</h3>
+<p>Another student asked him how he keeps a balance between being a professor and musician. He explained that what’s important is devoting full attention to one thing at a time. If he is thinking about planets, he will just not think about the band at all.</p>
+
+<p>He mentioned that Feynman played the bongos a lot, but if he just only did physics, he would probably be a worse physicist because he would likely be less creative.</p>
+
+<p>The ability to jump between multiple tasks without conscious effort is very valuable because it enables more productivity than “multitasking” which just means not getting anything done well.</p>
+
+<p>If you think of it like going through a maze, multitasking is like if you could see a little bit down each path, but switching modes is like being able to see down some amount for each path and the breadth comes from the ability to switch paths.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>From <a href="https://www.youtube.com/watch?v=SNgNBsCI4EA">“Meet the Engineer”</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Members of XXXXXXX Hovse, abiding by rotation rules. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>Caltech alum, Carnegie Mellon math prof, and former coach of the U.S. International Math Olympiad team. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4" role="doc-endnote">
+      <p>Lower Guard Tower, a lounge/kitchen in Avery House. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:5" role="doc-endnote">
+      <p>LOL! <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Feynman" /><category term="Luxun" /><category term="Po" /><category term="Reading" /><summary type="html"><![CDATA[“但我坦然，欣然。我将大笑，我将歌唱。” —《野草》鲁迅]]></summary></entry></feed>
