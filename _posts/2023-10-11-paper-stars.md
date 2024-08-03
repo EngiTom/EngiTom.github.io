@@ -40,7 +40,7 @@ I still don't know who is reading this blog but a surprising number of people ha
 This blog didn't turn out to be data science or research-oriented like I originally planned, but I think that it was worthwhile to have a place I can ramble. 
 
 ## New Friends
-Most of my new friends are international students. It might be because Americans are a bit boring. JK. 
+Most of my new friends are international students. 
 
 I think it's just that I enjoy learning about people with different experiences. To anyone who hasn't been to many places in America, the entire country is quite homogenous. Every city has the same stuff as the other cities, the only difference between suburbs is whether people drive pickups, SUVs, or CRVs, and the staple crop grown for rural areas. 
 
