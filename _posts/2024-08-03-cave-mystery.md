@@ -25,7 +25,8 @@ categories: [Travel, Physics, TV]
 {:refdef: style="text-align: center;"}
 ![alttext](/assets/images/link)
 Caption
-{:refdef} -->
+{:refdef} 
+-->
 {% endcomment %}
 
 ## Bund Boba

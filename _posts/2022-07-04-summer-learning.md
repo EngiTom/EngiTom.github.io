@@ -34,8 +34,8 @@ In 10th grade, I edited a Buffalo Soldier documentary with a group for history.
 
 In 11th grade, I edited and shot a short introduction about my school for a conference. Now, even though I didn't know exactly how to edit with a green screen, it was very easy to learn because I was already familiar with the software. 
 
-### Widening Gap
-In effect, I had become better at something than almost all of my peers simply because I had done it a little bit more than them. However, that gap widened because in a lot of situations, I had to bear the responsibility of performing that skill for my group. 
+### People People
+In effect, I became better just because I did it. 
 
 How many times have students been asked to make a poster, only for the question, "Are any of you *art people*?" to be asked? I'm sure that many people have become good at drawing because of the odd chance of being the one person who could barely count as average.
 

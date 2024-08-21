@@ -12,11 +12,11 @@ toc_sticky: true
 categories: [Freetime, Growing Up]
 ---
 
-"The village, to grandfather." — Anton Chekhov, "Vanka"
-
 "There are some things you can only find in a messy room" — Yuto Suzuki, "Chapter 100: Lightning Strikes" in *Sakamoto Days*
 
 ## Audience
+>"The village, to grandfather." — Anton Chekhov, "Vanka"
+
 I didn't know that so many of my classmates read this blog, but I'm happy that they enjoy it. I have always written with the assumption that people read my blogs so I do try to refine some of my ideas before I put them on the internet forever. 
 
 ## Let him cook
