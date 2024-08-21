@@ -126,7 +126,7 @@ famously held his breath underwater for 17 minutes.
 
 I can currently hold for 80 seconds while resting but my goal is at least 2 minutes, or, long enough to use the bathroom at the office so that I can avoid smelling the cigarette smoke.
 
-Today, I attempted to hold my breath until I heard the announcer say that we are arriving at the next stop, which is decently scary because I had a rough sense of how far it was, but didn't know exactly what the timing would be. 
+Today, I attempted to hold my breath until I heard the announcer say "We are now arriving at XXX stop," which was decently scary because I had a rough sense of how far it was, but didn't know exactly what the timing would be. 
 
 However, I couldn't really back down because I challenged myself and it would be really bad if I let myself down, probably a worse result than fainting. 
 
@@ -172,7 +172,7 @@ My scouting began by the river near the Mercedes-Benz Stadium, where I joined ka
 
 There's old people who somehow moved an entire TV over there, middle-aged men with four speakers, and a high schooler.  
 
-Next, I checked out Nanjing East Rd because it's near the bund. Turns out that anywhere near the bund on the west side just has way too many people. I asked some police near the river and they just said that it's a bad idea to try to sing near the bund because I'll just get kicked out.
+Next, I checked out Nanjing East Rd because it's near the bund. Turns out that the entire bund (the west side of the river) has way too many people. I asked some police near the river and they just said that it's a bad idea to try to sing near the bund because I'll just get kicked out.
 
 My search brought me to Lujiazui, which is like the downtown of the east side, where the police next to the circular bridge around the Oriental Pearl Tower told me that singing is fine under the bridge. 
 
