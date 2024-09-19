@@ -50,21 +50,10 @@ As a counter-example, I tried to make it draw some french fries, except the frie
 I've been enjoying reading books, which is something that the younger me would not expect, because he thought that books were boring and, therefore, a waste of time. I'm not sure what it is, either all of my favorite games aren't fun anymore in comparison, or I just enjoy being able to absorb knowledge.
 
 ### Catcher in the Rye
-This book is a favorite of my 6th grade history teacher, Ms. Jue, back in Shanghai. She teaches in the U.S. now, since she was an international teacher in Shanghai originally from Buffalo, NY. I remember that she would sometimes make references to American pop culture and I would be the only one who would actually get them, which was pretty fun. This was back when *The Walking Dead* was popular, so it was a lot of "CARL!"
+This book is a favorite of my 6th grade history teacher, Ms. J, back in Shanghai. She teaches in the U.S. now, since she was an international teacher in Shanghai originally from Buffalo, NY. I remember that she would sometimes make references to American pop culture and I would be the only one who would actually get them, which was pretty fun. This was back when *The Walking Dead* was popular, so it was a lot of "CARL!"
 
 #### Teacher Rankings 
-Speaking of which, this is a great chance to talk about my favorite teachers of all time. I will keep the list to 8 people, and since I don't really have time to justify my choices, I will just write their names and the classes they taught:
-
-1. Mr. Papp, 10th grade multivariable calculus
-2. Mr. Marc, 7th grade world geography
-3. Mr. Pullia, 5th grade homeroom
-4. Ms. Chen, 8th grade homeroom
-5. Mr. Sharp, 8th grade world geography
-6. Ms. Wang/Cai, 6th grade Mandarin
-7. Ms. Jue, 6th grade world history
-8. Mr. Young, 10th grade English
-
-Now, these rankings were pretty tough to make, and if I were to make a tier list, they would all be S-tier. I took into consideration the course and the teacher, so maybe some would do better if the courses were different, and others could just improve as teachers, but I mainly value
+In teachers, I mainly value:
 
 - How rewarding the class is
 - How fun the activities are

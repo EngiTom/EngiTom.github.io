@@ -30,14 +30,13 @@ I started the first chapter of *Moby Dick* and it has been an interesting experi
 
 DMO has basically spoiled the book for me, but that is only plot. Plot is not important in this book, but the themes and lessons are very important. Furthermore, analyzing the craftsmanship behind the book is also interesting. The Extracts chapter is full of quotes about whales from hundreds of different sources throughout history, and Melville wrote the book back in the day when there was no Google to help out with the quotes. He probably had to go through hundreds of books in the process. It's funny because he writes that the quotes were compiled by a sub-sub librarian which is a bit of self-deprecating humor. 
 
-## Old and New
-I decided to end a relationship with a friend who consistently ignored me for months. I sometimes regret the choice but an imbalance of passion led to this outcome. Perhaps I should have done it sooner, like a year sooner, but a belief in the minute probability of improvements stopped me.
+## Old
+We often look back too much at the good times. I am reminded of an inspirational post I saw on Instagram a long time ago: "Whenever you feel like quitting, just remember why you started." 
 
-We often look back too much at the good times. I am reminded of an inspirational post I saw on Instagram a long time ago: "Whenever you feel like quitting, just remember why you started." However, we must adapt to changes. There is no point in continuing something once it has deteriorated to a certain point. Even if communication is a solution, the real world requires our tired spirits to grope around in dark, muddy, and cold waters for those elusive catfish. 
+However, we must adapt to changes. There is no point in continuing something once it has deteriorated to a certain point. 
 
-Of course, I was not owed any time, if they want to spend it elsewhere, fine. But, as for myself, I think it is best to cut my losses. In the end, I cannot say that I knew this friend because they actually haven't told me much about themselves. Every one of my questions was met with a terse answer in the way that an elementary schooler would give without further elaboration. 
+Even if communication is a solution, the real world requires our tired spirits to grope around in dark, muddy, and cold waters for those elusive catfish. 
 
-They were a good person, just not the right person. 
 
 ### New
 Part of the problem with a small university is that everyone knows everyone and it is hard to avoid people, like a stand user in JoJo's. I made a new friend who is (probably) committing and it's nice to meet someone who overestimates me like I do to them. 
@@ -49,8 +48,6 @@ Anyway, my future math tutor is quite nice, like everyone I write about. I would
 ### Probability
 Speaking of statistics, my sister actually did a pretty hard math problem incredibly quickly. I doubted her math skills but I don't think it was a fluke. It was essentially a P(A)/(P(A)+P(B)) problem but no one else knew how to do it. She hasn't even learned probability and she knew how to do the problem. 
 
-Now, what is the problem? Well, her friend who is barely-ok at math (that means good) was doubting that my sister actually knew how to do the problem and said, "Are you sure you know how to do it and didn't just guess?" I actually agreed with this comment, but I was also pissed off because I'm the only one who is allowed to insult my sister. 
-
-To borrow from a League streamer, it's like... it's like if your dog starts barking in the middle of the night, you don't think much of it, but if your neighbor's dog starts barking, then it's time to take action. 
+Now, what is the problem? Well, her friend who is barely-ok at math (that means good) was doubting that my sister actually knew how to do the problem and said, "Are you sure you know how to do it and didn't just guess?" I actually agreed with this comment, but I was also mad because I'm the only one who is allowed to insult my sister (joke). 
 
 A rare moment of sibling comradery has opened my eyes to the importance of respect.
