@@ -8,16 +8,16 @@ feature_row:
   - image_path: assets/images/wiibowling.jpg
     image_caption: "Credit to [**Friendly Family Gaming**](https://www.familyfriendlygaming.com/Images/2013/Wii%20Sports%20Club.html)"
     alt: "placeholder image 1"
-    title: "Wii Sports Bowling"
-    url: "https://www.youtube.com/watch?v=MvUCzUzn3No"
+    title: "Rapp Snitch Knishes"
+    url: "https://www.youtube.com/watch?v=gQtKJbptcns"
     btn_label: "Listen"
     btn_class: "btn--primary"
     
-  - image_path: assets/images/whale.jpg
-    image_caption: "Credit to [**Todd Cravens**](https://unsplash.com/photos/lwACYK8ScmA)"
+  - image_path: assets/images/anatolia.jpg
+    image_caption: "Credit to Feed Me Jack"
     alt: "placeholder image 1"
-    title: "Whale Sounds"
-    url: "https://www.youtube.com/watch?v=nDqP7kcr-sc"
+    title: "Feed Me Jack - Anatolia"
+    url: "https://www.youtube.com/watch?v=7E8U6zqgPwM"
     btn_label: "Listen"
     btn_class: "btn--primary"
     
@@ -38,11 +38,11 @@ feature_row2:
     btn_label: "Listen"
     btn_class: "btn--primary"
   
-  - image_path: assets/images/ran.jpg
-    image_caption: "Credit to TMS Entertainment"
+  - image_path: assets/images/fossilfalls2.jpg
+    image_caption: "Credit to Me"
     alt: "placeholder image 1"
-    title: "Ran's Theme"
-    url: "https://www.youtube.com/watch?v=KkiIb4S9vRA"
+    title: "Bobbing - Crimes"
+    url: "https://www.youtube.com/watch?v=XIWr7fykSmY"
     btn_label: "Listen"
     btn_class: "btn--primary"
 
