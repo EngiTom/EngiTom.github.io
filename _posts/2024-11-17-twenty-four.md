@@ -1,16 +1,16 @@
 ---
 layout: single
 title: "24"
-date: 2024-11-17 00:00:01 -08:00
+date: 2024-11-17 00:00:01 -05:00
 author_profile: true
 header: 
-  image: assets/images/bread.jpg
-  teaser: assets/images/teasers/bread.jpg
+  image: assets/images/breezeway.jpg
+  teaser: assets/images/teasers/breezeway.jpg
   caption: "Credit to me" 
 toc: true
 toc_sticky: true
-tags: [24 Points, Grind, ]
-categories: [College, Studying, Projects, Reflection]
+tags: [24 Points, Grind, Relaxation, Stocks, Blood Pressure, Reading]
+categories: [College, Studying, Projects, Reflection, Health]
 ---
 
 "I am free and that is why I am lost." — Franz Kafka
@@ -28,6 +28,8 @@ Caption
 {:refdef} 
 -->
 {% endcomment %}
+
+Note: this post was written mostly in November but was released on Dec 15th.
 
 ## 24
 24 Points is a game I've played since middle school. 
@@ -122,3 +124,24 @@ Something interesting about grinding programming problems is that a big part of 
 There is often much less skill involved in the math and more in just understanding the type of algorithm and how to type it. 
 
 ### Stock Trading 
+I've gotten more into trading stocks along with my roommate E and it's fun to see how the stocks we pick perform. We have different personalities and sometimes his actions seem strange to me, but it probably seems completely reasonable to him.
+
+This is something I learned in *The Psychology of Money*, one of the first books I've read in a while. It's actually a great read and I recommend it for everyone even if they aren't interested in financial markets. 
+
+My favorite chapter is when the author describes how everyone has different goals for doing things. For example, E mostly trades for fun, so it doesn't really matter if he doesn't hold for a long time because he does not intend to sit still for too long. 
+
+So, it doesn't really matter if I think what he's doing makes any sense because we aren't in the same boat anyway.
+
+## Doctor Who
+At Caltech there are Health Advocates in each house who are responsible for providing first aid and things like that. In the health ad course, they were learning how to take people's blood pressure and needed 10 samples from the population.
+
+E and I got a little bit scared by the results since I got a reading of 130/85, which is the first stage of high blood pressure. I'm not sure how representative the reading was of my average BP, but E and I did have some unhealthy diets that needed to change.
+
+### Candy Crush
+Over the next week, E consumed significantly fewer cookies from RD. Typically, he would eat 3 per day, which is approximately 500-600 calories, and made up a third of all the calories he gets every day. 
+
+As for me, I was definitely eating too many greasy and deep-fried foods to be healthy. So, I ordered a chicken salad from some kind of healthy restaurant for dinner one day. It was kind of good but I wouldn't want to eat that every day.
+
+By the next week, I had about 115 and E was also down a lot to around 105 which is much better than before. 
+
+With that, let's end this post and continue on the next one. 
