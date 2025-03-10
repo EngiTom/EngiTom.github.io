@@ -4,8 +4,8 @@ title: "Snow in Pasadena"
 date: 2025-02-18 00:00:01 -08:00
 author_profile: true
 header: 
-  image: assets/images/maplewood.jpg
-  teaser: assets/images/teasers/maplewood.jpg
+  image: assets/images/goldhour.jpg
+  teaser: assets/images/teasers/goldhour.jpg
   caption: "City of Gold" 
 toc: true
 toc_sticky: true
