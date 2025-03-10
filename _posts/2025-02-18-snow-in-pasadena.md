@@ -9,8 +9,8 @@ header:
   caption: "City of Gold" 
 toc: true
 toc_sticky: true
-tags: [Wildfires]
-categories: [Disasters]
+tags: [Wildfires, Genshin, CS42, Genetic Algorithms]
+categories: [Disasters, Teaching]
 ---
 
 "It's your golden hour." — JVKE
@@ -96,9 +96,11 @@ I'm taking a course CS42 on how to teach math and science and I have to do a wee
 - Babies prefer clear images to blurry ones, kind of clever experiment where they rigged pacifier suction level to the focus of a TV
 - Babies prefer learning new things due to habituation, when they get used to something they lose interest. 
 - Children have bad memories, so use chunking
+  
 ### Computational thinking:
 - Everyone should learning how to think like a computer scientist
 - Q: How can everyone learning to think like a computer scientist if there are not enough people who understand computational thinking in K-12 education to teach it? For instance, 170k students took AP CSP in 2024 but there are 17 million high school students in America, so 1% of all students are learning computational thinking. 
+  
 ### Learning objectives:
 - Objective before content
 - Students should be able to ___
@@ -127,6 +129,8 @@ There were also a variety of fart simulations like the armpit technique, along w
 
 ### Actions
 There's a funny thing you can do with a hoodie which is putting one arm at your stomach and the other holding the empty sleeve, then moving them up and down in alternating fashion to create one of the most striking, almost inhuman, movements.
+
+I did this to J yesterday and he said "I haven't seen that since elementary school!"
 
 Tag is one of the great games of all time with the freeze and zombie variations. 
 
@@ -162,7 +166,60 @@ I posted this question on the course forum and a student responded that "best" a
 However, this student immediately said afterward that an example of how to resolve the problem is the way Caltech gives some first years supplemental math and writing courses
 
 ## AI
-I was quite surprised to learn that data augmentation/hallucination is equivalent to regularization.
+I was quite surprised to learn that data augmentation/hallucination is equivalent to regularization. I guess it makes sense because you are making the 
 
 ## Resnick Sustainability Institute
-I recently attended a talk by a JPL 
+I recently attended a talk by a JPL Chief Scientist of some science directorate and it was super boring and I will probably not go to one of those talks again. 
+
+Essentially, the guy was talking about how he was asking people at JPL to write 3 pages each for his 90 page report on how climate change is going to influence the lab itself and LA county. 
+
+It seems completely pointless to write this kind of report because it's just going to become a stack of paper on some officials' desk which will inevitably get thrown in the trash after it's never opened. 
+
+Even worse, this guy was more excited about the prospect of "holding a printed copy" of the report than helping anyone affected by the fires. By the way, he has a $400K budget for this report and 1000 copies are going to be printed and not publicized. 
+
+There's a lot of 
+
+### Cognitive Dissonance
+where he wants to appear to make an impact (he mentions things like how the 2028 Olympics are going to be hosted in LA) but it's also a report that people will never see or care about because it's not going to be available to the public. 
+
+When one of the audience members (I think it was some hotshot at RSI because he's at all of these talks) asked a question relating to wildfires, the first thing he responded with was how "successful" the webinar from a few weeks ago was, since it had 2000 people. 
+
+Then, he mentioned that after the fires happened, he was in talks with a coauthor who said that it may be better to change the whole report to just be about wildfires, but he quickly dismissed that idea because of all the time that already went into writing the paper (two months as of then). 
+
+So, basically he's basically applying the sunk-cost fallacy because he would rather keep going on a doomed path where thousands of dollars have already been wasted than find better alternatives. Or maybe it's actually impossible to have 30 people write 3 pages each in 2 months.
+
+## Anemoculus Collector
+Genshin is a game that I have disliked for many years, but I finally tried it and it's actually quite fun. Essentially, you do quests, explore the world, fight monsters, do puzzles, and lootbox pull new characters. 
+
+I got lucky and pulled two five-star characters within 20 pulls, so that got me playing a bit too much every day. 
+
+### Satisfying Parts
+The fighting is quite satisfying initially because there are many elemental combinations that do bonus damage, so you can use one character of water type and attack with fire type later to *vaporize* the enemy. This teaches kids phase transitions pretty well, I guess. 
+
+Some parts of the story are incredibly interesting and the environment is very engaging, especially in the region based on Atlantis. The art quality is super good and it really immerses the player. 
+
+### Unsatisfying Parts
+If you pull a newer character, then you need to go far from the original continent to level them up which messes up the feeling of the intended progression, and sometimes it feels like you're going places just so you can teleport to them later.
+
+The stamina system is incredibly annoying because you can only run for a few seconds before you have to recharge and walk. If you run out of stamina while climbing a mountain or swimming, you fall/drown. 
+
+Some of the puzzles are super confusing because there is no explicit goal, it's kind of like those physical puzzles where you are trying to open the box but there's no rules given. I guess your enjoyment depends on how much you like that but for me it's not that satisfying. 
+
+Mining ore is also annoying because you need a claymore (big sword) character to mine anything but you may have a better character so there's no point in having that character in your party. 
+
+## Genetic Algos for Ensemble Blending: to DMO
+I'm taking a machine learning course where we form teams and compete against each other to make the best model for some task like song popularity classification and my team had a pretty wild performance from last place 50th to 3rd to 26th. 
+
+My friend accidentally selected a terrible model from day 1 and that was averaged with the really good model made with genetic algorithms. We would have been 14th if there was no accident. 
+
+There's a concept of blending model predictions together with a weighted average which can decrease variance in the predictions and hopefully predict better on the testing data.
+
+So, I wrote a GA to crossbreed different sets of weights for 5 different models and the results were better than all the other stuff we tried. 
+
+### RBF: Applied ML
+The RBF kernel is the radial basis function kernel which can be applied to support vector machines for classification machine learning problems. 
+
+It also stands for something else which some of my friends used to describe my typical disposition. 
+
+### Re: Genetic Algos for Ensemble Blending
+DMO wrote back a few days later that they couldn't find a new CS teacher and that there's only one semester of Applied Algorithms now, which is very unfortunate, but there are always ups and downs I guess. 
