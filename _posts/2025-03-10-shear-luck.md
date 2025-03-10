@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Shear Luck"
-date: 2025-03-09 00:00:01 -07:00
+date: 2025-03-10 00:00:01 -07:00
 author_profile: true
 header: 
   image: assets/images/car.jpg
@@ -72,6 +72,11 @@ As I learned from Civ 6, no man is an island. Not only from the achievement, but
 I became sick the night before a quiz in finance and found out about the quiz the next day and asked to be excused from the quiz, but unfortunately the policy is that we must ask to be excused before the quiz but how are we supposed to know that we are sick beforehand?
 
 I find this very strange because it incentivizes always buying the option to miss class, which is what students seem to be doing because only 15 students show up to class. 
+
+## Who is ???
+The Ws recently moved into Avery House and me and J helped carry a grill up to their apartment. After that incredibly difficult lift, we were granted permission to enter the apartment and pet their cats. 
+
+I've never held a cat before, but they are very heavy and they are mostly fur in volume, I guess that's how they get through tight gaps. 
 
 ## Footnotes
 [^1]: The pity system automatically grants a 5-star character 50-50 after 75 pulls without receiving a 5-star character. 
