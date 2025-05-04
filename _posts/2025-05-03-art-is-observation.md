@@ -111,6 +111,10 @@ These are valid concerns, since it's unrealistic to not date anyone who isn't an
 ### Acknowledgements
 Thanks to Professor Andrew Sinclair for including this variation of the Marriage Problem in "Lecture 8: Fixed Income and LTCM" of BEM 114: Hedge Funds as bonus slides on backwards induction. 
 
+If you are interested in exploring the code in a Python Notebook, check out this [Github respository](https://github.com/EngiTom/MarriageProblem) or this [Google Colaboratory Notebook](https://colab.research.google.com/drive/1Tibjt5GbpHYTlDhTLTs5PpzROxkjTzex?usp=sharing). 
+
+If you don't know how to run code, I suggest going to the Notebook and pressing Connect in the top right and then pressing the triangle "Play button" on all of the code blocks. 
+
 ## Art is Observation
 I got a bit distracted exploring that idea, but now we are back on track!
 
