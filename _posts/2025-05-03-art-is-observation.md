@@ -109,7 +109,7 @@ Now, this weird outcome may seem like a problem with the model: there may be ext
 These are valid concerns, since it's unrealistic to not date anyone who isn't an ideal match, but the gist of it is that you shouldn't settle for less, and certainly not the *bare-minimum.*[^3]
 
 ### Acknowledgements
-Thanks to Professor Andrew Sinclair for including this in "Lecture 8: Fixed Income and LTCM" of BEM 114: Hedge Funds as bonus slides on backwards induction. 
+Thanks to Professor Andrew Sinclair for including this variation of the Marriage Problem in "Lecture 8: Fixed Income and LTCM" of BEM 114: Hedge Funds as bonus slides on backwards induction. 
 
 ## Art is Observation
 I got a bit distracted exploring that idea, but now we are back on track!
