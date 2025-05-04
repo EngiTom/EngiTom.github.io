@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://engitom.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://engitom.github.io/" rel="alternate" type="text/html" /><updated>2025-05-04T05:40:21+00:00</updated><id>https://engitom.github.io/feed.xml</id><title type="html">Engi’s Exchanges</title><subtitle>Learning experiences</subtitle><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><entry><title type="html">Art is Observation</title><link href="https://engitom.github.io/art/college/math/art-is-observation/" rel="alternate" type="text/html" title="Art is Observation" /><published>2025-05-03T07:00:01+00:00</published><updated>2025-05-03T07:00:01+00:00</updated><id>https://engitom.github.io/art/college/math/art-is-observation</id><content type="html" xml:base="https://engitom.github.io/art/college/math/art-is-observation/"><![CDATA[<p>“Just give up.” — Prof. Andrew Sinclair</p>
+
+<h2 id="the-marriage-problem">The Marriage Problem</h2>
+<p>In BEM 114, Hedge Funds, we learned about a version of <em>the marriage problem</em>:</p>
+<ul>
+  <li>Suppose you will meet 1,000 potential partners in your life,
+    <ul>
+      <li>Assume that your compatibility with partners follows an i.i.d. uniform distribution between [0, 1],</li>
+    </ul>
+  </li>
+  <li>If you ask a partner to marry you, they will say yes,</li>
+  <li>However, if you pass over a partner, you can never go back to ask them to marry you,</li>
+</ul>
+
+<p>Given this, what is the optimal strategy?</p>
+<h3 id="backwards-induction">Backwards Induction</h3>
+<p>begins by starting at the end and moving up to the beginning of the problem.</p>
+
+<p>In this case, if there is only one person left to meet, then this person will have an expected compatibility of 0.5, since we are drawing from a uniform distribution from 0 to 1.</p>
+
+<p>If the expected compatibility is 0.5, then anything over 0.5 is better than expected and under 0.5 is worse than expected. Essentially, we want to propose to anyone who is better than expected.</p>
+
+<p>Well, we know what to do if there’s one person left, but what if there are more people remaining?</p>
+
+<h3 id="hard-part">Hard Part</h3>
+<p>If there is more than one person left, let’s define that as N+1 people left, and the minimum compatibility that we will accept to be A. Let’s also define the minimum compatibility we will accept at N people left to be B.</p>
+
+<p>So, let’s try to find A from B using some case-by-case thinking with a hypothetical A’ which is a proxy for A:</p>
+<ol>
+  <li>If A’ is less than B, we would just want B</li>
+  <li>If A’ is greater than B, we want whatever A’ is</li>
+</ol>
+
+<p>So, when A’ is in the range from 0 to B, we want B, and when A’ is in the range from B to 1, we want A’. Let’s try to find the average compatibility that we will accept across all A’ then, since that will be A.</p>
+
+<p>To get the average compatibility for A’, we just average the <strong>score we are getting</strong> over the <strong>cases where that score will occur</strong>.</p>
+
+<p style="text-align: center;"><img src="/assets/images/back_induct_graph.png" alt="backinductgraph" />
+Case 1 is purple (left) and 2 is orange (right)<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>, the areas together become A.</p>
+
+<p>Specifically:</p>
+<ol>
+  <li>Purple is (B-0) * B, a square</li>
+  <li>Orange is (1-B) * A’, but this is actually a trapezoidal shape (1-B) * (1+B) / 2, which is (1-B^2) / 2</li>
+</ol>
+
+<p>Adding these, we get A = 1/2 + B^2/2.</p>
+
+<h3 id="methods">Methods</h3>
+<p>Now, let’s write a quick Python script to calculate this A for many steps, just modify N and you can run this code by just copy-pasting the below into this <a href="https://www.programiz.com/python-programming/online-compiler/">online code runner</a>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">N</span> <span class="o">=</span> <span class="mi">1000</span> <span class="c1"># the number of people left
+</span><span class="n">B</span> <span class="o">=</span> <span class="mf">0.5</span> <span class="c1"># the initial B
+</span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">N</span><span class="p">):</span> <span class="c1"># loop N times
+</span>  <span class="n">A</span> <span class="o">=</span> <span class="mi">1</span><span class="o">/</span><span class="mi">2</span> <span class="o">+</span> <span class="nb">pow</span><span class="p">(</span><span class="n">B</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span> <span class="c1"># the formula described above
+</span>  <span class="n">B</span> <span class="o">=</span> <span class="n">A</span> <span class="c1"># restart the process with B set as A
+</span>
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Minimum comptibility acceptable with </span><span class="si">{</span><span class="n">N</span><span class="si">}</span><span class="s"> people remaining: </span><span class="si">{</span><span class="n">B</span><span class="si">:</span><span class="p">.</span><span class="mi">3</span><span class="n">f</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+</code></pre></div></div>
+<p>This gives the following output with different N:<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
+<blockquote>
+  <p>Minimum acceptible compatibilities at 1 people remaining: 0.500</p>
+
+  <p>Minimum acceptible compatibilities at 10 people remaining: 0.861</p>
+
+  <p>Minimum acceptible compatibilities at 50 people remaining: 0.964</p>
+
+  <p>Minimum acceptible compatibilities at 100 people remaining: 0.981</p>
+
+  <p>Minimum acceptible compatibilities at 500 people remaining: 0.996</p>
+
+  <p>Minimum acceptible compatibilities at 1000 people remaining: 0.998</p>
+</blockquote>
+
+<h3 id="results">Results</h3>
+<p>So, let’s graph this result from 1 to 1000:</p>
+
+<p style="text-align: center;"><img src="/assets/images/marriage_line_plot.png" alt="lineplotmarriageproblem" />
+Line plot showing minimum acceptable compatibility at each remaining number of candidates in this variation of the Marriage Problem. I’ve also included a baseline for what some are willing to accept.</p>
+
+<h3 id="discussion">Discussion</h3>
+<p>So, as we can see, it rapidly goes from 0.5 to approaching 1, the model is saying, “If someone is not perfectly matched with you, then <em>just give up</em>.”</p>
+
+<p>Now, this weird outcome may seem like a problem with the model: there may be external factors that we are not considering or some problem with the process.</p>
+
+<p>These are valid concerns, since it’s unrealistic to not date anyone who isn’t an ideal match, but the gist of it is that you shouldn’t settle for less, and certainly not the <em>bare-minimum.</em><sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup></p>
+
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to Professor Andrew Sinclair for including this variation of the Marriage Problem in “Lecture 8: Fixed Income and LTCM” of BEM 114: Hedge Funds as bonus slides on backwards induction.</p>
+
+<p>If you are interested in exploring the code in a Python Notebook, check out this <a href="https://github.com/EngiTom/MarriageProblem">Github respository</a> or this <a href="https://colab.research.google.com/drive/1Tibjt5GbpHYTlDhTLTs5PpzROxkjTzex?usp=sharing">Google Colaboratory Notebook</a>.</p>
+
+<p>If you don’t know how to run code, I suggest going to the Notebook and pressing Connect in the top right and then pressing the triangle “Play button” on all of the code blocks.</p>
+
+<h2 id="art-is-observation">Art is Observation</h2>
+<p>I got a bit distracted exploring that idea, but now we are back on track!</p>
+
+<h3 id="jojos-reference">JoJo’s Reference</h3>
+<p>In Part 4 of <em>JoJo’s Bizarre Adventure</em>, the manga artist Rohan Kishibe claims that</p>
+
+<blockquote>
+  <p>“Reality is the energy that breathes life into a piece of work, and reality itself is entertainment.”</p>
+</blockquote>
+
+<p>Despite Rohan’s weird behavior, I agree completely with this statement because without understanding reality, or more specifically, <em>your reality</em>, you cannot portray that to other people to your fullest capability.</p>
+
+<h3 id="learning-reality">Learning Reality</h3>
+<p>Every time I learn how to draw something better, it feels really good. It’s like the feeling of reaching into a jar of candy and pulling out two pieces of candy.<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup></p>
+
+<p>For example, when I learned in a reel that you can draw noses simply by drawing some horizontal lines, I was completely amazed and needed to try it out. It actually went extremely well and ‘m Ishocked by my abilities.</p>
+
+<h3 id="back-to-the-drawing-board">Back to the drawing board</h3>
+<p>I’ve been drawing my friends on the Avery UGT lounge whiteboard and those have ended up being really nice drawings that I’m quite proud of. Obviously there are big improvements to be made like the shapes of things and their dimensions, but overall, you can get the vibe of the person just by seeing the picture.</p>
+
+<p style="text-align: center;"><img src="/assets/images/badapple.jpg" alt="badappledrawing" />
+Snow White and her stand, “BAD APPLE”</p>
+
+<p>My friend G drew Snow White on the board before I got to the lounge and so I turned SW into a JoJo’s character with a stand. I drew a dwarf with a funny hat with a cotton ball on top and called it “7 DWARVES” but then I named it “BAD APPLE” instead, after the song “Bad Apple” from Dance Dance Revolution.</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/57JRZbE80MLsYbmb24cPee" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<p>I think that this was the peak of my art, but it’s all based on my perception and observation of reality.</p>
+
+<h3 id="back-to-work">Back to Work</h3>
+<p>Well, the moment has passed. Gotta go do my midterms now.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>In case you are colorblind <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>I know it’s off by one, but it doesn’t matter <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>Which some are known to do <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4" role="doc-endnote">
+      <p>Or maybe I’m just conditioned to love drawing like a dog. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Art" /><category term="College" /><category term="Math" /><category term="Drawing" /><category term="Sketching" /><category term="Dating" /><category term="The Marriage Problem" /><summary type="html"><![CDATA[“Just give up.” — Prof. Andrew Sinclair]]></summary></entry><entry><title type="html">Works of Love</title><link href="https://engitom.github.io/travel/japan/life/sugar-is-not-sweet/" rel="alternate" type="text/html" title="Works of Love" /><published>2025-04-29T07:00:01+00:00</published><updated>2025-04-29T07:00:01+00:00</updated><id>https://engitom.github.io/travel/japan/life/sugar-is-not-sweet</id><content type="html" xml:base="https://engitom.github.io/travel/japan/life/sugar-is-not-sweet/"><![CDATA[<p>“Time is Fine.” — E and Oji of 日榮軒</p>
+
+<h2 id="candy">Candy</h2>
+<p>Sugar is not necessarily the only thing that tastes sweet.</p>
+
+<p>On this trip in Japan, I realized that happiness does not require much material. Perhaps to the extent that it affects health, but not more than that.</p>
+
+<p>In Kyoto, next to the Kinkaku-Ji, the Golden Pavilion, there’s a <a href="https://maps.app.goo.gl/pLhMeFzzJJaGbsEv5">40-year-old sweets shop known as 日榮軒</a> run by a 94-year-old man and a 86-year-old woman (we call them Oji-chan and Oba-chan).</p>
+
+<h3 id="the-happiest-place-on-earth">The Happiest Place on Earth</h3>
+<p>is definitely not Disney World. In fact, Disney is not even up for debate. It’s an artificial amalgamation of neural manipulation, but this sweets shop is a place where you get to witness what true happiness is in the form of love.</p>
+
+<p>It’s a work of love and love of work. I asked grandma what her favorite thing to make was, and she said that it was everything, “zenbu.” I knew she wasn’t just lying because there’s no way anything she didn’t like would have survived on that shelf of treasures through 40 years.</p>
+
+<h3 id="laughter">Laughter</h3>
+<p>We weren’t communicating very well, but we could get the gist of what we were saying to each other. With the help of Google Translate and Duolingo streaks, we were able to get some humor across:</p>
+
+<blockquote>
+  <p>Oba: What’s your schedule for the next few days?
+E: Today, we are going back to Osaka. Tomorrow, we are coming back to see Kyoto. Tomorrow-morrow, we are going around Osaka. Tomorrow-morrow-morrow, we are flying back to Los Angeles. 
+Everyone: LOL</p>
+</blockquote>
+
+<p>It was totally hilarious because E knew how to say tomorrow (ashita) but not the next day (asatte), so he just said “Ashita-ashita” and “Ashita-ashita-ashita!”</p>
+
+<h3 id="embarrassment">Embarrassment</h3>
+<p>At the end of the day, we took two pictures with them and were about to go back to Osaka, but Oji stopped us and tried to tell us to take the bus, drawing out a map in the process.</p>
+
+<p style="text-align: center;"><img src="/assets/images/oji.jpg" alt="the real golden pavilion" />
+K, A, R, R, E, T outside of 日榮軒 with Oji-chan</p>
+
+<p>We tried to tell him that we can go back by ourselves and that we were going to take the subway.</p>
+
+<p>I thought he kept yapping because he didn’t understand us saying we’re just gonna go to the subway because he doesn’t know how Google translate works, but when we left, it turned out that we were too far to walk to the subway and actually did need to take the bus.</p>
+
+<p>However, we already walked the wrong way at that point and needed to walk to the next bus stop to avoid him seeing us walk back the wrong way LOL.</p>
+
+<p>Before we left though, they gave us some free Daifukus, which are like mochis with filling. I’m not sure if this is some cosmicly unlikely event, but the mochis that she gave us were exactly the same colors as our clothes that day:</p>
+
+<ul>
+  <li>2 green</li>
+  <li>2 white</li>
+  <li>2 dark green</li>
+</ul>
+
+<p style="text-align: center;"><img src="/assets/images/daifuku.jpg" alt="daifuku" />
+6 Daifuku, made with love.</p>
+
+<p>Note that the characters for daifuku are 大福, which means Big Happiness if you do a literal translation. What an accurate translation.</p>
+
+<h3 id="tears-of-joy">Tears of Joy</h3>
+<p>The next day, I had the idea of printing the pictures we took and framing them as a present for them. I actually lost the USB for a while in my suitcase (I have no idea why I put it there) and lost my cool for a bit.</p>
+
+<p>We came back the next day to get more gifts for our classmates at Caltech<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> and to give them the pictures. In total, we probably spent like 200 bucks on sweets alone<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.</p>
+
+<h3 id="the-persistence-of-memory">The Persistence of Memory</h3>
+<p>When we were talking to grandpa, he decided to once again start to tell us how to get to our next destination, which was the Fushimi Inari Shrine in southeast Kyoto.</p>
+
+<p>This time, I took the advice and he drew a map which I took a picture of. Apparently, he’s memorized the bus and subway lines in Kyoto because he literally does not know how to use a phone since he was born during WW2.</p>
+
+<p style="text-align: center;"><img src="/assets/images/map_of_love.jpg" alt="map_of_love" />
+Map of Kyoto’s 204 bus route, drawn by Oji-chan</p>
+
+<h3 id="bliss">Bliss</h3>
+<p>By the end, even though we only spent a few moments together, everyone was crying and we hugged grandma and left to get in the bus-line. Before we got on the bus though, Oba-chan forced us to take some free sweets.</p>
+
+<p>On the bus ride to the subway station, I ate the free sweets that she gave us, and even though you could tell there wasn’t much sugar in it, it’s still the sweetest thing I’ve ever tasted.</p>
+
+<h2 id="onsen">Onsen</h2>
+<p>The onsen/hot spring in Arimaonsen near Kobe is really nice. I recommend eating the amazing beef and then going for a soak in there.</p>
+
+<h3 id="parasytic-theory">Parasytic Theory</h3>
+<p>Mosquitoes may serve a symbiotic relationship with humans because one of my friends told me about how she got bitten on the neck and it looked like a MASSIVE hickey.</p>
+
+<p>She was even asked by the chancellor of the house about this bite mark and it was super embarrassing.</p>
+
+<p>I used to know someone from high school who would only be romantically interested in those who had a partner already, and would immediately lose interest after the target broke up with their partner.</p>
+
+<p>Perhaps in the evolution of human society and mosquitoes, those who accidentally got these hickey-like marks were perceived to be of higher worth because they got marked by another person.</p>
+
+<p>Anatomically, it’s interesting because the neck is a place where there is both the easiest access to blood and where a person cannot reach with their own mouths.</p>
+
+<h3 id="usb-memory">USB Memory</h3>
+<p>I tried buying a USB storage disk in Japan but the guy at the counter didn’t know what storage was, so he kept trying to give me a converter.</p>
+
+<p>R found it and it was actually called USB memory, which is kind of interesting that the word is memory rather than storage. Perhaps it means something about the way I perceive information as something that’s stored rather than something that contains a <em>memory</em>.</p>
+
+<h3 id="time-is-fine">Time is Fine</h3>
+<p>At one point in our discussion with grandpa, he and E were talking at the same time in Japanese and both of their words mixed together and ended up exactly translating to “時間は大丈夫” (jikan wa daijoubu), which means “Time is fine” or “Time to be fine” depending on your interpretation.</p>
+
+<h3 id="so-its-the-same-type-of-class">So it’s the same type of class…</h3>
+<p>as Math 3. Turns out, every class is just statistics. You really can’t avoid it at all these days.</p>
+
+<p>I think stats should be taught in every high school and required over geometry, since all you need to know is the perimeter and area of a triangle, rectangle, and circle. Everything else in geometry is basically useless.</p>
+
+<h3 id="flies">Flies</h3>
+<p>In CS 179, Al was talking about how convolutional neural networks get really lost. A model might think that a panda is actually a monkey just with a bit of noise on top of the image.</p>
+
+<p>Similarly, flies who have simple vision systems are more likely to bite horses than zebras because zebra stripes tend to <a href="https://www.science.org/content/article/zebra-stripes-confuse-biting-flies-causing-them-abort-their-landings">confuse the hell out of flies up close.</a></p>
+
+<p>Just another day of learning in <strong>GPU Programming</strong>.</p>
+
+<h2 id="t-shirt-design">T-Shirt Design</h2>
+<p>I submitted a design to the annual Caltech store contest and I think I have a relatively good shot at winning.</p>
+
+<p>But if I lose, I might just print the shirt for myself because it’s a great design.</p>
+
+<h3 id="mike-the-t-shirt-collector">Mike the T-Shirt Collector</h3>
+<p>I competed in Hacktech this weekend and I met a dude called Mike who seemed to be a recruiter for some kind of company.</p>
+
+<p>He mentioned how he loves collecting t-shirts from hackathons that he’s been to and that I was apparently the “famous Caltech student” who they’ve heard about from my teammates E, E, and T.</p>
+
+<p>Apparently he had not seen a Caltech student that was participating in Hacktech until he met me which is totally insane and makes sense because everyone is so busy doing sets.</p>
+
+<h3 id="mike-the-ceo">Mike the CEO</h3>
+<p>On Sunday, we lost in the first round of judging but I went to the award ceremony for fun anyway and we actually won the “Best Use of Streamlit” award which was hilarious because I was the only one in my group remaining LOL.</p>
+
+<p>Mike congratulated me and we added each other on Linkedin. He was criticizing the Linkedin app’s QR Code UI design, which was totally valid because the QR code feature is in the search bar.</p>
+
+<h3 id="glory">Glory</h3>
+<p>After <em>winning Hacktech</em>, I decided to post about it on Linkedin and wanted to tag Mike. However, I found on his page that he was CEO and co-founder which was kind of interesting.</p>
+
+<p>Turns out, he’s the CEO and co-founder of Major League Hacking! There I was thinking he was just a t-shirt lover.</p>
+
+<h2 id="the-california-tech">The California Tech</h2>
+<p>As you know, I enjoy writing, so I started writing for <em>The California Tech</em> which is Caltech’s student newspaper.<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup> Here are links to articles that I wrote for this edition:</p>
+<ul>
+  <li><a href="https://tech.caltech.edu/2025/04/22/places-you-shouldnt-be/">Places You Shouldn’t Be</a></li>
+  <li><a href="https://tech.caltech.edu/2025/04/22/courses-that-dont-suck/">Courses That Don’t Suck</a></li>
+</ul>
+
+<h3 id="after-math">After math</h3>
+<p>After the articles came out in the paper, my friend J was texting me and mentioned this:</p>
+
+<blockquote>
+  <p>Also lol you could’ve also calculated the radius of a chicken nugget cake</p>
+</blockquote>
+
+<p>This was completely insane to me that someone would read my paper and I guess it’s also still crazy that people still read this blog but thanks everyone.</p>
+
+<h3 id="arc">ARC</h3>
+<p>Apparently, my second article caused a stir in the Academic and Research Committee because my joking comments about CS 179: GPU Programming were seen as a potential course complaint.</p>
+
+<p>However, R quickly shut it down by noting that “it’s just Tom,” which I was glad to hear because I would not want to cause any trouble for Al.</p>
+
+<h2 id="ultimately">Ultimately</h2>
+<p>Happiness is hard to find, but if it meets you, don’t let it slip away ever again.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>They loved the sweets, so you should go there too! <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>We were definitely the top customers of the week. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>This is also why I did not write on this blog for a while. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Travel" /><category term="Japan" /><category term="Life" /><category term="Tokyo" /><category term="Kobe" /><category term="Osaka" /><category term="Kyoto" /><category term="Sweets" /><summary type="html"><![CDATA[“Time is Fine.” — E and Oji of 日榮軒]]></summary></entry><entry><title type="html">Shear Luck</title><link href="https://engitom.github.io/stoicism/college/teaching/gaming/shear-luck/" rel="alternate" type="text/html" title="Shear Luck" /><published>2025-03-10T07:00:01+00:00</published><updated>2025-03-10T07:00:01+00:00</updated><id>https://engitom.github.io/stoicism/college/teaching/gaming/shear-luck</id><content type="html" xml:base="https://engitom.github.io/stoicism/college/teaching/gaming/shear-luck/"><![CDATA[<p>“Sheer Cold (Japanese: ぜったいれいど Absolute Zero) is an Ice-type one-hit knockout move introduced in Generation III.” — Bulbapedia</p>
+
+<h2 id="stoicism">Stoicism</h2>
+<p>It’s much easier to be a stoic with a good understanding of statistics because you realize just how indifferent randomness is to who you are.</p>
+
+<p>Bad things happen to you not because there’s a higher power that has a personal vendetta against you, but simply because you happen to be on the other side of luck.</p>
+
+<h3 id="epic-fails">Epic Fails</h3>
+<p>It’s important to fail and be laughed at because you realize that the people laughing do not actually care about you personally. If it were any other combination of audience vs failer, the audience would always laugh.</p>
+
+<p>I missed about 5 spikes in interhouse volleyball against some random house the other day and everyone was laughing, but it wasn’t anything personal, we won, and that was that.</p>
+
+<p>It’s not like I haven’t been embarrassed before or anything; it was much worse when I was busking in Shanghai and nobody stopped to listen. That felt like the entire city was laughing at me, so who cares about 20 nerds?</p>
+
+<h2 id="deliver">Deliver</h2>
+<p>Teaching is also quite luck-based, since whether a student understands an idea is somewhat up to probability based on their background, mood, and various other factors.</p>
+
+<p>I was at a middle school’s science night attempting to teach text compression through repeated phrases like “UMBO” in “WUMBOJUMBO” and there were two high schoolers who could not understand the lesson, but a five-year-old who got it immediately without much explanation.</p>
+
+<h2 id="points-of-failure">Points of Failure</h2>
+<p>I finished interviewing for a company last week and I’m not sure when the results will come out, but regardless of the outcome, I know that it can go either way.</p>
+
+<p>So, even though I can’t completely avoid the stress, I am prepared for things to go either way. Taking a wider view, my future will be better than the present whether it’s a rejection or an offer.</p>
+
+<h3 id="winners-curse">Winner’s Curse</h3>
+<p>Some of my friends who play <em>Genshin Impact</em> decided to host a random pull party where we all try to pull for a really good character called Furina.</p>
+
+<p>I have pretty incredible luck in the game, as I mentioned in a previous post, and I did end up getting Furina with only 50 pity<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>, so I guess my streak of luck has continued, but that may not necessarily be a good thing.</p>
+
+<p>By receiving a new character, I am incentivized to play the game more and lose more time on schoolwork and other projects. This could be seen as a negative rather than a positive.</p>
+
+<h3 id="free-stuff">Free Stuff</h3>
+<p>I’ve noticed that my roommate E really loves free stuff, and often does things just to get <em>free stuff</em> but I’ve realized that nothing is truly free because it costs time to acquire it.</p>
+
+<p>He’s going to spend an entire week in Washington D.C. at the end of the quarter which is a pretty bad idea since it’s literally finals week, but everything is going to be paid for by some company.</p>
+
+<h3 id="time">Time</h3>
+<p>is the most valuable in my opinion, along with health, and only after that, is money even in consideration. But above money is probably personal relationships.</p>
+
+<p>As I learned from Civ 6, no man is an island. Not only from the achievement, but also because I would spend hours on Civ rather than spending time with my friends, which turned out to be incredibly depressing.</p>
+
+<h3 id="down-with-the-sickness">Down with the sickness</h3>
+<p>I became sick the night before a quiz in finance and found out about the quiz the next day and asked to be excused from the quiz, but unfortunately the policy is that we must ask to be excused before the quiz but how are we supposed to know that we are sick beforehand?</p>
+
+<p>I find this very strange because it incentivizes always buying the option to miss class, which is what students seem to be doing because only 15 students show up to class.</p>
+
+<h2 id="who-is-">Who is ???</h2>
+<p>The Ws recently moved into Avery House and me and J helped carry a grill up to their apartment. After that incredibly difficult lift, we were granted permission to enter the apartment and pet their cats.</p>
+
+<p>I’ve never held a cat before, but they are very heavy and they are mostly fur in volume, I guess that’s how they get through tight gaps.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>The pity system automatically grants a 5-star character 50-50 after 75 pulls without receiving a 5-star character. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Stoicism" /><category term="College" /><category term="Teaching" /><category term="Gaming" /><category term="Volleyball" /><category term="Teaching" /><category term="Interview" /><category term="Genshin" /><category term="CS42" /><summary type="html"><![CDATA[“Sheer Cold (Japanese: ぜったいれいど Absolute Zero) is an Ice-type one-hit knockout move introduced in Generation III.” — Bulbapedia]]></summary></entry><entry><title type="html">Atlantas</title><link href="https://engitom.github.io/travel/college/atlantas/" rel="alternate" type="text/html" title="Atlantas" /><published>2025-02-24T08:00:01+00:00</published><updated>2025-02-24T08:00:01+00:00</updated><id>https://engitom.github.io/travel/college/atlantas</id><content type="html" xml:base="https://engitom.github.io/travel/college/atlantas/"><![CDATA[<p>“In the <em>very, very likely</em> eventt of a water landing…” — Spirit Flight Attendant</p>
+
+<h2 id="overview">Overview</h2>
+<p>Went to Georgia Tech (GT) with E, my roommate, to attend their new trading competition. Had fun, met up with friends, toured GT/Atlanta area.</p>
+
+<h2 id="trading">Trading</h2>
+<p>@ Georgia Tech seemed to be run decently well, at least an 8/10 on the trading competition scale, although there are still the usual problems.</p>
+
+<p>Note: I have never been to a trading competition, but I kind of have an idea for how much worse it could have been.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+
+<h3 id="smells-like-spirit-pt-1">Smells Like Spirit Pt. 1</h3>
+<p>To get the full travel reimbursement, we rode Spirit Airlines for $246 roundtrip and I actually ran into C, a TA for CS42, at ATL airport, so we saved some Uber money on the way back.</p>
+
+<p>Spirit did a lottery raffle on the way back where the person with a yellow sticker on their tray table wins a free flight. After watching Squid Game/going to a trading comp, this appears quite predatory because they are taking advantage of people’s inclination to gamble.</p>
+
+<h3 id="model-student">Model Student</h3>
+<p>I didn’t finish my homework for Ma 3 or CS 155 so I had to finish them between the competition rounds, and at the end during the competition.</p>
+
+<p>I was actually running a matrix factorization script for CS 155 in Colab instead of playing with the competition Colab and drawing a Huffman Tree instead of doing some pathfinding problem.</p>
+
+<h3 id="smells-like-spirit-pt-2">Smells Like Spirit Pt. 2</h3>
+<p>After taking the red-eye to ATL, I certainly smelled really bad and I was wondering how much that affected the outcome of the physical token trading game.</p>
+
+<p>Perhaps people were avoiding our team simply because we were stinky, or maybe we were creating a <em>trail of stink</em> that our opponents could not cross without suffering powerful nasal damage.</p>
+
+<h2 id="old-new-friends">Old New Friends</h2>
+<p>I met two friends at GT, P and K. P has appeared before in the 2024 July post<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.</p>
+
+<h3 id="pnk">PnK</h3>
+<p>Although our PnL<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup> was not very good, at least we had PnK to show us around.</p>
+
+<p>I met K a few years ago playing Minecraft Bedwars with P, and then transitioning to League during COVID. We’ve never met in person before but I guess we have now.</p>
+
+<p>She might be coming to LA in May, so hopefully she visits Caltech and E and I can give her a tour.</p>
+
+<h2 id="gtouring">GTouring</h2>
+<p>GT’s campus is very large and it has many roads going through it which I felt was quite unsafe, and is evidenced by how P knows at least two people who get into car accidents every semester.</p>
+
+<p>However, I think it is much nicer than Caltech’s campus because it is quite practical with roads cutting diagonally through most places, but also makes it harder to see new shortcuts.</p>
+
+<h3 id="clough">Clough</h3>
+<p>Clough Library is 7 stories tall and every study space contains the number of people you will see at Browne Dining Hall at Caltech. So, two of those and you would probably have more people than are at Caltech.</p>
+
+<p>They have quite a lot of manga at the library and a lot of computers/monitors. However, the study spaces/pods require reservation because there are so many people.</p>
+
+<p>I guess we need to do reservations too except most people seem to do homework in house lounges instead of the library.</p>
+
+<h3 id="filming">Filming</h3>
+<p>A portion of an <em>adult film</em> was filmed outside of the physics building at GT, or so I’ve heard.</p>
+
+<p>In other news, the new Captain America movie (which E lost an online bet on) also did filming in Clough. At P’s lab building, Coda, they converted the outside of it to a Chinese ER two weeks ago for the new Karate Kid with Jackie Chan.</p>
+
+<p>I don’t know why they’re still making Karate Kid after the Jaden Smith one but I guess they’re still going at it. P’s PI apparently got to meet Jackie Chan which is super cool. He should get back to making <em>Rush Hour 4</em> though.</p>
+
+<h3 id="food-options">Food Options</h3>
+<p>Food options at GT seems very plentiful compared to Caltech but after further analysis it’s actually just fast food that there are options for.</p>
+
+<p>For good food, you generally need to drive off-campus or eat the same few restaurants.</p>
+
+<p>However bad the restaurants around Caltech may be, at least we can drive off-campus for guaranteed S-tier food.</p>
+
+<h3 id="fun-fact">Fun fact:</h3>
+<p>I had a group hug with P and K at the end, so they also suffered massive nasal damage, probably. P tried to avoid it but he ran out of jukes a long time ago…</p>
+
+<h2 id="uber">Uber</h2>
+<p>We had two interesting Uber rides from and to ATL.</p>
+
+<h3 id="fst-uber">fst Uber</h3>
+<p>A young Kendrick fan picked us up from the airport except he wasn’t able to get into the correct pickup zone because he didn’t have the license to do pickups from the airport.</p>
+
+<h3 id="snd-uber">snd Uber</h3>
+<p>On the way back, the driver was calling a guy on the phone who seemed to have tricked him into losing $350 on some kind of gamble so he was basically just arguing with that guy the whole time.</p>
+
+<h2 id="wayback">Wayback</h2>
+<p>We actually ran into a TA for a Caltech class at ATL on the way back, so we hitched a ride and saved some Uber money.</p>
+
+<h3 id="flight-or-lottery">Flight or lottery?</h3>
+<p>Spirit did a lottery raffle on the way back where the person with a yellow sticker on their tray table wins a free flight. After watching Squid Game/going to a trading comp, this appears quite predatory because they are taking advantage of people’s inclination to gamble.</p>
+
+<p>That may have sounded funny coming from someone who went to a literal gambling competition, but it seems very possible that people would be more inclined to come back just because there’s a raffle.</p>
+
+<h3 id="rng">RNG</h3>
+<p>B was sitting in the middle seat and there was a girl on the other side who was incredibly interesting.</p>
+
+<p>She didn’t know how to put on the seatbelt at first and we had to tell her how to do it. She was trying to put it in backwards; perhaps she has never been on a plane before.</p>
+
+<p>During the flight, she was sleeping and putting her leg up and pretty far into B’s territory, which made B quite uncomfortable, but it was manageable; much less annoying than the old dude in front snoring really loudly for 20 minutes.</p>
+
+<p>Near the end though, the descending announcement woke everyone up but the girl was still half-asleep and she started grabbing B’s thighs very aggressively and B completely freaked out and did not know what to do.</p>
+
+<p>I thought it was kind of hilarious that she was still half-asleep and doing that but I guess it wasn’t that funny to B.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>With worse cheating, information leaks, technical problems, problem design flaws. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>P is my middle school friend and he used to live in Japan. Now he is a sophomore at GT. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>PnL = Profit and Loss <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Travel" /><category term="College" /><category term="Gatech" /><category term="Atlanta" /><category term="Georgia" /><category term="Trading" /><summary type="html"><![CDATA[“In the very, very likely eventt of a water landing…” — Spirit Flight Attendant]]></summary></entry><entry><title type="html">Snow in Pasadena</title><link href="https://engitom.github.io/disasters/teaching/snow-in-pasadena/" rel="alternate" type="text/html" title="Snow in Pasadena" /><published>2025-02-18T08:00:01+00:00</published><updated>2025-02-18T08:00:01+00:00</updated><id>https://engitom.github.io/disasters/teaching/snow-in-pasadena</id><content type="html" xml:base="https://engitom.github.io/disasters/teaching/snow-in-pasadena/"><![CDATA[<p>“It’s your golden hour.” — JVKE</p>
+
+<h2 id="city-of-gold">City of Gold</h2>
+<p>People like to take photos during golden hour, which usually right before the sunset.</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/4yNk9iz9WVJikRFle3XEvn" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<p>The last few days in Pasadena, every hour of sunlight has been golden hour.</p>
+
+<p>Sometimes, it even snows. Ashes, but still pretty.</p>
+
+<h3 id="first-snow">First Snow</h3>
+<p>Starting on Tuesday 7th, massive gusts of wind woke me up and there were torrents of leaves flying past my window.</p>
+
+<p>Later, when I went to class, I thought it was a bit chilly and I talked to J about it. He said that we should definitely ask M, a friend who is quite the expert in meteorology.</p>
+
+<p>M said it was just the Santa Ana winds.</p>
+
+<h3 id="second-wind">Second Wind</h3>
+<p>Apparently, there were 60 mph winds coming down the mountain from the north. Naturally, this knocked over a few power lines and caused some fires.</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/6yh3aP8HuImur7v8p1P8fz" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<p>At some time after dinner ~18:30, it smelled like grill night but it was unclear where the smell was from, but I could see some smoke in the north.</p>
+
+<p>This was apparently the start of the Eaton Fire which spread east and west in Altadena around 8 miles and north and south 5 miles, covering 10.6k acres by the 8th, then 13.7k and 14k the following days.</p>
+
+<p>I asked my brother whether the fires would reach the school and he replied that it was impossible because there just aren’t enough trees for the fire to jump to.</p>
+
+<p>However, if the wind picks up again like it’s expected to, things may actually get really bad.</p>
+
+<h3 id="crowd-control">Crowd Control</h3>
+<p>At Caltech, most people have left to the south in Irvine or Orange County. Some people have even escaped to the Bay Area or the east coast.</p>
+
+<p>The main reasons to escape include the uncertainty of water contamination and air pollution as a result of burning buildings with asbestos, benzene, lead, and all sorts of delicious chemicals.</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/77ISXDULTIOiUoKGyY1hFb" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<p>In the midst of the chaos, there have been lootings and even more arson. While the cause of the big fires are unknown, it may be a mix of arson and the wind.</p>
+
+<p>Incredibly, E ordered a lot of masks the day before the fire simply because he doesn’t like to wear sunscreen. Thanks to that, we had masks immediately when we needed it.</p>
+
+<h2 id="fourth-wall">Fourth Wall</h2>
+<p>Typically hiding behind a screen whenever there are bad things happening in the news, I’ve actually gone to the other side, a victim of nature’s plot.</p>
+
+<p>If you look at an aerial photo of the Pacific Palisades, it appears to be as bad as various warzones. As a longtime player of <em>Enlisted</em>, the scenes reminded me of France from WW2 with buildings stripped to the bone.</p>
+
+<h3 id="arcanist">Arcanist</h3>
+<p>Some student took an amazing photo from the top floor of Caltech Hall and it looks exactly like Heimerdinger’s memory of the world collapsing from people using magic.</p>
+
+<p style="text-align: center;"><img src="/assets/images/link" alt="alttext" />
+View of Altadena from Caltech Hall</p>
+
+<h2 id="how-to-survive-the-apocalypse">How to survive the apocalypse</h2>
+<ol>
+  <li>Get some bottled water</li>
+  <li>Wear a mask</li>
+  <li>Don’t go outside</li>
+</ol>
+
+<p>This is sounding an awfully lot like 2020 all over again, huh?</p>
+
+<h2 id="cs42-notes-on-teaching">CS42 Notes on Teaching</h2>
+<p>I’m taking a course CS42 on how to teach math and science and I have to do a weekly discussion question and take notes, so I guess I’ll just write it here:</p>
+
+<h3 id="how-children-learn">How children learn:</h3>
+<ul>
+  <li>Babies prefer clear images to blurry ones, kind of clever experiment where they rigged pacifier suction level to the focus of a TV</li>
+  <li>Babies prefer learning new things due to habituation, when they get used to something they lose interest.</li>
+  <li>Children have bad memories, so use chunking</li>
+</ul>
+
+<h3 id="computational-thinking">Computational thinking:</h3>
+<ul>
+  <li>Everyone should learning how to think like a computer scientist</li>
+  <li>Q: How can everyone learning to think like a computer scientist if there are not enough people who understand computational thinking in K-12 education to teach it? For instance, 170k students took AP CSP in 2024 but there are 17 million high school students in America, so 1% of all students are learning computational thinking.</li>
+</ul>
+
+<h3 id="learning-objectives">Learning objectives:</h3>
+<ul>
+  <li>Objective before content</li>
+  <li>Students should be able to ___</li>
+  <li>Remember, understand, apply, analyze, evaluate, create</li>
+</ul>
+
+<h2 id="cooking-ingredients">Cooking ingredients</h2>
+<p>Meat: Pork
+Vegetable: Maybe asparagus or bean sprout stirfry</p>
+
+<h3 id="what-really-happened">What really happened</h3>
+<p>I bought some flank steak from trader joes along with some asparagus, bell pepper, and an onion.</p>
+
+<p>For lunch, I made some rice (with way too much water) and stirfry beef + bell pepper + half an onion.</p>
+
+<p>It wasn’t that great since I didn’t remember soy sauce for the stirfry and I also had to eat C’s leftover rice from a restaurant because my rice was so disgustingly mushy.</p>
+
+<p>For dinner though, I made some adaptations with the use of soy sauce and putting less water in for the rice. I clearly didn’t put enough water because by the time the bottom was getting dry the rice was still hard.</p>
+
+<h2 id="what-do-boys-do">What do boys do?</h2>
+<p>I noticed that a lot of my classmates had a very boring childhood so I would like to explain some of the things that my friends and I did for fun.</p>
+
+<h3 id="sounds">Sounds</h3>
+<p>Whoever could make the strangest sound was highly respected, for example, I remember this kid Z was really good at making dolphin sounds, and another kid C who could burp the alphabet. Really impressive stuff.</p>
+
+<p>There were also a variety of fart simulations like the armpit technique, along with the lesser-known kneepit variation.</p>
+
+<h3 id="actions">Actions</h3>
+<p>There’s a funny thing you can do with a hoodie which is putting one arm at your stomach and the other holding the empty sleeve, then moving them up and down in alternating fashion to create one of the most striking, almost inhuman, movements.</p>
+
+<p>I did this to J yesterday and he said “I haven’t seen that since elementary school!”</p>
+
+<p>Tag is one of the great games of all time with the freeze and zombie variations.</p>
+
+<h2 id="more-notes-on-teaching">More notes on Teaching</h2>
+<p>The annoying thing about teaching kids is that they can’t pay attention for more than a few seconds to something you say. This is really bad if you are trying to teach them a complex idea.</p>
+
+<h3 id="what-kinds-of-practice-and-feedback-enhance-learning">What kinds of practice and feedback enhance learning</h3>
+<p>Practice should be focused on the goal, like playing a whole piano piece vs focusing on just the hard part. Goal-directed practice + targeted feedback. Feedback must be linked to another opportunity to apply the skill.</p>
+
+<h3 id="explanatory-power-of-the-hierarchy-of-student-needs">Explanatory Power of the Hierarchy of Student Needs</h3>
+<p>Students need to feel safe emotionally and intellectually. They also need belonging/esteem which only few teachers can achieve. Some kind of inside joke seems like a good bonus, and I think DMO does a lot of things that help with student needs.</p>
+
+<p>Inclusivity and equity are also mentioned as parallel to the goals of satisfying student needs. However, I wonder whether it would be <em>correct</em> to personally request a high-performance student to ask dumb questions to encourage insecure students to ask questions.</p>
+
+<p>On an individual basis, this student is no longer equals with their peers, but other students have been led to believe that this student is also capable of asking bad questions.</p>
+
+<h3 id="why-do-student-development-and-course-climate-matter-for-student-learning">Why Do Student Development and Course Climate Matter for Student Learning?</h3>
+<p>Student’s level of development/maturity interacts with classroom climate.</p>
+
+<p>The Chickering model suggests many dimensions like competence, emotions, autonomy, identity, purpose, integrity.</p>
+
+<p>“Climate works in both blatant and subtle ways, and many well-intentioned or seemingly inconsequential decisions can have unintended negative effects with regard to climate.”</p>
+
+<p>This tip would suggest that teachers cannot ensure every student’s needs are met, but they can improve the learning experience by adapting to students’ level of development.</p>
+
+<p>In one of the examples, the professor does not call on women students in lecture because he doesn’t want to put them on the spot, which results in patronization. However, in a K-12 setting, it’s important to not put too much pressure on insecure students by singling them out because they may become even less confident in the future.</p>
+
+<p>Q: If students are supposed to be treated equally, how can teachers shrink the gap between the <em>best</em> and <em>worst</em> students without treating them differently?</p>
+
+<h3 id="responses">Responses</h3>
+<p>I posted this question on the course forum and a student responded that “best” and “worst” are bad labeling and I agree because I don’t really agree with this framing in the first place, that’s why I put asterisks around them.</p>
+
+<p>However, this student immediately said afterward that an example of how to resolve the problem is the way Caltech gives some first years supplemental math and writing courses</p>
+
+<h2 id="ai">AI</h2>
+<p>I was quite surprised to learn that data augmentation/hallucination is equivalent to regularization. I guess it makes sense because you are making the</p>
+
+<h2 id="resnick-sustainability-institute">Resnick Sustainability Institute</h2>
+<p>I recently attended a talk by a JPL Chief Scientist of some science directorate and it was super boring and I will probably not go to one of those talks again.</p>
+
+<p>Essentially, the guy was talking about how he was asking people at JPL to write 3 pages each for his 90 page report on how climate change is going to influence the lab itself and LA county.</p>
+
+<p>It seems completely pointless to write this kind of report because it’s just going to become a stack of paper on some officials’ desk which will inevitably get thrown in the trash after it’s never opened.</p>
+
+<p>Even worse, this guy was more excited about the prospect of “holding a printed copy” of the report than helping anyone affected by the fires. By the way, he has a $400K budget for this report and 1000 copies are going to be printed and not publicized.</p>
+
+<p>There’s a lot of</p>
+
+<h3 id="cognitive-dissonance">Cognitive Dissonance</h3>
+<p>where he wants to appear to make an impact (he mentions things like how the 2028 Olympics are going to be hosted in LA) but it’s also a report that people will never see or care about because it’s not going to be available to the public.</p>
+
+<p>When one of the audience members (I think it was some hotshot at RSI because he’s at all of these talks) asked a question relating to wildfires, the first thing he responded with was how “successful” the webinar from a few weeks ago was, since it had 2000 people.</p>
+
+<p>Then, he mentioned that after the fires happened, he was in talks with a coauthor who said that it may be better to change the whole report to just be about wildfires, but he quickly dismissed that idea because of all the time that already went into writing the paper (two months as of then).</p>
+
+<p>So, basically he’s basically applying the sunk-cost fallacy because he would rather keep going on a doomed path where thousands of dollars have already been wasted than find better alternatives. Or maybe it’s actually impossible to have 30 people write 3 pages each in 2 months.</p>
+
+<h2 id="anemoculus-collector">Anemoculus Collector</h2>
+<p>Genshin is a game that I have disliked for many years, but I finally tried it and it’s actually quite fun. Essentially, you do quests, explore the world, fight monsters, do puzzles, and lootbox pull new characters.</p>
+
+<p>I got lucky and pulled two five-star characters within 20 pulls, so that got me playing a bit too much every day.</p>
+
+<h3 id="satisfying-parts">Satisfying Parts</h3>
+<p>The fighting is quite satisfying initially because there are many elemental combinations that do bonus damage, so you can use one character of water type and attack with fire type later to <em>vaporize</em> the enemy. This teaches kids phase transitions pretty well, I guess.</p>
+
+<p>Some parts of the story are incredibly interesting and the environment is very engaging, especially in the region based on Atlantis. The art quality is super good and it really immerses the player.</p>
+
+<h3 id="unsatisfying-parts">Unsatisfying Parts</h3>
+<p>If you pull a newer character, then you need to go far from the original continent to level them up which messes up the feeling of the intended progression, and sometimes it feels like you’re going places just so you can teleport to them later.</p>
+
+<p>The stamina system is incredibly annoying because you can only run for a few seconds before you have to recharge and walk. If you run out of stamina while climbing a mountain or swimming, you fall/drown.</p>
+
+<p>Some of the puzzles are super confusing because there is no explicit goal, it’s kind of like those physical puzzles where you are trying to open the box but there’s no rules given. I guess your enjoyment depends on how much you like that but for me it’s not that satisfying.</p>
+
+<p>Mining ore is also annoying because you need a claymore (big sword) character to mine anything but you may have a better character so there’s no point in having that character in your party.</p>
+
+<h2 id="genetic-algos-for-ensemble-blending-to-dmo">Genetic Algos for Ensemble Blending: to DMO</h2>
+<p>I’m taking a machine learning course where we form teams and compete against each other to make the best model for some task like song popularity classification and my team had a pretty wild performance from last place 50th to 3rd to 26th.</p>
+
+<p>My friend accidentally selected a terrible model from day 1 and that was averaged with the really good model made with genetic algorithms. We would have been 14th if there was no accident.</p>
+
+<p>There’s a concept of blending model predictions together with a weighted average which can decrease variance in the predictions and hopefully predict better on the testing data.</p>
+
+<p>So, I wrote a GA to crossbreed different sets of weights for 5 different models and the results were better than all the other stuff we tried.</p>
+
+<h3 id="rbf-applied-ml">RBF: Applied ML</h3>
+<p>The RBF kernel is the radial basis function kernel which can be applied to support vector machines for classification machine learning problems.</p>
+
+<p>It also stands for something else which some of my friends used to describe my typical disposition.</p>
+
+<h3 id="re-genetic-algos-for-ensemble-blending">Re: Genetic Algos for Ensemble Blending</h3>
+<p>DMO wrote back a few days later that they couldn’t find a new CS teacher and that there’s only one semester of Applied Algorithms now, which is very unfortunate, but there are always ups and downs I guess.</p>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Disasters" /><category term="Teaching" /><category term="Wildfires" /><category term="Genshin" /><category term="CS42" /><category term="Genetic Algorithms" /><summary type="html"><![CDATA[“It’s your golden hour.” — JVKE]]></summary></entry><entry><title type="html">Resolve</title><link href="https://engitom.github.io/new%20years/goals/exercise/resolve/" rel="alternate" type="text/html" title="Resolve" /><published>2025-01-01T05:00:01+00:00</published><updated>2025-01-01T05:00:01+00:00</updated><id>https://engitom.github.io/new%20years/goals/exercise/resolve</id><content type="html" xml:base="https://engitom.github.io/new%20years/goals/exercise/resolve/"><![CDATA[<p>“I’m good at everything except the things I can’t do.” — Player 212, <em>Squid Game</em></p>
+
+<h2 id="resolutions">Resolutions</h2>
+<p>I wanted to check if I fulfilled my 2024 resolutions but for some reason, I didn’t write any for 2024, 2023, or 2022 on the blog. Anyway, it’s time to look forward.</p>
+
+<h3 id="making-a-list">Making a list</h3>
+<p>My 2025 New Years Resolutions are as follows:</p>
+<ul>
+  <li>Watching less reels and YouTube and Webtoons 😔</li>
+  <li>Learn something new and meaningful every day</li>
+  <li>100 pushups, 100 situps, and 100 squats every day</li>
+  <li>Healthy sleep schedule</li>
+</ul>
+
+<p>I think this is a solid short list of things I can reasonably accomplish. It’s short so I can always remember and it’s mostly under my control.</p>
+
+<p>It’s also a list that naturally blends into other goals like not being on a screen all the time. To learn something new that’s meaningful, maybe I’ll read a book or an article instead of watching reels.</p>
+
+<h3 id="checking-it-twice">Checking it twice</h3>
+<p>Entertainment is just a kind of dopamine shot, and if those shots all come from consuming useless content, it will crowd out space for useful things.</p>
+
+<p>To accomplish my exercise goal, I’ll need to take a break from whatever it is that I’m doing at regular intervals, which would help me stand up more. It would also help reset my mind which does too much thinking.</p>
+
+<p>I haven’t set up any punishment because I hope that these things will become habits and eventually a part of me. There doesn’t need to be an external punishment for not being me.</p>
+
+<h3 id="project-goals">Project goals</h3>
+<p>I have some projects I would like to get done this year:</p>
+<ul>
+  <li>Fun machine learning application</li>
+  <li>Fully produced song</li>
+  <li>VSauce-style YT video</li>
+  <li>Mobile app available for download</li>
+  <li>At least one blog post per month</li>
+  <li>Cook for myself a few times</li>
+</ul>
+
+<p>Some of these may need to take place during the summer but I plan to incorporate some of them into my daily routine as well.</p>
+
+<h2 id="moving-on">Moving On</h2>
+<p>I saw some sign in the NYC subway that said, “Life can only be understood backwards but it can only be lived forwards.”</p>
+
+<p>This is pretty good advice that I sometimes fail to take. It can be easy to get emotionally attached to the past, but maybe I will be wiser this year.</p>
+
+<p>I plan to spend some more time with friends as well, since that’s really the fun part of life anyway.</p>
+
+<h3 id="friends-resolutions">Friends’ resolutions</h3>
+<p>Here are some of my friends’ resolutions for the new year:</p>
+<ul>
+  <li>Writing resolutions</li>
+  <li>Read good books and eat good</li>
+  <li>Spending time with friends</li>
+  <li>Drink water</li>
+  <li>Look at more birds</li>
+  <li>Sleep earlier</li>
+  <li>Make music</li>
+  <li>Stop being constipated</li>
+</ul>
+
+<h3 id="appreciation">Appreciation</h3>
+<p>I think it’s important to appreciate the problems in our lives because without those problems, we would just make different problems for ourselves.</p>
+
+<p>For example, a lot of students stress out about finding internships, but if given the chance to start a job in exchange for taking gap years from college, I think many would hesitate to graduate without their classmates.</p>
+
+<h3 id="shell-game">Shell Game</h3>
+<p>My old math teacher Mr. P once mentioned a student who had the power to memorize everyone’s name in the class by only listening once.</p>
+
+<p>This is nice ability to have because on a basic level since people tend to like when you remember their names.</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/ceFFEmkxTLg" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>My friend was worried that since they couldn’t mention anything good about their friends off the top of their head, it must mean that they don’t care about their friends, but that isn’t necessarily the case.</p>
+
+<p>It’s probably just that they aren’t sleeping enough or they aren’t too focused on turning how they feel into words. Or, according to the video above, there may not be enough repetitions to actually induce memorization.</p>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="New Years" /><category term="Goals" /><category term="Exercise" /><category term="Resolutions" /><category term="One Punch Man" /><summary type="html"><![CDATA[“I’m good at everything except the things I can’t do.” — Player 212, Squid Game]]></summary></entry><entry><title type="html">The Days Have Worn Away</title><link href="https://engitom.github.io/home/chemistry/the-days-have-worn-away/" rel="alternate" type="text/html" title="The Days Have Worn Away" /><published>2024-12-27T05:00:01+00:00</published><updated>2024-12-27T05:00:01+00:00</updated><id>https://engitom.github.io/home/chemistry/the-days-have-worn-away</id><content type="html" xml:base="https://engitom.github.io/home/chemistry/the-days-have-worn-away/"><![CDATA[<p>“That which inspires us to our greatest good is also the cause of our greatest evil.” — Viktor, <em>Arcane</em></p>
+
+<h2 id="visiting-home">Visiting home</h2>
+<p>As a college sophomore returning home, it’s strange that I’ve begun to see myself as more of a visitor. Since I haven’t been home since March, my body is no longer adapted to the cold.</p>
+
+<h3 id="old-feelings">Old feelings</h3>
+<p>There are some things you can only feel when you’re at home. Some combination of synapses, negative celsius weather, and the low hums of the heart reignite a sort of passion.</p>
+
+<p>Why do people live in the cold? It’s because it’s what they know, and that’s a good enough reason. In the escape from the known, you realize that gut feelings are the guide for reasons.</p>
+
+<p>Most people don’t move around their entire lives and experience different things.</p>
+
+<p>There’s a simplistic beauty in sticking to what you know. Adapting to new situations isn’t always the most important. Sometimes, you just need to do what you know best.</p>
+
+<p>It’s like that Dunkey TF2 video where he keeps switching to the class that kills him but only ends up perpetuating the cycle.</p>
+
+<h2 id="birder">Birder</h2>
+<p>A friend J from my middle school recently got into Caltech through REA. I helped read some of his material and it was actually quite impressive.</p>
+
+<p>From my perspective, it would be a no brainer to admit him based on academics alone, but that can be said for many of the applicants who end up getting rejected. I think it really came down to his very special narrative with his hobby of birdwatching.</p>
+
+<p>My middle school has a small birdwatching club which has spotted 100 species of birds flying over the campus. J found two additional species in his time at the school, making it 102.</p>
+
+<p>To clarify, the kind of passion he has is not something that can be imitated. It’s important to have true passion, which seems to be the only real thing left in a world of imitations.</p>
+
+<h2 id="the-days-have-worn-away">The Days Have Worn Away</h2>
+<p><em>Team Fortress 2</em> by Valve (company behind <em>Portal</em> and <em>Half-Life</em>) is an ancient 2007 hat simulator and my favorite FPS game of all time.</p>
+
+<p>Today, they released the seventh and <a href="https://www.teamfortress.com/tf07_thedayshavewornaway/">final chapter of the TF2 comic series</a>. I recommend reading the entire series but it’s important to watch the <em>Meet the Team</em> videos on YouTube before you read it.</p>
+
+<p>The game was essentially dropped by Valve in 2017, when the last major update was released. The game certainly holds up even with some outrageous balancings that become obvious in casual servers.</p>
+
+<p>However, it still brings back great memories and a gameplay loop that reminds me of back when things were simpler.</p>
+
+<h2 id="nile">Nile</h2>
+<p>Recently, I’ve been watching a lot of NileRed and NileBlue videos. He’s one of my favorite science YouTubers and I really enjoy the videos where he tries to process foods in unique ways.</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/CglNRNrMFGM" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>In this video, he tries to make bulletproof wood by soaking it in some chemicals to remove most of the plant material so that he can then use a hydraulic press to heat up and squish the wood so that it can get denser.</p>
+
+<p>From Geology 1, my first guess as to why it didn’t work exactly as the paper stated is because the wood that Nigel cuts has a diagonal endgrain, which would allow the wood to form <em>normal faults</em> when there is pressure forcing it apart.</p>
+
+<p>This is supported by how the second piece of wood looks much better on the right than the left. The right had flat lines while the left had diagonal lines. So, on average, the left is weaker to pressure than the right.</p>
+
+<p>The two machined pieces of metal were a super good idea though, and it’s crazy how it actually works in the end. I was just interested to share a bit of <em>applied geology</em>.</p>
+
+<h3 id="video-ideas">Video Ideas</h3>
+<p>NileBlue is a bit more interesting than NileRed to me because it just seems like a lot more fun and less serious, which is the kind of content I enjoy.</p>
+
+<p>I actually kind of want to do something mildly related to chemistry on my YT channel now just for fun, like making a video about making soap or something. That might be fun.</p>
+
+<p>However, the worst chemistry is the same as the worst part of cooking: washing the dishes. In cooking, you always need to protect against cross-contamination of germs, but in chemistry, you have to prevent cross-contamination of everything.</p>
+
+<h2 id="double-digits">Double Digits</h2>
+<p>I reached double digits today at age of XX.</p>
+
+<p>I’m quite excited to see how things will unfold in the next few years, but looking back, I’ve been a real idiot with a lot of fails and a lot of triumphs, at least I’m hoping.</p>
+
+<p>Still, I’m glad I’ve made a lot of amazing friends along the way, I have a great family, and I’ve provided plenty of trouble for all of them. One day, I hope I’ll be able to lessen the load.</p>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Home" /><category term="Chemistry" /><category term="TF2" /><category term="NileRed" /><category term="Birthday" /><summary type="html"><![CDATA[“That which inspires us to our greatest good is also the cause of our greatest evil.” — Viktor, Arcane]]></summary></entry><entry><title type="html">24</title><link href="https://engitom.github.io/college/studying/projects/reflection/health/twenty-four/" rel="alternate" type="text/html" title="24" /><published>2024-11-17T05:00:01+00:00</published><updated>2024-11-17T05:00:01+00:00</updated><id>https://engitom.github.io/college/studying/projects/reflection/health/twenty-four</id><content type="html" xml:base="https://engitom.github.io/college/studying/projects/reflection/health/twenty-four/"><![CDATA[<p>“I am free and that is why I am lost.” — Franz Kafka</p>
+
+<p>Note: this post was written mostly in November but was released on Dec 15th.</p>
+
+<h2 id="24">24</h2>
+<p>24 Points is a game I’ve played since middle school.</p>
+
+<p>It’s a simple game: draw four cards from a deck of playing cards and make the number 24 using all of the cards while being able to use +, -, /, * in any order and quantity. Jack is 11, Queen is 12, King is 13.</p>
+
+<p>I remember a grade tournament where E would smoke everyone from the other classes, and I still respect E to this day as one of the GOATs of this game.</p>
+
+<p>Later on, another student M made an app for iOS to allow people to play anywhere. It’s a pretty fun game and I recommend downloading 24 Points by M on the App Store.</p>
+
+<h3 id="overfit">Overfit</h3>
+<p>My friends at school started playing it last month and have gotten pretty good. It requires a certain kind of intuition that you can’t get unless you play the game a lot.</p>
+
+<p>Last time I checked with E in high school, he had already played 30k+ hands of 24. That means he’s seen every combination of possible multiple times.</p>
+
+<p>The first day playing with J, E, and R, we noticed that J was way too fast (because he practiced). To even the playing field, we played 21 points instead, and J started struggling a little.</p>
+
+<h3 id="adapting">Adapting</h3>
+<p>When dropped into a new environment, the first thing people seem to do is find out as much as possible and identify all the patterns.</p>
+
+<p>However, after a certain point, the patterns get locked, and it turns from pattern recognition to memorization. That’s what seemed to happen to us as we got better at the game.</p>
+
+<p>By swapping the number, there’s a sense of testing true skill in terms of using similar patterns with different numbers.</p>
+
+<h3 id="strategies">Strategies</h3>
+<p>I noticed everyone’s general skills:</p>
+<ul>
+  <li>E likes a balanced binary tree sort of approach where you take two groups of two cards and you test all the combinations between them. This is a generally good approach for multiplication since 24 has a lot of factors.</li>
+  <li>R sees a stack of operators and functions, like ((…) + 3) * 6 sort of, which allows him to find unusual addition and subtraction combinations. He might go to a seemingly random number like 50 and then subtract 26, something like that.</li>
+  <li>J seems to know a bit too much so he employs a lot of strategies…</li>
+</ul>
+
+<h2 id="crawl">Crawl</h2>
+<p>I haven’t posted for a while or written anything because I’ve been really busy with homework up to recently. So, I couldn’t do much reflection on myself or my actions, which is bad.</p>
+
+<p>The main reason is that I got some pretty bad midterm grades which made me feel a little bit doomed. However, looking back, it doesn’t seem like tunnel vision but it doesn’t seem like it was as bad as it seemed.</p>
+
+<p>Sometimes, the only way out is forward, and you can’t let every bump in the road stop you.</p>
+
+<h3 id="hard-way">Hard way</h3>
+<p>I learned that the hard way by falling off my skateboard four times within a month. Every time the scab was almost gone, I fell again and it just started bleeding again.</p>
+
+<p>Sure, I could blame the people who don’t pave the roads properly or the guy who was smoking ahead of me on the sidewalk that caused me to go onto the road at an inconvenient angle, but there’s no point in getting mad or upset about things I can’t control.</p>
+
+<p>The same is true for my test grades. I certainly could have prepared a lot better instead of playing games or reading webtoons. It just makes me wonder: how many times am I going to repeat the same mistakes without changing?</p>
+
+<h2 id="vision">Vision</h2>
+<p>I went swimming with J at night last week and hit my toe on the wall as I was kicking, which bruised it and led to my skateboarding being weaker.</p>
+
+<p>Right before my last fall after my front wheel got stuck inside of a large crack, I had a premonition that I would fall if I wasn’t going fast enough.</p>
+
+<p>I’ve known about that crack for a long time and I go over it an average of once a day.</p>
+
+<p>This time I went uphill to the crack reasonably fast. I got real close, saw my fate, and fell.</p>
+
+<p>Luckily it didn’t do much damage because I was pretty slow, but I learned something new. The crack gets bigger in the middle, which is in the middle of the street. So, next time, I’ll just go to the side.</p>
+
+<h3 id="enough">enough</h3>
+<p>It’s really the worst feeling to know almost certainly that something bad will happen and then be powerless to stop it.</p>
+
+<p>I think that’s the only time I get angry. Ignorance and stupidity are fine, but I just can’t handle smarts with no wisdom.</p>
+
+<h3 id="already">already</h3>
+<p>In CS 24, a computer systems class, I sometimes see cool things that I want to understand not personally, but for the sake of teaching others.</p>
+
+<p>I have an ongoing correspondence with a lot of my high school teachers about the cool things I’m learning.</p>
+
+<p>Normally, I ignore bonus credit assignments unless it’s easy to do. However, there are some things I see that I just need to do because it’s interesting just to say that I did it.</p>
+
+<p>For example, in CS 24, for bonus points, we could add a link to the professor’s website through a little hack. Originally I didn’t intend to do it, but it’s pretty cool to say, “I hacked a website.”</p>
+
+<p>Also upcoming is a general adversarial network (GAN) assignment for machine learning class, so I think I’ll do that too.</p>
+
+<h2 id="back-up">Back up</h2>
+<p>There are a lot of people who seem to have it together but I think that’s just because things always seem better by comparison when you aren’t in a great situation.</p>
+
+<p>Only after some suffering do you realize that everyone is actually in the same boat.</p>
+
+<h3 id="fine">fine</h3>
+<p>I was in the room during a Zoom call that my roommate had with the professor where he was getting grilled on some technical subject and he couldn’t really explain it clearly but it was exactly what the TA told him to do.</p>
+
+<p>He went outside walking around for a few hours to cool off but it didn’t seem like that bad of a situation to me.</p>
+
+<p>I get that feeling though, of having to fight the uphill battle after stumbling. It doesn’t feel good, but there are always things to do.</p>
+
+<p>For example, after a bad test grade comes out, it doesn’t mean that you’re just doomed, you can still do things like regrade requests or try to study harder.</p>
+
+<h2 id="reading">Reading</h2>
+<p>It seems like smart people seem to enjoy reading a lot, so I bought some investing books on Amazon and I hope to get something out of them.</p>
+
+<h3 id="mental-space">Mental space</h3>
+<p>Something interesting about grinding programming problems is that a big part of solving the problem is just recognizing the type and memorizing how problems of that type are solved.</p>
+
+<p>There is often much less skill involved in the math and more in just understanding the type of algorithm and how to type it.</p>
+
+<h3 id="stock-trading">Stock Trading</h3>
+<p>I’ve gotten more into trading stocks along with my roommate E and it’s fun to see how the stocks we pick perform. We have different personalities and sometimes his actions seem strange to me, but it probably seems completely reasonable to him.</p>
+
+<p>This is something I learned in <em>The Psychology of Money</em>, one of the first books I’ve read in a while. It’s actually a great read and I recommend it for everyone even if they aren’t interested in financial markets.</p>
+
+<p>My favorite chapter is when the author describes how everyone has different goals for doing things. For example, E mostly trades for fun, so it doesn’t really matter if he doesn’t hold for a long time because he does not intend to sit still for too long.</p>
+
+<p>So, it doesn’t really matter if I think what he’s doing makes any sense because we aren’t in the same boat anyway.</p>
+
+<h2 id="doctor-who">Doctor Who</h2>
+<p>At Caltech there are Health Advocates in each house who are responsible for providing first aid and things like that. In the health ad course, they were learning how to take people’s blood pressure and needed 10 samples from the population.</p>
+
+<p>E and I got a little bit scared by the results since I got a reading of 130/85, which is the first stage of high blood pressure. I’m not sure how representative the reading was of my average BP, but E and I did have some unhealthy diets that needed to change.</p>
+
+<h3 id="candy-crush">Candy Crush</h3>
+<p>Over the next week, E consumed significantly fewer cookies from RD. Typically, he would eat 3 per day, which is approximately 500-600 calories, and made up a third of all the calories he gets every day.</p>
+
+<p>As for me, I was definitely eating too many greasy and deep-fried foods to be healthy. So, I ordered a chicken salad from some kind of healthy restaurant for dinner one day. It was kind of good but I wouldn’t want to eat that every day.</p>
+
+<p>By the next week, I had about 115 and E was also down a lot to around 105 which is much better than before.</p>
+
+<p>With that, let’s end this post and continue on the next one.</p>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="College" /><category term="Studying" /><category term="Projects" /><category term="Reflection" /><category term="Health" /><category term="24 Points" /><category term="Grind" /><category term="Relaxation" /><category term="Stocks" /><category term="Blood Pressure" /><category term="Reading" /><summary type="html"><![CDATA[“I am free and that is why I am lost.” — Franz Kafka]]></summary></entry><entry><title type="html">Cooker</title><link href="https://engitom.github.io/college/studying/projects/cooker/" rel="alternate" type="text/html" title="Cooker" /><published>2024-10-25T07:00:01+00:00</published><updated>2024-10-25T07:00:01+00:00</updated><id>https://engitom.github.io/college/studying/projects/cooker</id><content type="html" xml:base="https://engitom.github.io/college/studying/projects/cooker/"><![CDATA[<p>“Waste time, quality time.”</p>
+
+<h2 id="ramyum">RamYUM</h2>
+<p>Ate ramen late at night with E, R, and W.</p>
+
+<h3 id="cucers">CUCers</h3>
+<p>Hosted two Caltech Up Close (CUC) students in the triple, it’s kind of annoying to host them but we do get $20 dollars per roommate per CUC student.</p>
+
+<p>This year, they were quite respectful and nothing out of the ordinary happened. I forgot it was this early in the year and I definitely should not have hosted CUCers last year.</p>
+
+<h3 id="roomies">Roomies</h3>
+<p>E and R are my roommates this year. I don’t remember when we met last year, but it was probably at dinner.</p>
+
+<h3 id="tips-4-ever">Tips 4 Ever</h3>
+<p>S is a frosh who told me and J that she had some trouble completing her work the first week of school because she went to study groups with 10+ people!</p>
+
+<p>She realized that’s a massive mistake, so she worked alone. However, that’s also a big mistake because working alone is also worse than working with others.</p>
+
+<p><strong>4 people</strong> is the optimal group size.</p>
+
+<h2 id="rdrn">RDRN?</h2>
+<p>One time at 12 AM, E said, “RDRN?”</p>
+
+<p>Apparently, that means “Red Door right now?” So, I say it all the time.</p>
+
+<p>We and other students have found it very annoying to type RDRN to every other friend over text, so E and I had the idea of making an app that allows you to press a single button and notify all friends that you want to go to RDRN.</p>
+
+<h3 id="react">React</h3>
+<p>So, I’ve been trying to code an app with the following features:</p>
+<ol>
+  <li>Sign-in with Google</li>
+  <li>Add friends by search</li>
+  <li>Notify friends with button</li>
+</ol>
+
+<p>This seems very simple, but it’s actually been quite hard because I can’t find any examples of exactly what I want online.</p>
+
+<p>We decided to use React Native instead of Flutter, but React is quite annoying because everything is built on packages and the code becomes just managing dependencies.</p>
+
+<p>Hopefully it works out though.</p>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="College" /><category term="Studying" /><category term="Projects" /><category term="Tips" /><category term="App Development" /><category term="RDRN" /><category term="Roommates" /><category term="React Native" /><summary type="html"><![CDATA[“Waste time, quality time.”]]></summary></entry><entry><title type="html">Circles</title><link href="https://engitom.github.io/college/poetry/health/circles/" rel="alternate" type="text/html" title="Circles" /><published>2024-10-04T07:00:01+00:00</published><updated>2024-10-04T07:00:01+00:00</updated><id>https://engitom.github.io/college/poetry/health/circles</id><content type="html" xml:base="https://engitom.github.io/college/poetry/health/circles/"><![CDATA[<p>“In the midst of winter, I found there was, within me, an invincible summer.” — D.L. or Albert Camus</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/21jGcNKet2qwijlDFuPiPb" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<p>Note: most of this post was written on Oct 4 but was published on Oct 24</p>
+
+<h2 id="sleepy">Sleepy</h2>
+<p>When you use shampoo like it’s body wash, that’s when you know you need to go to bed.</p>
+
+<p>My sleep schedule has been pretty good so far in this semester, sleeping a good amount and waking up naturally.</p>
+
+<h3 id="lagging">Lagging</h3>
+<p>Whenever I traveled as a kid, I would get jetlagged and end up trying to stay awake in the afternoon so that I could get back to a natural sleep schedule.</p>
+
+<p>But I always ended up lying down and being unable to think of anything and waking up at 8 PM, just angry that I couldn’t stay awake.</p>
+
+<h2 id="brotation">Brotation</h2>
+<p>When I got back to campus, I felt a sense of unfamiliarity but also that everything was the same.</p>
+
+<p>Some things obviously did change, like all the construction going on, the bricks that seemed to loosen from the ground, and the 25% of students that weren’t around anymore.</p>
+
+<p>I was really self conscious about my bad haircut, but I don’t think anyone cares all that much.</p>
+
+<p>Yeah, people change, but not really.</p>
+
+<h3 id="d">D</h3>
+<p>is one of the most energetic people I have ever met. She got everyone to download Poop Map, an app that allows your friends to track where you’ve pooped, which is a pretty funny concept.</p>
+
+<h3 id="e">E</h3>
+<p>is a super cool prefrosh who wanted to join the band, which I was surprised to hear because I thought that freshmen were supposed to make bands with other prefrosh?</p>
+
+<p>So, I guess the music frosh this year did not all meet in a room and start jamming. Maybe that’s just something that I was incredibly lucky to experience.</p>
+
+<p>Either way, we did need a vocalist in some range, so she was very welcome to join. Also, she might join acapella, which is great too because we definitely need more members to stay afloat in the future.</p>
+
+<p>V and I joked that Caltech should take input from club leaders when admitting students, because we really need basses and altos for the acapella.</p>
+
+<h3 id="a">A</h3>
+<p>is another super cool prefrosh who happens to have gone to the same middle school as me in Shanghai.</p>
+
+<p>I believe she had a hard time choosing between several houses, but I was initially very surprised but then only mildly surprised that she did not choose booty house.</p>
+
+<h2 id="grindstone">Grindstone</h2>
+<p>In Shanghai, there’s an old man who goes around apartments shouting that he’s offering to sharpen people’s knives and scissors: an antiquated profession which has survived to the modern day. He’s so loud that he sounds like he’s in the next room when he’s actually 200 meters away.</p>
+
+<p>When I heard him, I thought he would be a really good street singer.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+
+<p>He told my dad that he got that loud because he had a lot of practice yelling.</p>
+
+<p>Back in the day, families would parade through the streets on the way to a funeral, wailing as loud as they could. The louder the cries, the more street cred the family gets.</p>
+
+<p>That man wouldn’t need to sharpen scissors if he was around back then. But then again, he wouldn’t have gotten so good at yelling if he weren’t a knife grinder.</p>
+
+<h3 id="heads">Heads</h3>
+<p>Rotation is quite a tribal process and it doesn’t necessarily need to be that way. A house is not a place where people end up; it’s where the journey begins.</p>
+
+<p>Everyone is more similar to everyone else than public sentiment would suggest, so there’s no point in wailing for the ghosts of prefrosh pasts.</p>
+
+<h2 id="garden">Garden</h2>
+<p>My dad often tells me about Warren Buffett and Charlie Munger’s book, <em>All I Want To Know Is Where I’m Going To Die So I’ll Never Go There</em>.</p>
+
+<p>It’s actually quite clear where most people’s journey will end: in the hospital. But what are you gonna do, not go to the hospital? Sounds like a surefire way to get to the hospital.</p>
+
+<p>As Master Oogway once said, “One often meets his destiny on the road he takes to avoid it.”<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup> In essence, there are some things that will happen regardless of what branching of choices are made. Whether they are good or bad, that is not of concern.</p>
+
+<p>Ultimately, as we learned in UGT from inspirational whiteboard philosopher B.K.W., “The secret is not to chase butterflies… It’s to take care of the garden so that they come to you.”<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup></p>
+
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>See my previous post, <a href="https://engitom.github.io/travel/diet/food/environment/health/cheese/#air">Cheese</a>, for more context <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Jean de La Fontaine also said it. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>Brazilian poet Mario Quintana also said it. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="College" /><category term="Poetry" /><category term="Health" /><category term="Rotation" /><category term="Camus" /><category term="Quintana" /><category term="Sleep" /><summary type="html"><![CDATA[“In the midst of winter, I found there was, within me, an invincible summer.” — D.L. or Albert Camus]]></summary></entry></feed>
