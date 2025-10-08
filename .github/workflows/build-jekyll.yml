@@ -18,8 +18,15 @@ jobs:
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
-      - name: Update CA certificates
-        run: sudo apt-get update && sudo apt-get install -y ca-certificates
+      - name: Update system and OpenSSL certificates
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ca-certificates openssl
+          sudo update-ca-certificates
+          export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
+          export OPENSSL_CONF=/etc/ssl/
+      - name: Set Ruby SSL cert file
+        run: echo 'export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt' >> $GITHUB_ENV
       # Use GitHub Deploy Action to build and deploy to Github
       - uses: jeffreytse/jekyll-deploy-action@master
         with:
