@@ -10,7 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'   # Use a recent version
+          bundler-cache: true
+      - name: Update Bundler and Gems
+        run: |
+          gem install bundler
+          bundle update --bundler
+          bundle install
       # Use GitHub Actions' cache to cache dependencies on servers
       - uses: actions/cache@v3
         with:
