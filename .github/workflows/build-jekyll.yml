@@ -1,52 +1,30 @@
 name: Build and Deploy to GitHub Pages
-
-on:
-  push:
-    branches: [ master ]
-
+on: { push: { branches: [master] } }
 jobs:
   build_and_deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     env:
       JEKYLL_ENV: production
-      # Single source of truth for certs (Ruby/OpenSSL, git, Bundler will honor this)
+      JEKYLL_NO_GITHUB_METADATA: "true"   # stop jekyll-github-metadata hitting GitHub
       SSL_CERT_FILE: /etc/ssl/certs/ca-certificates.crt
-
     steps:
       - uses: actions/checkout@v4
-
-      - name: Ensure fresh CA certificates
-        run: |
+      - run: |
           sudo apt-get update
           sudo apt-get install -y ca-certificates openssl
           sudo update-ca-certificates
-          # Nuke any inherited/bad SSL env
           echo "SSL_CERT_DIR=" >> $GITHUB_ENV
           echo "OPENSSL_CONF=" >> $GITHUB_ENV
-
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.2'
-          bundler-cache: true
-
-      - name: Install gems
-        run: |
+      - uses: ruby/setup-ruby@v1
+        with: { ruby-version: '3.2', bundler-cache: true }
+      - run: |
           gem install bundler
           bundle config set path vendor/bundle
           bundle install --jobs 4 --retry 3
-
-      # Build & deploy with Jeffrey Tse action
-      - name: Build and Deploy
-        uses: jeffreytse/jekyll-deploy-action@master
+      - uses: jeffreytse/jekyll-deploy-action@master
         with:
           provider: github
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
           jekyll_src: ./
           jekyll_cfg: _config.yml
-          jekyll_baseurl: ''
-          bundler_ver: ''
-          cname: ''
-          actor: ''
-          pre_build_commands: ''
