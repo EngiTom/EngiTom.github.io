@@ -5,4 +5,5 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 gem "webrick"
 gem 'jekyll-spaceship', group: :jekyll_plugins
 gem "minimal-mistakes-jekyll", group: :jekyll_plugins
+
 gem "openssl", "~> 3.3"
