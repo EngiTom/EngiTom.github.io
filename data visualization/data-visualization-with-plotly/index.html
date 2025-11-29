@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+--><html lang="en" class="no-js">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Data Visualization with Plotly - Engi’s Exchanges</title>
+<meta name="description" content="“Open your eyes.” — Morpheus">
+
+
+  <meta name="author" content="Tom Zhang">
+  
+  <meta property="article:author" content="Tom Zhang">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Engi's Exchanges">
+<meta property="og:title" content="Data Visualization with Plotly">
+<meta property="og:url" content="https://engitom.github.io/data%20visualization/data-visualization-with-plotly/">
+
+
+  <meta property="og:description" content="“Open your eyes.” — Morpheus">
+
+
+
+  <meta property="og:image" content="https://engitom.github.io/assets/images/shanghai.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2021-07-25T19:00:00+00:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://engitom.github.io/data%20visualization/data-visualization-with-plotly/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Tom Zhang",
+      "url": "https://engitom.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/tomLogo.png" alt="Engi's Exchanges"></a>
+        
+        <a class="site-title" href="/">
+          Engi's Exchanges
+          <span class="site-subtitle">Ideas in motion</span>
+        </a>
+        <ul class="visible-links">
+<li class="masthead__menu-item">
+              <a href="/">Home</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/posts/">Posts</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/bgm/">BGM</a>
+            </li>
+</ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero" style=" background-image: url('');">
+  
+    <img src="/assets/images/shanghai.jpg" alt="Data Visualization with Plotly" class="page__hero-image">
+  
+  
+    <span class="page__hero-caption">Photo credit: <a href="https://unsplash.com/photos/D8iZPlX-2fs"><strong>Denys Nevozhai</strong></a>
+</span>
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/me.jpg" alt="Tom Zhang" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Tom Zhang</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Musician</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Pasadena, CA</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://www.linkedin.com/in/tom-zhang-99524a220/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://www.youtube.com/channel/UCyj_vwme_dV8-YjySCjsdrw" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i><span class="label">YouTube</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/EngiTom" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.instagram.com/7omuu/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span></a></li>
+          
+        
+          
+            <li><a href="https://open.spotify.com/artist/2Ugd7h5PUfQXX1HtHLOWE6" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-spotify" aria-hidden="true"></i><span class="label">Spotify</span></a></li>
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:txzhang@caltech.edu">
+            <meta itemprop="email" content="txzhang@caltech.edu">
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Data Visualization with Plotly">
+    <meta itemprop="description" content="“Open your eyes.” — Morpheus">
+    <meta itemprop="datePublished" content="2021-07-25T19:00:00+00:00">
+    <!-- <span>
+      <em id="pv" class="pageviews">
+        <i class="fa-duotone fa-circle-dot"></i>
+      </em>
+      <img style="width: inherit;" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fengitom.github.io%2F/data%20visualization/data-visualization-with-plotly/&count_bg=%23FF7600&title_bg=%23000000&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false" alt="Views" />
+    </span> -->
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Data Visualization with Plotly
+</h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2021-07-25T19:00:00+00:00">July 25, 2021</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+
+      
+        <span class="page__meta-sep"></span>
+        <span>
+          <em id="pv" class="pageviews">
+            <i class="fa-duotone fa-circle-dot"></i>
+          </em>
+          <img src="https://hitscounter.dev/api/hit?url=engitom.github.io%2F/data%20visualization/data-visualization-with-plotly/&amp;label=Views&amp;icon=bar-chart-fill&amp;color=%23fd7e14" alt="Views">
+        </span>
+      
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title">
+<i class="fas fa-cog"></i> Table of Contents</h4></header>
+              <ul class="toc__menu">
+<li><a href="#importance-of-visualization">Importance of Visualization</a></li>
+<li><a href="#plotting-libraries-in-python">Plotting Libraries in Python</a></li>
+<li><a href="#justification-for-supporting-plotly">Justification for Supporting Plotly</a></li>
+<li>
+<a href="#some-basic-plots">Some Basic Plots</a><ul>
+<li><a href="#distribution-plot">Distribution Plot</a></li>
+<li><a href="#multiclass-distribution-plot">Multiclass Distribution Plot</a></li>
+<li><a href="#scatter-plot">Scatter Plot</a></li>
+</ul>
+</li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <p>“Open your eyes.” — Morpheus</p>
+
+<h2 id="importance-of-visualization">Importance of Visualization</h2>
+<p>Everyone knows that every piece of text on the internet published within the last decade must have some kind of multimedia attached to it or else it becomes difficult to read. With decreasing attention spans and <a href="https://www.youtube.com/watch?v=rhgwIhB58PA">evidence</a> which suggests visuals and text should be combined for better comprehension, presenters are always trying to find the best way to demonstrate ideas to their audience through all kinds of graphics.</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/rhgwIhB58PA" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>One of the best ways to support an idea is with data evidence in the form of some graph. For example, if you wanted to argue that dogs are better pets than cats because more people have dogs, you could make a bar graph of the number of households with dogs compared to the number of households with cats.</p>
+
+<p>Alternatively, if you were making a geographically-based statement about cats and dogs, you could make a heatmap of the whole world and show where each respective pet is popular, with blue being a dog area and red being a cat area, and purple meaning a 50-50 split.</p>
+
+<p>*Note: The examples mentioned do not represent my stance in this debate.</p>
+
+<p>Both ideas are great, but depending on your line of reasoning, you might want a different plot for each situation. So, the skill of knowing which visualization to match with your article is quite important. Along with that, the skill of being able to produce your own charts and graphs is also convenient and valuable.</p>
+
+<h2 id="plotting-libraries-in-python">Plotting Libraries in Python</h2>
+<p>Making a graph is quite simple in many cases, there are dozens of prewritten programs and functions out there online. Some examples include Google Sheets and Microsoft Excel, which have the ability to generate graphs from spreadsheets quickly and easily.</p>
+
+<p>For a chemistry, biology, or physics lab report, I would use these resources because I can just type in the numbers and get some lines or a couple bars. Almost always, this is all that is being asked of me and other students. However, what kind of standards will we set for ourselves when we do not have someone else’s guidance?</p>
+
+<p>Well, there are many more plotting resources out there, including <a href="https://flourish.studio/">Flourish</a> and <a href="https://www.datawrapper.de/">Datawrapper</a>, both of which can create stylish and advanced figures without requiring any programming skills.</p>
+
+<p>However, if you are a programmer working with data, then <a href="https://www.mathworks.com/products/matlab.html">Matlab</a>, <a href="https://matplotlib.org/">Matplotlib</a>, <a href="https://seaborn.pydata.org/">Seaborn</a>, and <a href="https://plotly.com/python/">Plotly</a> are all valid choices for visualizations.</p>
+
+<h2 id="justification-for-supporting-plotly">Justification for Supporting Plotly</h2>
+<p>Before introducing Plotly, the reason I support Plotly over Matplotlib and Seaborn is that Plotly graphs are interactive and easily customizable, whereas Matplotlib and Seaborn plots feel more static and old-fashioned, even with themes.</p>
+
+<p>These reasons are entirely subjective, but so is the degree to which an audience will pay attention to an article. If your graphic is not immediately eye-catching, then your audience will probably just click off your page. After all, the internet is just a stream of dopamine for most people.</p>
+
+<p>However, one annoying part of Plotly is that interactive graphs have to be embedded using <a href="https://plotly.com/chart-studio/">Plotly Chart Studio</a>, which only allows 100 free public charts. However, it was a pretty simple process: a combination of typing some stuff into my Kaggle notebook and going to Plotly Chart Studio to check on it. If I knew the graphs would be transported with no errors, I would not even have to open Plotly Chart Studio.</p>
+
+<p>As for embedding, you can follow the instructions on in <a href="https://towardsdatascience.com/how-to-create-a-plotly-visualization-and-embed-it-on-websites-517c1a78568b">this article</a>. I personally chose the route of generating iframes and then copying and pasting that into my article’s file.</p>
+
+<p>But, if you don’t want to do that, you can just save a static plot in PNG format and embed it as you would any other image.</p>
+
+<h2 id="some-basic-plots">Some Basic Plots</h2>
+<h3 id="distribution-plot">Distribution Plot</h3>
+<p>A popular plot for visualizing a continuous/quantitative variable’s distribution is the distribution plot, which is usually a histogram with a kernel density estimation on top of it. However, you can also have either of them just by passing in <code class="language-plaintext highlighter-rouge">False</code> for some parameter involving their showing.</p>
+
+<p>Below is a distribution plot for the body mass of about 300 penguins from <a href="https://www.kaggle.com/parulpandey/palmer-archipelago-antarctica-penguin-data">this dataset</a>. Here is the Python code that I used:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">plotly.figure_factory</span> <span class="k">as</span> <span class="n">ff</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">ff</span><span class="p">.</span><span class="n">create_distplot</span><span class="p">([</span><span class="n">data</span><span class="p">.</span><span class="n">body_mass_g</span><span class="p">],</span> <span class="p">[</span><span class="s">'All pengus'</span><span class="p">],</span> <span class="n">bin_size</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">title_text</span><span class="o">=</span><span class="s">'Distribution of Penguin Body Mass'</span><span class="p">,</span> <span class="n">showlegend</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">.</span><span class="n">layout</span><span class="p">.</span><span class="n">template</span> <span class="o">=</span> <span class="s">'plotly_dark'</span>
+<span class="n">fig</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~EngiTom/1.embed?showlink=false" height="525" width="100%"></iframe>
+
+<h3 id="multiclass-distribution-plot">Multiclass Distribution Plot</h3>
+<p>If you want several distribution plots in the same figure to cover different categories over the same feature, you can use the same function!</p>
+
+<p>Below is another distribution plot of body mass, but this time, separating the penguins by species. Here is the code:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">hist_data</span> <span class="o">=</span> <span class="p">[</span><span class="n">data</span><span class="p">[</span><span class="n">data</span><span class="p">.</span><span class="n">species</span><span class="o">==</span><span class="s">'Adelie'</span><span class="p">].</span><span class="n">body_mass_g</span><span class="p">,</span> <span class="n">data</span><span class="p">[</span><span class="n">data</span><span class="p">.</span><span class="n">species</span><span class="o">==</span><span class="s">'Chinstrap'</span><span class="p">].</span><span class="n">body_mass_g</span><span class="p">,</span> <span class="n">data</span><span class="p">[</span><span class="n">data</span><span class="p">.</span><span class="n">species</span><span class="o">==</span><span class="s">'Gentoo'</span><span class="p">].</span><span class="n">body_mass_g</span><span class="p">]</span>
+<span class="n">group_labels</span> <span class="o">=</span> <span class="p">[</span><span class="s">'Adelie'</span><span class="p">,</span> <span class="s">'Chinstrap'</span><span class="p">,</span> <span class="s">'Gentoo'</span><span class="p">]</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">ff</span><span class="p">.</span><span class="n">create_distplot</span><span class="p">(</span><span class="n">hist_data</span><span class="p">,</span> <span class="n">group_labels</span><span class="p">,</span> <span class="n">bin_size</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">title_text</span><span class="o">=</span><span class="s">'Distribution of Penguin Body Mass by Species'</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">.</span><span class="n">layout</span><span class="p">.</span><span class="n">template</span> <span class="o">=</span> <span class="s">'plotly_dark'</span>
+<span class="n">fig</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~EngiTom/3.embed?showlink=false" height="525" width="100%"></iframe>
+
+<h3 id="scatter-plot">Scatter Plot</h3>
+<p>Scatter plots are mostly used to see the trends formed by data when looking at two variables, which makes them a valuable tool when attempting to reducing a dataset’s dimensionality, among other things.</p>
+
+<p>Using the penguin dataset as an example, categorization based on culmen length and depth alone seems to be sufficient in achieving a high accuracy.</p>
+
+<p>Of course, this information is based on the scatter plot below, written using the following code:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">plotly.express</span> <span class="k">as</span> <span class="n">px</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="p">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s">'culmen_length_mm'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s">'culmen_depth_mm'</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'species'</span><span class="p">,</span> <span class="n">template</span><span class="o">=</span><span class="s">'plotly_dark'</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s">'Penguin Culmen Dimensions by Species'</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></div>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~EngiTom/5.embed?showlink=false" height="525" width="100%"></iframe>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>Ultimately, data visualization is an incredible tool for communicating ideas to others and a valuable skill to have in general. Not only that, better visualization for the purpose of data exploration alone is pretty interesting.</p>
+
+<p>Not having programming experience is not an excuse either, because there are plenty of resources available for the creation of ornate figures. However, with a programming background, data visualization manifests itself as a powerful tool for designing algorithms and building powerful models.</p>
+
+<p>This post was inspired by Hans Rosling’s book, <em>Factfulness</em>, and the <a href="https://www.gapminder.org/">Gapminder Foundation</a>.</p>
+
+<p>*Note that <code class="language-plaintext highlighter-rouge">plotly.figure_factory</code> is considered deprecated, so, if you don’t need the KDE in your distribution plot, then just make a histogram with <code class="language-plaintext highlighter-rouge">plotly.express</code></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#data-visualization" class="page__taxonomy-item" rel="tag">Data Visualization</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-07-25T19:00:00+00:00">July 25, 2021</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/3d%20modeling/my-first-3d-modeling-experience/" class="pagination--pager" title="My First 3D Modeling Experience
+">Previous</a>
+    
+    
+      <a href="/gaming/weird-game-techniques/" class="pagination--pager" title="Weird Game Techniques
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+      <h4 class="page__comments-title">Leave a comment</h4>
+      <section id="giscus-comments"></section>
+    
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/teasers/raverydj.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/music/art/travel/gaming/youtube/food/baking/nothing-batter/" rel="permalink">Nothing Batter
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-11-29T07:00:01+00:00">November 29, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+
+      
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">“A post about talking about writing a post?” — W
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/teasers/hkcafe.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/school/reflection/mindset/buckets/" rel="permalink">Buckets
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-10-10T07:00:01+00:00">October 10, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+
+      
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">“Reality is stranger than fiction.” — Rohan Kishibe
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/teasers/themaster.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/travel/hobbies/art/food/physics/neon/" rel="permalink">Neon
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-09-10T07:00:01+00:00">September 10, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          12 minute read
+        
+      </span>
+
+      
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">“We’ll never stop this train.” — John Mayer
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/teasers/sunset_jetty.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/travel/gone-fishin/" rel="permalink">Gone Fishin
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-07-19T16:00:01+00:00">July 19, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+
+      
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">“Humans are…” — Player 456, Squid Game
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap">
+<form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term...">
+  </form>
+  <div id="results" class="results"></div>
+</div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://www.linkedin.com/in/tom-zhang-99524a220/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/channel/UCyj_vwme_dV8-YjySCjsdrw" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> YouTube</a></li>
+        
+      
+        
+          <li><a href="https://github.com/EngiTom" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://www.instagram.com/7omuu/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://open.spotify.com/artist/2Ugd7h5PUfQXX1HtHLOWE6" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-spotify" aria-hidden="true"></i> Spotify</a></li>
+        
+      
+    
+
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">© 2025 Tom Zhang. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    <script>
+  'use strict';
+
+  (function () {
+    var commentContainer = document.querySelector('#giscus-comments');
+
+    if (!commentContainer) {
+      return;
+    }
+
+    var script = document.createElement('script');
+    script.setAttribute('src', 'https://giscus.app/client.js');
+    script.setAttribute('data-repo', 'EngiTom/EngiTom.github.io');
+    script.setAttribute('data-repo-id', 'R_kgDOGsoBiQ');
+    script.setAttribute('data-category', 'Announcements');
+    script.setAttribute('data-category-id', 'DIC_kwDOGsoBic4CcEKs');
+    script.setAttribute('data-mapping', 'og:title');
+    script.setAttribute('data-reactions-enabled', '1');
+    script.setAttribute('data-theme', 'dark');
+    script.setAttribute('crossorigin', 'anonymous');
+    script.setAttribute('data-input-position', 'top');
+
+    commentContainer.appendChild(script);
+  })();
+</script>
+  
+
+
+
+
+
+  </body>
+</html>

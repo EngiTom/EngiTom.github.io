@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+--><html lang="en" class="no-js">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Getting Started with Programming - Engi’s Exchanges</title>
+<meta name="description" content="“Pulling the puzzles apart.” — Coldplay, “The Scientist”">
+
+
+  <meta name="author" content="Tom Zhang">
+  
+  <meta property="article:author" content="Tom Zhang">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Engi's Exchanges">
+<meta property="og:title" content="Getting Started with Programming">
+<meta property="og:url" content="https://engitom.github.io/programming/getting-started-with-programming/">
+
+
+  <meta property="og:description" content="“Pulling the puzzles apart.” — Coldplay, “The Scientist”">
+
+
+
+  <meta property="og:image" content="https://engitom.github.io/assets/images/sphere.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2021-07-19T14:00:00+00:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://engitom.github.io/programming/getting-started-with-programming/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Tom Zhang",
+      "url": "https://engitom.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/tomLogo.png" alt="Engi's Exchanges"></a>
+        
+        <a class="site-title" href="/">
+          Engi's Exchanges
+          <span class="site-subtitle">Ideas in motion</span>
+        </a>
+        <ul class="visible-links">
+<li class="masthead__menu-item">
+              <a href="/">Home</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/posts/">Posts</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/bgm/">BGM</a>
+            </li>
+</ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero" style=" background-image: url('');">
+  
+    <img src="/assets/images/sphere.jpg" alt="Getting Started with Programming" class="page__hero-image">
+  
+  
+    <span class="page__hero-caption">Photo credit: <a href="https://unsplash.com/photos/qDG7XKJLKbs"><strong>Michael Dziedzic</strong></a>
+</span>
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/me.jpg" alt="Tom Zhang" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Tom Zhang</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Musician</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Pasadena, CA</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://www.linkedin.com/in/tom-zhang-99524a220/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://www.youtube.com/channel/UCyj_vwme_dV8-YjySCjsdrw" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i><span class="label">YouTube</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/EngiTom" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.instagram.com/7omuu/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span></a></li>
+          
+        
+          
+            <li><a href="https://open.spotify.com/artist/2Ugd7h5PUfQXX1HtHLOWE6" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-spotify" aria-hidden="true"></i><span class="label">Spotify</span></a></li>
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:txzhang@caltech.edu">
+            <meta itemprop="email" content="txzhang@caltech.edu">
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Getting Started with Programming">
+    <meta itemprop="description" content="“Pulling the puzzles apart.” — Coldplay, “The Scientist”">
+    <meta itemprop="datePublished" content="2021-07-19T14:00:00+00:00">
+    <!-- <span>
+      <em id="pv" class="pageviews">
+        <i class="fa-duotone fa-circle-dot"></i>
+      </em>
+      <img style="width: inherit;" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fengitom.github.io%2F/programming/getting-started-with-programming/&count_bg=%23FF7600&title_bg=%23000000&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false" alt="Views" />
+    </span> -->
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Getting Started with Programming
+</h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2021-07-19T14:00:00+00:00">July 19, 2021</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+
+      
+        <span class="page__meta-sep"></span>
+        <span>
+          <em id="pv" class="pageviews">
+            <i class="fa-duotone fa-circle-dot"></i>
+          </em>
+          <img src="https://hitscounter.dev/api/hit?url=engitom.github.io%2F/programming/getting-started-with-programming/&amp;label=Views&amp;icon=bar-chart-fill&amp;color=%23fd7e14" alt="Views">
+        </span>
+      
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title">
+<i class="fas fa-cog"></i> Table of Contents</h4></header>
+              <ul class="toc__menu">
+<li><a href="#purpose">Purpose</a></li>
+<li><a href="#when-to-start">When to Start</a></li>
+<li><a href="#practicing-logic-and-syntax">Practicing Logic and Syntax</a></li>
+<li><a href="#course-of-action">Course of Action</a></li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <p>“Pulling the puzzles apart.” — Coldplay, “The Scientist”</p>
+
+<h2 id="purpose">Purpose</h2>
+
+<p>Today, programming is a tool used in practically every industry. Of course, this is because every industry probably uses computers for one purpose or another. Storing information and manipulating/managing it is probably something that comes up very often across various fields.</p>
+
+<p>For example, to discover safe and effective drugs, it might be a good idea to modify the structure of existing drugs. Let’s say that programming was not used in this process; people would have to draw the molecules on paper and make a 3D model of some sort, like what those two fellows were doing at that Cambridge pub some years ago. However, a group of modern scientists would have to be a lot more intoxicated than the prior two to actually want to do that for the thousands of molecules in their library. I might not be entirely right about the process that would have to take place, but, fortunately, we can all forget about my daydream because computers exist!</p>
+
+<p>The point is, if you can make computers do what you want, or even just an understanding of how you might be able to, you have a valuable skill that can be applied to many areas of interest.</p>
+
+<h2 id="when-to-start">When to Start</h2>
+<p>Everyone should know how coding works generally from a young age, and I believe that most people in the U.S. are exposed to the MIT block-programming language, <a href="https://scratch.mit.edu/">Scratch</a>, starting around primary school.</p>
+
+<p>As a kid during indoor recesses in elementary school, I always found it incredibly frustrating that there were very few top-notch games on Scratch. The port of <em>Street Fighter</em> was just the part where the player has to destroy the car, which didn’t actually work correctly. I would assume that the reason is only kids use Scratch and people with more experience do not think of developing a game using the block-programming language.</p>
+
+<p>However, my focus is on when people actually get into type-based coding languages—which is around middle school or high school, depending on personal interests. This isn’t too late but it isn’t ideal, considering that high school is a lot more work than middle school.</p>
+
+<h2 id="practicing-logic-and-syntax">Practicing Logic and Syntax</h2>
+<p>I’m not going to disregard the importance of clear thinking and learning + applying logic to programming, but a big problem is that students don’t actually remember how to type syntax when they do have an idea of how to solve a problem. This is based on Dopa’s attention theory (as described in (this video)[https://www.youtube.com/watch?v=GEyeAedn1f8&ab_channel=DongHuaP]), which claims that people only have a certain quantity of mental energy they can assign to certain tasks and that it is crucial to delegate these attention points correctly.</p>
+
+<p>For example, when one of my classmates required my assistance on a programming project (happens a lot), I tried to get him to understand the logic first. Assuming that he begins with 100 attention points, he will expend, let’s say, 60 points on just the logic. Afterward, he only has half of his attention points to remember + type out syntax and put his ideas into motion.</p>
+
+<p>So, what really ends up happening is he just forgets how to write a for-loop or an if-statement and I have to teach it again. Furthermore, it is way more tedious as a teacher to explain a syntax error than a logic error (pointing to whatever line etc). So, it should be the learner’s job to just open up a text file and type the code over and over every day until they can type it in their sleep.</p>
+
+<h2 id="course-of-action">Course of Action</h2>
+<p>People often worry about learning the wrong first language but it doesn’t really matter. An experienced programmer can pick up new languages very quickly once the concepts are understood. However, if you really do want my opinion, I have a basic and general course of action.</p>
+
+<ol>
+  <li>Learn how a (flowchart)[https://en.wikipedia.org/wiki/Flowchart] works.</li>
+  <li>Apply flowcharts to household appliances like microwaves, fridges, etc. An example for microwaves would be waiting for a time to be input, next waiting for the confirm button to be pressed, then heating the food, etc.</li>
+  <li>Learn C/C++, Java, and Python in any order you like, but I listed them in order from hardest to easiest. Of course, the ordering doesn’t really matter so if you want to start with Python because a lot of cool things are done in Python, there is no one stopping you. These are the top four programming languages currently, and learning all of them is not a bad idea. During a recent hackathon, I realized that my team did not really have a programming language in common which is basically a Genesis 11:1–9 situation.</li>
+  <li>For every program you write, create a flowchart for it beforehand.</li>
+  <li>Do not be afraid to draw out ideas on paper.</li>
+</ol>
+
+<p>Again, the order in which you learn programming languages does not really matter but understanding at least one is very important.</p>
+
+<p>Also, please do additional research before committing to your course of action.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#programming" class="page__taxonomy-item" rel="tag">Programming</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-07-19T14:00:00+00:00">July 19, 2021</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/personal/jekyll-and-github-pages/" class="pagination--pager" title="Jekyll and Github Pages
+">Previous</a>
+    
+    
+      <a href="/3d%20modeling/my-first-3d-modeling-experience/" class="pagination--pager" title="My First 3D Modeling Experience
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+      <h4 class="page__comments-title">Leave a comment</h4>
+      <section id="giscus-comments"></section>
+    
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/teasers/raverydj.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/music/art/travel/gaming/youtube/food/baking/nothing-batter/" rel="permalink">Nothing Batter
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-11-29T07:00:01+00:00">November 29, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+
+      
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">“A post about talking about writing a post?” — W
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/teasers/hkcafe.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/school/reflection/mindset/buckets/" rel="permalink">Buckets
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-10-10T07:00:01+00:00">October 10, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+
+      
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">“Reality is stranger than fiction.” — Rohan Kishibe
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/teasers/themaster.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/travel/hobbies/art/food/physics/neon/" rel="permalink">Neon
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-09-10T07:00:01+00:00">September 10, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          12 minute read
+        
+      </span>
+
+      
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">“We’ll never stop this train.” — John Mayer
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/teasers/sunset_jetty.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/travel/gone-fishin/" rel="permalink">Gone Fishin
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-07-19T16:00:01+00:00">July 19, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+
+      
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">“Humans are…” — Player 456, Squid Game
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap">
+<form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term...">
+  </form>
+  <div id="results" class="results"></div>
+</div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://www.linkedin.com/in/tom-zhang-99524a220/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/channel/UCyj_vwme_dV8-YjySCjsdrw" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> YouTube</a></li>
+        
+      
+        
+          <li><a href="https://github.com/EngiTom" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://www.instagram.com/7omuu/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://open.spotify.com/artist/2Ugd7h5PUfQXX1HtHLOWE6" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-spotify" aria-hidden="true"></i> Spotify</a></li>
+        
+      
+    
+
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">© 2025 Tom Zhang. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    <script>
+  'use strict';
+
+  (function () {
+    var commentContainer = document.querySelector('#giscus-comments');
+
+    if (!commentContainer) {
+      return;
+    }
+
+    var script = document.createElement('script');
+    script.setAttribute('src', 'https://giscus.app/client.js');
+    script.setAttribute('data-repo', 'EngiTom/EngiTom.github.io');
+    script.setAttribute('data-repo-id', 'R_kgDOGsoBiQ');
+    script.setAttribute('data-category', 'Announcements');
+    script.setAttribute('data-category-id', 'DIC_kwDOGsoBic4CcEKs');
+    script.setAttribute('data-mapping', 'og:title');
+    script.setAttribute('data-reactions-enabled', '1');
+    script.setAttribute('data-theme', 'dark');
+    script.setAttribute('crossorigin', 'anonymous');
+    script.setAttribute('data-input-position', 'top');
+
+    commentContainer.appendChild(script);
+  })();
+</script>
+  
+
+
+
+
+
+  </body>
+</html>

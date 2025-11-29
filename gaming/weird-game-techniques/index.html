@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+--><html lang="en" class="no-js">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Weird Game Techniques - Engi’s Exchanges</title>
+<meta name="description" content="“What is that cheese bro?” — Unknown">
+
+
+  <meta name="author" content="Tom Zhang">
+  
+  <meta property="article:author" content="Tom Zhang">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Engi's Exchanges">
+<meta property="og:title" content="Weird Game Techniques">
+<meta property="og:url" content="https://engitom.github.io/gaming/weird-game-techniques/">
+
+
+  <meta property="og:description" content="“What is that cheese bro?” — Unknown">
+
+
+
+  <meta property="og:image" content="https://engitom.github.io/assets/images/fencing.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2021-07-30T12:00:00+00:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://engitom.github.io/gaming/weird-game-techniques/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Tom Zhang",
+      "url": "https://engitom.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/tomLogo.png" alt="Engi's Exchanges"></a>
+        
+        <a class="site-title" href="/">
+          Engi's Exchanges
+          <span class="site-subtitle">Ideas in motion</span>
+        </a>
+        <ul class="visible-links">
+<li class="masthead__menu-item">
+              <a href="/">Home</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/posts/">Posts</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/bgm/">BGM</a>
+            </li>
+</ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero" style=" background-image: url('');">
+  
+    <img src="/assets/images/fencing.jpg" alt="Weird Game Techniques" class="page__hero-image">
+  
+  
+    <span class="page__hero-caption">Photo credit: <a href="https://unsplash.com/photos/YGgKE6aHaUw"><strong>Micaela Parente</strong></a>
+</span>
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/me.jpg" alt="Tom Zhang" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Tom Zhang</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Musician</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Pasadena, CA</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://www.linkedin.com/in/tom-zhang-99524a220/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://www.youtube.com/channel/UCyj_vwme_dV8-YjySCjsdrw" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i><span class="label">YouTube</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/EngiTom" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.instagram.com/7omuu/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span></a></li>
+          
+        
+          
+            <li><a href="https://open.spotify.com/artist/2Ugd7h5PUfQXX1HtHLOWE6" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-spotify" aria-hidden="true"></i><span class="label">Spotify</span></a></li>
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:txzhang@caltech.edu">
+            <meta itemprop="email" content="txzhang@caltech.edu">
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Weird Game Techniques">
+    <meta itemprop="description" content="“What is that cheese bro?” — Unknown">
+    <meta itemprop="datePublished" content="2021-07-30T12:00:00+00:00">
+    <!-- <span>
+      <em id="pv" class="pageviews">
+        <i class="fa-duotone fa-circle-dot"></i>
+      </em>
+      <img style="width: inherit;" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fengitom.github.io%2F/gaming/weird-game-techniques/&count_bg=%23FF7600&title_bg=%23000000&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false" alt="Views" />
+    </span> -->
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Weird Game Techniques
+</h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2021-07-30T12:00:00+00:00">July 30, 2021</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+
+      
+        <span class="page__meta-sep"></span>
+        <span>
+          <em id="pv" class="pageviews">
+            <i class="fa-duotone fa-circle-dot"></i>
+          </em>
+          <img src="https://hitscounter.dev/api/hit?url=engitom.github.io%2F/gaming/weird-game-techniques/&amp;label=Views&amp;icon=bar-chart-fill&amp;color=%23fd7e14" alt="Views">
+        </span>
+      
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title">
+<i class="fas fa-cog"></i> Table of Contents</h4></header>
+              <ul class="toc__menu">
+<li><a href="#intro">Intro</a></li>
+<li><a href="#flying-riposte">Flying Riposte</a></li>
+<li><a href="#double-sticky-jump">Double Sticky Jump</a></li>
+<li><a href="#hidden-mini-pekka">Hidden Mini P.E.K.K.A.</a></li>
+<li><a href="#honorable-mentions">Honorable Mentions</a></li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <p>“What is that cheese bro?” — Unknown</p>
+
+<h2 id="intro">Intro</h2>
+
+<p>In all games there are players who manage to discover rare techniques which are not necessarily cheating but definitely give them advantages over those who would rather spend their time mastering the fundamentals. Since the Tokyo 2020 Olympics are happening right now, I also decided to include some weird techniques that can be found in some sports.</p>
+
+<h2 id="flying-riposte">Flying Riposte</h2>
+<p>Without going into too much detail, a riposte (or parry-riposte) is when a person retreats, blocks a hit, and hits the other person back, granting them a point for successfully defending and then returning the hit.</p>
+
+<p>Usually, the movement of the lower body corresponds to the parry and the riposte, moving back and then forward. However, a flying riposte reduces the action to a backwards jump with the parry-riposte in midair. This reduces the amount of time that the opponent has to react and is a pretty good trick.</p>
+
+<p>There isn’t a lot of online information about fencing, but I managed to find a video where Oh Sanguk is doing the flying riposte:</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/VI0KzgI17OQ" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>I haven’t really seen other people do it as well as he does but I am very sure that there are many people trying to master the technique after seeing him do it.</p>
+
+<h2 id="double-sticky-jump">Double Sticky Jump</h2>
+<p>In <em>Team Fortress 2</em>, a game known for its interesting movement mechanics, the Demoman class is able to use his stickybomb launcher to do sticky jumps.</p>
+
+<p>Basically, the player shoots a stickybomb on a surface, jumps in the air, crouches (this is only done because the game launches crouched people farther), and detonates the stickybomb. Each stickybomb does about 80 damage and the Demoman has 175 health, so he can jump off of two stickybombs at most.</p>
+
+<p>Knowing this, the double sticky jump allows a player to shoot one sticky on the ground, sticky jump while shooting another one in the direction they are going, and then detonating the second bomb in midair for a second jump:</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/qQ0J20HIaGg" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>In the video, the player is able to do multiple midair sticky jumps because they are playing on a custom map dedicated to practicing sticky jumps which makes them not take damage.</p>
+
+<p>However, what is the actual application of this skill? Well, first of all, it is really fun. In actuality, it can cover the distance of a sticky jump with two stickybombs put on the ground without the commitment because the player can decide if they actually want to jump twice. Also, it allows the player to spend a moment less on the ground and more in the air.</p>
+
+<p>Proficient Scout players can shoot the stickybombs as they are being placed (there is an arming time in which the sticky can’t be detonated), and if a Demoman is trying to escape by putting two stickies on the ground instead of one, they will get caught more easily in contrast to if they were using the double sticky jump technique.</p>
+
+<h2 id="hidden-mini-pekka">Hidden Mini P.E.K.K.A.</h2>
+<p><em>Clash Royale</em> is a mobile 2.5D real-time strategy game in which players place troop, building, or spell cards on an arena to break the opponent’s towers.</p>
+
+<p>All troop cards have their own elixir cost, health points, speed, target types, damage, count, and attack speed.</p>
+
+<p>Each player can have a maximum of 10 elixir at any given time, and elixir is given to both players at the same rate.</p>
+
+<p>The two cards involved in the potent Hidden Mini P.E.K.K.A. trick are the Mini P.E.K.K.A. (Mini Pekka) and the Minion Horde.</p>
+
+<p>A Mini Pekka costs four elixir and hits extremely hard, but can only hit one target at a time. Usually, sending a Mini Pekka alone means that the opponent will counter with many low-cost units and eliminate it before it can do any damage to the towers.</p>
+
+<p>The Minion Horde costs five elixir and drops six minions on the vertices of a regular hexagon. Minions can fly, so there are not many cards that can target that many of them at lower levels, except for cheap damage spells, such as Arrows, Fireball, and Zap.</p>
+
+<p>Something to note is that, in 2.5D games like <em>Clash Royale</em>, flying troops cover ground troops when they are displayed on the screen. Taking advantage of this, if a player were to put a Minion Horde and a Mini Pekka on the same spot at the same time (for a combined total of nine elixir), the opponent would barely be able to see the Mini Pekka. Including the fact that the troops are all dark-colored, this combination becomes extremely potent.</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/dvxXJv5lipg?start=238" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>In the video, the person uses Arrows to destroy the Minion Horde, which is a common strategy because Arrows cost three elixir while the Minion Horde costs five, and realizes that there was a Mini Pekka hiding under it the whole time.</p>
+
+<p>To execute this strategy, put your mobile device down and use two fingers to drag the cards onto the same cell, then lift both fingers at the same time. This works even better when there is text popping up on the screen, such as the 60 second mark or the beginning of sudden death.</p>
+
+<h2 id="honorable-mentions">Honorable Mentions</h2>
+<p>There are some techniques which I did not include, such as missing a swing intentionally and then hitting again in badminton, the inSec from <em>League of Legends</em>, the Ivern trick with the blast plant and Q from the same game, and the T-Spin from <em>Tetris</em>. I did not include them because they were either too well-known or not impactful or interesting enough.</p>
+
+<p>Overall, there are many loopholes (intentional or otherwise) in the design of game mechanics which allow players to invent creative and intriguing techniques which increase the skill ceiling of a game and make it more enjoyable. Of course, one of the reasons I play games is to express my creativity. However, learning about these tricks may also lead to logical connections with real-world systems and applications.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#gaming" class="page__taxonomy-item" rel="tag">Gaming</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-07-30T12:00:00+00:00">July 30, 2021</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/data%20visualization/data-visualization-with-plotly/" class="pagination--pager" title="Data Visualization with Plotly
+">Previous</a>
+    
+    
+      <a href="/status%20update/broken-computer-update/" class="pagination--pager" title="August 2021 Status Update
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+      <h4 class="page__comments-title">Leave a comment</h4>
+      <section id="giscus-comments"></section>
+    
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/teasers/raverydj.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/music/art/travel/gaming/youtube/food/baking/nothing-batter/" rel="permalink">Nothing Batter
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-11-29T07:00:01+00:00">November 29, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+
+      
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">“A post about talking about writing a post?” — W
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/teasers/hkcafe.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/school/reflection/mindset/buckets/" rel="permalink">Buckets
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-10-10T07:00:01+00:00">October 10, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+
+      
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">“Reality is stranger than fiction.” — Rohan Kishibe
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/teasers/themaster.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/travel/hobbies/art/food/physics/neon/" rel="permalink">Neon
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-09-10T07:00:01+00:00">September 10, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          12 minute read
+        
+      </span>
+
+      
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">“We’ll never stop this train.” — John Mayer
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/teasers/sunset_jetty.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work/travel/gone-fishin/" rel="permalink">Gone Fishin
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-07-19T16:00:01+00:00">July 19, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+
+      
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">“Humans are…” — Player 456, Squid Game
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap">
+<form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term...">
+  </form>
+  <div id="results" class="results"></div>
+</div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://www.linkedin.com/in/tom-zhang-99524a220/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/channel/UCyj_vwme_dV8-YjySCjsdrw" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> YouTube</a></li>
+        
+      
+        
+          <li><a href="https://github.com/EngiTom" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://www.instagram.com/7omuu/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://open.spotify.com/artist/2Ugd7h5PUfQXX1HtHLOWE6" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-spotify" aria-hidden="true"></i> Spotify</a></li>
+        
+      
+    
+
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">© 2025 Tom Zhang. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    <script>
+  'use strict';
+
+  (function () {
+    var commentContainer = document.querySelector('#giscus-comments');
+
+    if (!commentContainer) {
+      return;
+    }
+
+    var script = document.createElement('script');
+    script.setAttribute('src', 'https://giscus.app/client.js');
+    script.setAttribute('data-repo', 'EngiTom/EngiTom.github.io');
+    script.setAttribute('data-repo-id', 'R_kgDOGsoBiQ');
+    script.setAttribute('data-category', 'Announcements');
+    script.setAttribute('data-category-id', 'DIC_kwDOGsoBic4CcEKs');
+    script.setAttribute('data-mapping', 'og:title');
+    script.setAttribute('data-reactions-enabled', '1');
+    script.setAttribute('data-theme', 'dark');
+    script.setAttribute('crossorigin', 'anonymous');
+    script.setAttribute('data-input-position', 'top');
+
+    commentContainer.appendChild(script);
+  })();
+</script>
+  
+
+
+
+
+
+  </body>
+</html>
