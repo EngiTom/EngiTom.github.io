@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Nothing Batter"
-date: 2025-11-29 00:00:01 -07:00
+date: 2025-11-29 00:00:01 -08:00
 author_profile: true
 header: 
   image: assets/images/raverydj.jpg
