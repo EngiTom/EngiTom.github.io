@@ -4,7 +4,7 @@ title: "Decent Exposure"
 date: 2026-07-10 00:00:01 +08:00
 author_profile: true
 header: 
-  image: assets/images/numba.JPG
+  image: assets/images/numba8.JPG
   teaser: assets/images/teasers/numba8.jpg
   caption: "Credit to Me" 
 toc: true
