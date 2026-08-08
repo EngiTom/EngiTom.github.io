@@ -10,11 +10,11 @@ author_profile: true
 I'm Tom Zhang, a CS senior at Caltech. Feel free to reach out!
 
 I like 
-- solving fun problems (such as, "How can PCA be applied for xray classification?")
+- solving fun problems 
 - playing guitar and singing, as a tenor/bass of Out of Context Acapella and guitarist/singer of Shadow Garden
-- music (my top 5 fav artists: Porter Robinson, Jay Chou, Fujii Kaze, John Mayer, and Feed Me Jack)
+- music (Porter Robinson, Madeon, Yorushika, Jay Chou, Fujii Kaze, John Mayer, and Feed Me Jack)
 - making beats on FL Studio
-- drawing people with my LAMY Safari Fine Fountain Pen
+- drawing people with my LAMY Safari
 - anime: *JoJo's Bizarre Adventure: Diamond is Unbreakable, Jujutsu Kaisen, Detective Conan, Assassination Classroom*
-- manga/manhwa/comics; *Steel Ball Run*, *Team Fortress 2 Comic*, *Greatest Estate Developer*, *Sakamoto Days*
+- manga/manhwa/comics; *Steel Ball Run*, *Team Fortress 2 Comic*, *Greatest Estate Developer*, *Sakamoto Days*, *Chiikawa*
 - teaching; something I want to do in the future
