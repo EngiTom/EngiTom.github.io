@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://engitom.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://engitom.github.io/" rel="alternate" type="text/html" /><updated>2026-08-09T12:44:55+00:00</updated><id>https://engitom.github.io/feed.xml</id><title type="html">Engi’s Exchanges</title><subtitle>Learning experiences</subtitle><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><entry><title type="html">Summer’s Palace</title><link href="https://engitom.github.io/travel/film/music/food/art/summers-palace/" rel="alternate" type="text/html" title="Summer’s Palace" /><published>2026-08-08T16:00:01+00:00</published><updated>2026-08-08T16:00:01+00:00</updated><id>https://engitom.github.io/travel/film/music/food/art/summers-palace</id><content type="html" xml:base="https://engitom.github.io/travel/film/music/food/art/summers-palace/"><![CDATA[<p>“It was a dream after all?” — Hachiware, <em>Chiikawa</em>, Chapter 330</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/1TMf1KubrrRDU9nC7ODhzc" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+<p><!-- yuqingruru --></p>
+
+<h2 id="odyssey">Odyssey</h2>
+<p>Lots of people have been criticizing Christopher Nolan’s <em>Odyssey</em> movie for its casting choices, diction, deviation from the original plot, and historical inaccuracies, but I think none of these factors are truly at the heart of what the story is really about.</p>
+
+<h3 id="historical-accuracy">Historical Accuracy</h3>
+<p>People are right to complain about historical inaccuracies: the casting of non-white characters, the use of the word “daddy,” and the clothes and ornaments.</p>
+
+<p>They are right because the <em>Odyssey</em> is historically inaccurate by definition. Homer saw all of the things he wrote about exactly when they happened, and he wrote it exactly how it all happened.</p>
+
+<p>All the characters should be Greek people, speaking Greek, and not modern Greek. They should use the dialect they would have spoken 3000 years ago. All of the gods should appear on the screen, they should find a giant guy with one eye, a monster with long tentacles, and a whirlpool full of teeth. Oh yeah, and all of the actors should kill each other for real.</p>
+
+<h2 id="escape-from-spotify">Escape from Spotify</h2>
+<p>If you think about it, Spotify has a really good business model, because let’s say you pay 150 every year to them, and you’ll live for ~50 more years. If the interest rate is 3.5%, then with a discounted cash flow (DCF) model you are worth $3640 to them right now.</p>
+
+<p>The median annual income in the U.S. is $65k, and the median annual work hours logged is 1.8k. So, 1 hour is worth ~$36 dollars. This means that Spotify subscription costs 100 hours of the median person’s present time.</p>
+
+<h3 id="the-escape-plan">The Escape Plan</h3>
+<p>Can I successfully escape from Spotify in 100 hours?</p>
+
+<p>My plan is this:</p>
+<ul>
+  <li>Get a list of all of my favorite songs</li>
+  <li>Collect data on their audio/lyrics</li>
+  <li>Place them in some kind of latent space</li>
+  <li>Make an app with a recommendation algorithm</li>
+</ul>
+
+<p>The biggest problem here is likely collecting data on 2000 songs and turning these features into numbers that can be used.</p>
+
+<p>For the songs which have lyrics, I think we can scrape them from online. One issue is dealing with songs in different languages, Mandarin, Cantonese, Korean, Japanese, English.</p>
+
+<p>To get the vibe of the song, I’m thinking of learning some audio analysis of the frequencies of the notes to calculate some things about the music.</p>
+
+<p>Perhaps I could just recreate the <a href="https://www.kaggle.com/datasets/tomigelo/spotify-audio-features">Spotify dataset</a>’s features, or use the <a href="https://developer.spotify.com/documentation/web-api/reference/get-audio-features">Spotify Web API</a>.</p>
+
+<p>This <a href="https://arxiv.org/html/2505.07280v1#S3.F1">paper</a> might be useful, since they seem to be doing something similar.</p>
+
+<p>Something else to add might be the age of the song, like if I just skipped some old songs, I might want to hear some new songs.</p>
+
+<p>I don’t want to have any input on the algorithm except for maybe having it figure out how long I’ve been listening to each song before I skip it.</p>
+
+<h2 id="nihon">Nihon</h2>
+<p>Last time I tasted happiness I was in Kyoto.</p>
+
+<p>So the first thing I did after landing in Japan was go straight to Kyoto.</p>
+
+<h2 id="stand-ikibara">Stand Ikibara</h2>
+<p>On my way to Kyoto, I was supposed to take the limited express, but I accidentally took the local train, so it was taking much longer than expected.</p>
+
+<p>As per usual, I got hungry, so I got off at a town where there looked to be a few restaurants around the station so that I could eat and get back on.</p>
+
+<p>I ended up in a small city called Ikibara. And I wanted to eat at some restaurant with good reviews but the line was a bit long and it was hot out.</p>
+
+<p>So, I went back toward the station to a restaurant I passed, and a man in the window eating with a group looked at me distrustfully. So, I went back a bit more into a small alleyway to a bar/restaurant called Stand Ikibara.</p>
+
+<p>I seem to be naturally attracted to places with the word “Stand” in the name. In Japan, I think “Stand” just means “Bar”? Since I realize now that there are so many restaurants with it in the name.</p>
+
+<p>Anyway, the door is a manual sliding door, I open it quietly, walk in, and close it quietly. Maybe too quietly, because they dont even know I’m inside.</p>
+
+<p>There is no air conditioning but it’s surprisingly cool. Its quite dark but there’s faint sunlight coming through the curtains.</p>
+
+<p>Two people are running the kitchen. And one guy is talking on the phone in the dining area. The guy on the phone might actually be the owner, I’m not sure. He waved at them and told them that I was here, and then I got seated more toward the inside.</p>
+
+<p>I’m pretty sure it’s just a normal house converted to a restaurant.</p>
+
+<h3 id="the-drawing-board">The Drawing Board</h3>
+<p>Anyway, I order by QR code and then the food comes. I got some carbonara, salad, and a homemade lemon soda. The lemon soda was the best part, but the salad was quite typical with some Japanese long skinny bean sprout things.</p>
+
+<p>As I’m eating, I have the idea of drawing the people working there.</p>
+
+<h3 id="the-drawing">The Drawing</h3>
+<p>I try to draw the waiter first: she has her hair in the back bound by a clip, and has some squiggly curly strands coming down the sides. I think she had bangs as well.</p>
+
+<p>Then I draw the guy who was cooking. He has a very wavy perm, with hair that was probably dyed many months ago, or frosted tips? and thick-rimmed black glasses. I noticed at the end that he had a small goatee as well.</p>
+
+<p>In the middle of eating my pasta, I hear two women talking to each other, at which point I realized I need to draw the second woman as well. She was well-hidden behind a tall metal box which looked like the boxes used at Red Door to hold cookies and croissants.</p>
+
+<p>I think she was the baker, because I saw that they serve some baked sweets as I was walking out.</p>
+
+<h3 id="the-woman-behind-the-box">The woman behind the box</h3>
+<p>In any case, she was behind the box the whole time so I couldn’t get a good look at her. When I did see her, it was a side profile, which I’m horrible at drawing. Since that was the only angle I could see, I tried drawing that perspective, which was a bad idea.</p>
+
+<p>I had to cross it out and draw a sort-of squiggly rose over it. However, I identified that she had a ponytail.</p>
+
+<p>Near the end of the meal I saw that she had bangs in the front (curtain bangs), but I messed up by giving her the same squiggly curly strands when, in actuality, her hair was more crescent shaped.</p>
+
+<p>At the end of the meal, I paid the bill and then also gave them the drawing. I heard them giggling about it as I walked out the door, and the guy being confused because they were so happy and he didn’t yet know why.</p>
+
+<p>Sometimes it’s good to be in a part of the world where they haven’t heard of your art.</p>
+
+<h2 id="grandma">Grandma</h2>
+<p>I went to the confectionary store after getting off a very crowded 205 bus and then said “long time no see” to grandma, she was sort of amazed and confused because I think she remembered my face but she wasn’t sure from where. So, I spent some time pulling up the picture we took last spring. I think she remembered after that.</p>
+
+<p>She asked me how my mom was, which was kind of confusing at the time, but i later realized that she thought my friend P’s mom who visited earlier this year was my mom.</p>
+
+<p>I thought she meant my mom though, so I said she was doing well.</p>
+
+<p>Then she asked about my grandparents and how they are doing, I found it hard to explain in Japanese that my grandpa died a while ago, so I said my dad’s dad instead of grandpa, but then I didn’t know how to say died, though now I remember the meme “omae wa mou shindeiru” so I guess I should have said he shindeiru’ed.</p>
+
+<p>Regardless, she got the idea. And according to Google Translate, she was talking about how her grandpa also died and she wishes she could have spent more time with him.</p>
+
+<p>That was kind of awkward, but I started looking for candy to buy after that. I saw some of the same stuff from last time, and then some new stuff as well.</p>
+
+<p>Fruit jello, and some circular Chinese zodiac hard candys. I pointed to the monkey and said “I’m this” and asked what she was, and she said “Usagi,” which is a word I knew from my many hours of watching Chiikawa reels.</p>
+
+<p>I was amazed because Usagi is actually my favorite character.</p>
+
+<p>Anyway, I bought a few things and then she sort of forced me to take some free stuff just like last time. Luckily, I avoided the matcha crunchy rolls, but I had to take the chestnut dorayaki.</p>
+
+<p>We took a picture and I asked if I could draw a portrait of her.</p>
+
+<h3 id="something-of-an-artist-myself">Something of an artist myself</h3>
+<p>She was shocked by this and asked if I was an artist (which I didn’t understand) and then asked me what I did after I said no. I said I was a college student.</p>
+
+<p>She asked “Kyoto University?” And I said I go to school in California. She was even more shocked by this and then started saying stuff about Trump, how grandpa is always complaining about inflation from the war, and how the world is a mess.</p>
+
+<p>Then she asked me what I think happens after people die, to which I replied that I didn’t know. I think she expected some kind of answer from me but I don’t feel good about lying to her.</p>
+
+<p>Either way, I again asked if I could draw her and she agreed. So, I tried to find my red LAMY Safari pen but couldn’t find it anywhere. Even though I brought 3 fountain pens on this trip, I could only find the ballpoint pen.</p>
+
+<p>Perhaps it was a sign that not everything happens the way you want it to, but the result can still be beautiful.</p>
+
+<p>Anyway, she kept laughing while I was drawing, which is something I’m sort of used to.</p>
+
+<p>When I finished the drawing, I was disappointed that I wasn’t able to get the distance between the eyes correct, or the shape of her face, but she was very happy. She had this glimmer in her eyes and said it was “Kakkoi!” and “Sugoi!”</p>
+
+<p>Perhaps, technique is not all that matters in art.</p>
+
+<h3 id="parting-gifts">Parting Gifts</h3>
+<p>I closed my book and was about to leave, but I realized I could just give her the page and take a picture of it. So that’s what I did.</p>
+
+<p>She was overjoyed. I asked her to write her name on the drawing and she wrote 三得子 and then next to it, the characters for “Miuko,” her name.</p>
+
+<p>Then, I wrote my chinese name and had to explain the characters. She said she didnt know what they meant so I said takoyaki, morning, healthy. And she was like, “Hmm… cool.”</p>
+
+<p>I’m not sure if her last name is 三得子 but it looks like it means “has 3 sons” in chinese characters.</p>
+
+<p>It seems kind of ominous, but that seems like something that would be written on a tombstone instead of a surname.</p>
+
+<p>Or maybe thats just how it works in Japan?</p>
+
+<h3 id="nanzenji">Nanzenji</h3>
+<p>I don’t really like shrines that much, since they are so commercial, but I went to Nanzen-ji, where there’s a cool aqueduct structure called the Waterway Pavilion, and then Komaga Falls, a small waterfall a small hike up the mountain.</p>
+
+<p>Surprisingly, there was no one who hiked up to see the waterfall. Everyone was just there to see the aqueduct.</p>
+
+<p>At the waterfall, there was a red bridge which led to some graves above the waterfall. It reminded me of my conversation with grandma about the afterlife.</p>
+
+<p style="text-align: center;"><img src="/assets/images/redbridge.JPG" alt="red bridge" />
+The red bridge.</p>
+
+<p>Seeing the sunlight through the leaves hitting the bridge in a particular way was spiritual. It’s a bridge that most people, including me, are not intending to cross any time soon. But we’ll cross that bridge when we get there.</p>
+
+<h3 id="cstand">C.stand</h3>
+<p>Right before I left for the airport, I wanted to get a quick last treat like some dessert or drink, so I went on my phone and found a place called C.stand.</p>
+
+<p>In the pictures, there were very comfortable-looking seats and seemed very spacious and relaxing, so i chose it.</p>
+
+<p>I went up the elevator to the 11th floor and I was punched in the nose by the smell of a strange smoke, and the room looked cloudy.</p>
+
+<p>Looking around, I saw that someone’s drink had steam coming out of it, so I thought “It must be some kind of special Japanese bartender liquid nitrogen thing.”</p>
+
+<p>Then, I saw a table of guys smoking with long pipes, and that’s when I found out that this was a “shisha bar,” which is also known as a hookah bar, which I learned about from Valorant.</p>
+
+<p>I was not interested in inhaling smoke, so I left immediately. Maybe it would have been fun, but I had to go to the airport.</p>
+
+<p>By the way, KIX is one of the worst airports imaginable.</p>
+
+<h2 id="wazzup-beijing">Wazzup Beijing?</h2>
+<p>I went to Beijing last month to meet my friends P and K. We went to some anime merch malls and palaces and ate Beijing hotpot, which is where the meme with the singing mushroom comes from.</p>
+
+<p>The hotpot may have been too hot though, since I stuck a piece of meat on the top for too long and then part of it wouldn’t come off and it got burnt to a crisp.</p>
+
+<p>I also accidentally put my hand partially over the opening of the pot for too long and curled the hairs on the back of my right middle finger’s first segment. K was laughing at me but thankfully, the hairs uncurled the following day.</p>
+
+<p>At the end of the day, I realized that J was also in Beijing at the time, so I asked to hang out on Sunday.</p>
+
+<h3 id="humble-a-boat">Humble A Boat</h3>
+<p>On Sunday, all four of us met up at the Summer Palace, also known as 颐和园. My mom was actually the one who recommended that we all go row some boats at the Summer Palace on the previous night.</p>
+
+<p>There were no row boats, only motorboats, so it turned out to be a lot of fun. I took some pictures of the ducks, as well as the thumbnail of this post from it. Also, we almost got into a few boat crashes.</p>
+
+<p style="text-align: center;"><img src="/assets/images/pekingduck.JPG" alt="bonusduck" />
+Beijing duck!</p>
+
+<p>We were being good environmentalists and picked up a floating water bottle from the lake and then P wanted to get close to shore so that he could throw out the bottle in a trash can.</p>
+
+<p>As foreshadowed, we obviously got beached and then we had to do some crazy combination of turning and reversing and P getting off the boat to push the boat back into the water, and then jumping back onto the boat.</p>
+
+<p>Overall, a great sidequest.</p>
+
+<h3 id="bonus-ducks">Bonus Ducks!</h3>
+<p>For lunch, we weren’t sure where to go, but we were going to the subway station when K started feeling a bit unwell so instead we just ate at a Peking duck restaurant close to the station.</p>
+
+<p>One of the waitresses, or probably the owner, noticed that we were speaking English and asked where we were from. I said that we were just some college students from America and then she gifted us some free tanghulu for dessert!</p>
+
+<p style="text-align: center;"><img src="/assets/images/tanghulu.JPG" alt="bonusduck" />
+Peking duck. And tanghulu.</p>
+
+<h3 id="the-no-arbitrage-principle">The No-Arbitrage Principle</h3>
+<p>After that, J and I finessed a Casio watch saleslady from the mall into selling me a new G-Shock at a 20% discount with an unintentional and unplanned good cop, bad cop strategy.</p>
+
+<p>I pulled up the U.S. prices on my phone which was around $125 and when she said she couldn’t go that low, I was like, “It’s ok, I don’t really need the watch” and then tried to leave.</p>
+
+<p>But she already took the watch out of the display, so she sort of got sunk-cost fallacied, I guess. This is the point where J, the bad cop said that it’s cheaper online.</p>
+
+<p>Then, a few currency conversions later, it was over. We got out of there quite proud of ourselves, but deep down, I was quite sad for her. She probably got chewed out by her boss for making that deal.</p>
+
+<p>However, I do enjoy educating others, and some lessons are best taught the hard way.</p>
+
+<h3 id="dress-2-impress">Dress 2 Impress</h3>
+<p>Before dinner, we weren’t sure what to do, and then J had the brilliant idea of playing a game where we pick outfits for each other and then vote on who makes the best outfit for each other.</p>
+
+<p>I had my doubts, but then I realized that this game is incredibly fun. We went into an Urban Revivo and then picked out some outfits.</p>
+
+<p>I’m not too sure who won, but it definitely wasn’t me. I was just dressing the other people how I would dress myself (unfashionably) and getting a good laugh out of it.</p>
+
+<h3 id="bearing-the-cold">Bearing the Cold</h3>
+<p>For dinner, we went to a place called “The Tree” which had these really cute bear-shaped ice cubes for the milk tea.</p>
+
+<p style="text-align: center;"><img src="/assets/images/bearicetea.JPG" alt="bonusduck" />
+Bear milk tea</p>
+
+<p>Afterward, for second dessert, we had some bingsu, which was about the same as Oakobing back in Pasadena.</p>
+
+<h2 id="summers-palace">Summer’s Palace</h2>
+<p>I think I realized at the end of the trip that this is one of the last summers that I will be able to do anything fun with my friends, perhaps for the rest of my life. This is a bit sad and a bit happy, a matter of perspective.</p>
+
+<p>Sometimes, it’s hard to tell whether I have everything or nothing.</p>
+
+<p>As days get shorter, nights get colder, and the engine of time revs on, I prefer to have each other’s backs.</p>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Travel" /><category term="Film" /><category term="Music" /><category term="Food" /><category term="Art" /><category term="Japan" /><category term="China" /><category term="Beijing" /><category term="Odyssey" /><category term="Spotify" /><summary type="html"><![CDATA[“It was a dream after all?” — Hachiware, Chiikawa, Chapter 330]]></summary></entry><entry><title type="html">Decent Exposure</title><link href="https://engitom.github.io/singapore/photography/advice/food/decent-exposure/" rel="alternate" type="text/html" title="Decent Exposure" /><published>2026-07-09T16:00:01+00:00</published><updated>2026-07-09T16:00:01+00:00</updated><id>https://engitom.github.io/singapore/photography/advice/food/decent-exposure</id><content type="html" xml:base="https://engitom.github.io/singapore/photography/advice/food/decent-exposure/"><![CDATA[<p>“I don’t get it, what’s the kick?” — Saul Goodman <em>Breaking Bad S2E8</em></p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/1NYXrU1mlnnoV6k2p1xBl8" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+<p><!-- Worlds Away --></p>
+
+<h2 id="picture-that">Picture That</h2>
+<p>I’ve been trying to shoot in manual mode on my Sony Cybershot HX7V, because the “intelligent auto” mode can only get you so far. There was a moment where I tried taking a picture of these spherical street lamp next to the water at Boat Quay and couldn’t get it to look the way I wanted because I was shooting on auto mode.</p>
+
+<p>So, attempting to get the lights looking the way I wanted, with a nostalgic warm, orange blur that reminded me of the spherical lamps in Shanghai next to the river, but also the P-orbital lamps at Beckman Auditorum, was basically a gamble based on where the camera would choose to focus.</p>
+
+<p style="text-align: center;"><img src="/assets/images/goodlight.JPG" alt="lights1" />
+1st picture</p>
+
+<p>As it turns out, none of them were as good as the first photo.</p>
+
+<p style="text-align: center;"><img src="/assets/images/light5.JPG" alt="lights1" />
+5th picture</p>
+
+<p>However, this experience did make me appreciate the depths of photography much more, learning about the exposure triangle and how I can improve at getting the desired look.</p>
+
+<p>As for the theme of the picture, nostalgia, I like that one of the lights is broken, since it shows that in every image of the past, there are blurry details and blind spots.</p>
+
+<h2 id="data-analysis-blog">Data Analysis Blog</h2>
+<p>This was originally supposed to be some kind of educational data analysis blog, but it’s clearly turned into something else much better.</p>
+
+<h3 id="nice-weather">Nice Weather?</h3>
+<p>I’m going to Osaka next weekend, and Beijing the next.</p>
+
+<p>I was trying to book tickets when I would be less likely to be hit by a typhoon, but I didn’t think there would be much point because I need to buy somewhat early to prevent from high flight/hotel prices, and there was not enough information available to estimate when the next time the typhoon would hit.</p>
+
+<p>However, things just got serious because I found a <a href="https://agora.ex.nii.ac.jp/digital-typhoon/ibtracs/WP/">Japanese typhoon dataset</a>, and I’m going to do some data analysis.</p>
+
+<p>First, I want to count the number of typhoons that hit the NW Pacific in mid-July, so basically, I just took the start and end dates and got the number of typhoons in each year that overlap with July 10-20.</p>
+
+<p style="text-align: center;"><img src="/assets/images/typhoon_graph.jpg" alt="typhoon_midjuly_graph" />
+Looks like climate change is real.</p>
+
+<p>So, seems like we have a good chance of not getting hit because every time there’s a year with 6 typhoons in mid-July, it usually drops to a small number the next year, although climate change might cause some issues.</p>
+
+<p>Instead, let’s try to look at the time between typhoons. I make the assumption that we can just use the midpoint time of the hurricane to mark them, which I think makes sense because it’s probably around the middle of the hurricane that it would hit anyway, the end will be out in the ocean and the start would be also in the ocean somewhere and weak.</p>
+
+<p>I apply some filters here like:</p>
+<ul>
+  <li>date must be after 1891</li>
+  <li>gap must be less than 30 days</li>
+</ul>
+
+<p>And I get this histogram:</p>
+<p style="text-align: center;"><img src="/assets/images/typhoon_gaps.jpg" alt="intertyphoon_time_hist" />
+Seems like typhoons are typically 5 days apart in July, wow!</p>
+
+<p>I guess this means that there’s no point in planning ahead for typhoons… Oh well, at least this was a bit fun.</p>
+
+<h3 id="reality">Reality</h3>
+<p>I seem to be flying around one of the biggest typhoons in decades, <a href="https://en.wikipedia.org/wiki/Typhoon_Bavi_(2026)">Typhoon Bavi</a> which is a “category 5-equivalent super typhoon.”</p>
+
+<p>On the bright side, it’s not going to hit Osaka. Hopefully the flight can be safe and not delayed, which might be a lot to ask for in a category 5 storm.</p>
+
+<h2 id="parts-known">Parts Known</h2>
+<p>After binging so many Anthony Bourdain YouTube videos, I really want to express my view of foods and places through a video format, because I think I would do a pretty good job.</p>
+
+<p>Also, I think it’s one of my 2026 resolutions, and 2026 is almost over (it’s July, buddy).</p>
+
+<h3 id="conundrums-of-philosophy">Conundrums of Philosophy</h3>
+<p>My main problem is that I’m not sure how to get talk on camera without ruining my ability to be in the moment.</p>
+
+<p>I think what Anthony Bourdain does is probably voiceovers after the events actually happen, but he writes notes when experiencing things, which I might need to do as well.</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/2LyJtouQfFU" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>Watching this video really made me want to buy a plane ticket to Hong Kong to eat the food and vibe in the city.</p>
+
+<p>Christopher Doyle is also an amazing guide to Hong Kong because he basically defined the way that people view it, and his perspective and aesthetic is what defines the city even more than reality itself.</p>
+
+<h3 id="place-japan">Place, Japan</h3>
+<p>It reminds me of this meme:</p>
+
+<p style="text-align: center;"><img src="/assets/images/placejapan.jpeg" alt="placejapan" />
+“Place, Japan” Meme</p>
+
+<p>The point of this meme seems to be that Japan is overrated because it’s possible to find basically roughly the same types of places in other countries.</p>
+
+<p>And that point is not entirely wrong, because people tend to underappreciate things about their own country and idealize other ones.</p>
+
+<p>However, what the meme misses is that there is a legitimate appeal to the Japanese culture and aesthetic. If the world were a game of <em>Civilization</em>, then Japan would have won a “Cultural Victory” by now, and Hong Kong is only a few steps behind Japan.</p>
+
+<h3 id="in-the-mood-for-food">In the Mood for Food</h3>
+<p>I really like this quote from Doyle in this episode:</p>
+
+<blockquote>
+  <p>So-called beauty is not “my make-up is so good and then I lifted my face a bit.” No, beauty is the darkness and the pleasure of embracing that and giving you more of your experience of life.</p>
+</blockquote>
+
+<p>I’m not exactly sure what the second half means, but I do know that beauty is not as simple as appearances.</p>
+
+<h2 id="madeon">Madeon</h2>
+<p>For those who don’t know Madeon, he’s Porter Robinson’s French best friend and they made “Shelter” together, which means he’s definitely not bad at making music.</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/7vm3Z78elWY11Xl6MNuXng" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+<p><!-- Be Fine --></p>
+
+<p>Above is my current favorite song from him. His songs on this album have a very strong beat and somewhat gospel-like aspects which he incorporates into sort of old-school French EDM/Daft Punk melodies.</p>
+
+<h3 id="victory">Victory</h3>
+<p>His new album, <em>Victory</em>, is really good too, but it’s more like a high-energy grungy, punk rock/hyperpop EDM album. I think I like basically all the songs except for “Super Platinum” which just doesn’t sound good</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/09T22xu0U9AW2d3s8T3OwE" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+<p><!--Enjoy --></p>
+
+<p>“Enjoy” is my favorite song from the album currently because the bridge after the second chorus is one of the greatest bridges I’ve ever heard in any song. It kind of reminds me of Carly Rae Jepson or maybe like “Africa” by Toto.</p>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Singapore" /><category term="Photography" /><category term="Advice" /><category term="Food" /><category term="Exposure" /><category term="Hong Kong" /><category term="Anthony Bourdain" /><category term="Japan" /><summary type="html"><![CDATA[“I don’t get it, what’s the kick?” — Saul Goodman Breaking Bad S2E8]]></summary></entry><entry><title type="html">Virtue</title><link href="https://engitom.github.io/singapore/photography/virtue/" rel="alternate" type="text/html" title="Virtue" /><published>2026-06-26T16:00:01+00:00</published><updated>2026-06-26T16:00:01+00:00</updated><id>https://engitom.github.io/singapore/photography/virtue</id><content type="html" xml:base="https://engitom.github.io/singapore/photography/virtue/"><![CDATA[<p>“Patience is a virtue, but impatience gets things done.” — Chelsea Clinton</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/1xqT27jSG1Y15vOXfsV0gv" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<h2 id="virtu">Virtu</h2>
+<p>This week I started my internship at Virtu Financial in Singapore. I can’t say too much about it for legal reasons, but I like it so far.</p>
+
+<h3 id="maps">Maps</h3>
+<p>In CS 38, I solved a problem with a novel solution which lost me points simply because it was not in the answer key.</p>
+
+<p>However, in this Veritasium video on how Google Maps computes the shortest path, Google basically does what I do in my solution to the problem, splitting the U.S. map in half horizontally then vertically.</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/kS-CGkiPetQ" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>Just because you lose points, doesn’t mean you are wrong.</p>
+
+<h2 id="colony">Colony</h2>
+<p>On my first weekend, I watched the South Korean zombie movie <em>Colony</em> by Yeon Sang-ho, who directed <em>Train to Busan</em>, one of the top zombie movies of recent memory.</p>
+
+<p>There’s just something so attractive about the idea of a zombie apocalypse, especially for people going through the motions of their mundane routine. Like before, during, and after doing my CS 38 homework, I was kind of hoping for some kind of apocalypse.</p>
+
+<p>As to not spoil too much, I will just state the pros</p>
+<ul>
+  <li>Interesting themes on morality (trolley problem)</li>
+  <li>Solid integration of science concepts (yellow mold/ants)</li>
+  <li>Unique zombie movement/stunts</li>
+  <li>Occasional eversal of expectations
+and cons:</li>
+  <li>Logical mistakes/plotholes</li>
+  <li>Unconvincing character acting (security guard)</li>
+  <li>Rushed ending</li>
+  <li>No character development</li>
+  <li>Tropes/caricatures (CEO, bully girl)</li>
+</ul>
+
+<h2 id="snapshot">Snapshot</h2>
+<p>G said that I should get myself a digicam, but not the one that she has, which I think is some kind of hand-me-down Canon. I don’t really like the bulk of it anyway, so I wanted to get a smaller one.</p>
+
+<h3 id="upshot">Upshot</h3>
+<p>I looked online for some used digicams and I found a place in Bugis called “Digicam Diaries” which seemed legit. I asked Gemini a lot of questions about the models available on the website, and it did a pretty good job after I asked it a lot of questions. I ended up just deciding to get two cameras, the Panasonic Lumix DMC-FX60, and the Canon DSC-HX5.</p>
+
+<p>I bought them online but what ended up happening was that they didn’t have the HX5 available in the store, so they offered me a HX7V as an upgrade. The HX7V has more megapixels, which basically means the area of the picture generated in millions of pixels.</p>
+
+<p>However, what was kind of strange, when I looked it up, was that the sensor area per pixel on the HX7V is lower than the HX5, but it actually is better than the HX5 though, since it’s back-illuminated.</p>
+
+<h3 id="hotshot">Hotshot</h3>
+<p>I think that I might make a YouTube video or Instagram reel using the pictures I take, just piecing them together with some song to the backdrop. However, I think the problem currently for me is that I hesitate to shoot too much.</p>
+
+<h2 id="kip">Kip</h2>
+<p>I listened to this year’s commencement speech live on YouTube but was initially disappointed by its generic message. “Cautious optimism” seems like a generic message but it depends entirely on your interpretation of what that means.</p>
+
+<p>For Caltech students, who tend to be independent and carry good judgement, I think it’s the best possible advice he could have given. I’ve started to understand how I can widen my vision.</p>
+
+<h3 id="cargo-cult-science">Cargo Cult Science</h3>
+<p>At the dinner with Kip, he mentioned that the only Caltech prof who ever gave a commencement speech at Caltech was Feynman, and that he feels quite insecure about being put on Feynman’s level.</p>
+
+<p>So, I read <a href="https://calteches.library.caltech.edu/51/2/CargoCult.htm">Feynman’s 1974 commencement speech, “Cargo Cult Science,”</a> to see if it’s any good. For reference, “cargo cult” refers to Melanesian islanders who started trying to summon supply drops from planes.</p>
+
+<p>To summarize it, he groups and attacks pseudoscience and expedient parts of the scientific community. I’m very impressed how he was brave enough to namedrop the National Accelerator Lab, Cornell, Wesson Oil. However, he was smart enough to not directly criticize them and instead juxtaposed them with the cargo cult.</p>
+
+<h3 id="decay">Decay</h3>
+<p>According to DMO’s website, Isaac Asimov said, “The day you stop learning is the day you begin decaying.”</p>
+
+<p>I’ve recently learned about the importance of paying attention to the delay and decay of events.</p>
+
+<p>For instance when producing music, you can add decay and delay to make the sound thicker. If you have a pluck synth you can increase the tail to build momentum.</p>
+
+<h2 id="small-error">Small Error</h2>
+<p>I was at the office and S and M were checking out my blog, and they noticed that one of the teaser images was not loaded (from “Shear Luck”) but it loaded soon after that, so it seems like it wasn’t broken.</p>
+
+<p>I checked the teaser image though, and it seemed like the right size, so I’m not sure what happened there.</p>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Singapore" /><category term="Photography" /><category term="Kip Thorne" /><category term="Digicam Diaries" /><category term="Google Maps" /><category term="Richard Feynman" /><summary type="html"><![CDATA[“Patience is a virtue, but impatience gets things done.” — Chelsea Clinton]]></summary></entry><entry><title type="html">Nest</title><link href="https://engitom.github.io/music/ai/advice/nature/nest/" rel="alternate" type="text/html" title="Nest" /><published>2026-06-06T16:00:01+00:00</published><updated>2026-06-06T16:00:01+00:00</updated><id>https://engitom.github.io/music/ai/advice/nature/nest</id><content type="html" xml:base="https://engitom.github.io/music/ai/advice/nature/nest/"><![CDATA[<p>“There’s never enough time to do all the nothing you want.” — Bill Waterson, 1988</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/1xqT27jSG1Y15vOXfsV0gv" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<h2 id="reading">Reading</h2>
+<p>Finished the Odyssey, it doesn’t have as beautiful language as the Iliad, but it’s still quite a good story. Even though it covers many locations, the story somehow feels more straightforward, probably because it follows the typical Hero’s Journey in the adventure aspect.</p>
+
+<h2 id="art">Art</h2>
+<p>I’ve been getting better at hands and drawing in perspective. Something I realized is that when I try to draw, I’ve been focusing too much on just the 2D shapes that it looks flat even though the anatomy is improving. The best things that I draw are usually things that evoke a sense of depth using foreshortening and crazy angles.</p>
+
+<p>When I began to draw two years ago, my fear was that I would accidentally draw something so good that I could never draw something better than that. When I heard about the story of Porter Robinson’s depression after he completed <em>Worlds</em>, I realized that this is something that all artists go through.</p>
+
+<p>In the end, the answer was to just do art for the sake of it, to do it not because it is needed, but because it is the definition of doing what you want.</p>
+
+<h3 id="polygon-dust">Polygon Dust</h3>
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/0AnJGlNdR56Hco4c2f4IYz" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<p>“Taking back wasted time that we have spent” is something that I wouldn’t do even if I could. Wasting time might be one of the most important things in life.</p>
+
+<p>A few weeks ago, J came to my alley and sat on the bench in front of my pastel drawings and smudged one of them. He was like “Oh, **** I just **** this guy.”</p>
+
+<p>I was angry for maybe like a few ms, but then the feeling faded away since the drawings are just dust on tree bark.</p>
+
+<p>Unfortunately though, J just did laundry before this happened, and the oil pastel doesn’t come out so easily. But at least clothes are merely layers of strings and fabric.</p>
+
+<h2 id="kt">KT</h2>
+<p>I met Kip Thorne for the third time at house dinner, and was reminded of how one of the reasons I took art class was because he said in one of his talks about his book that the drawing class he took at Caltech was the most useful class he’s ever taken.</p>
+
+<p>Back to the future, my artistic journey had come full-circle, since I did a quick sketch of him during dinner and he signed the drawing with “Wow! — Kip, 05-13-26.”</p>
+
+<p>He probably intended for his books to boost interest in the sciences, but I’ve really just gotten more into the arts.</p>
+
+<h3 id="short-term-optimistic-long-term-pessimistic">Short-term Optimistic, Long-term Pessimistic</h3>
+<p>Part of the reason he came to house dinner was because he wanted some advice on what to talk about at the commencement speech he’s giving. He wants to get the opinions and views of juniors and seniors who are about to move into a chaotic job/grad school environment, primarily on AI.</p>
+
+<p>We went around and discussed our future plans after graduation, as well as our concerns. It seems to be the case that AI is causing a variety of problems in society, primarily in the form of unemployment. Beyond that, social isolation and political division.</p>
+
+<p>Even for those working in AI, who seem to have job security, upon some probing by Kip, it was undeniable that the issues extend far beyond personal job security.</p>
+
+<h3 id="do-you-hear-the-gears-turning">Do you hear the gears turning?</h3>
+<p>Another thing we discussed was the crucial choice between industry/grad school, and how we plan to move forward given that AI may replace the more junior positions. I told him that I wanted to go into finance because there’s too much opportunity cost in going to grad school.</p>
+
+<p>He asked about my concerns about AI affecting finance, and I responded that codemonkey positions will likely decrease, but that the shotcallers are not replaceable in any institution. He liked this framing, but I realize now that it doesn’t make much sense.</p>
+
+<p>The issue with this is that junior employees cannot become shotcallers easily, and that it takes many years, whereas if you get a PhD, you can basically immediately become a senior shotcaller of sorts in industry.</p>
+
+<p>However, if you get a PhD, then that means you’ll be a grad student, which means you’ll be a replaceable cog for a professor instead of a company.</p>
+
+<h3 id="generally-relatively-good-relationship-advice">Generally Relatively Good Relationship Advice</h3>
+<p>At the end, T asked Kip whether he regretted getting married after junior year of Caltech, and Kip said no, because he is still good friends with his ex-wife and sometimes goes on vacations with both her and his current wife.</p>
+
+<p>Also, T asked for general relationship advice, to which Kip replied that everyone is different, and you shouldn’t expect to change other people in any major personality way, and that it’s important to be able to promote each other’s self-respect.</p>
+
+<p>This was sort of hilarious because T’s partner, B was there, and I would love to go back in time just to look at B’s reaction.</p>
+
+<h2 id="recommendations">Recommendations</h2>
+<p>The thing I find most troubling about AI is that it’s used for recommendation. Now, recommendation algorithms technically go back to applied linear algebra techniques, but the incorporation of AI has made it so that people accept whatever the algorithm gives them.</p>
+
+<p>I remember a time on YouTube when I would be checking my subscriptions tab multiple times a day to see if my favorite channels uploaded anything. For a few years, I noticed that the homepage recommendation algorithm was constantly changing its technique, perhaps weights were being tuned behind the scenes.</p>
+
+<p>But at some point between 2020 and 2023, the algorithm got advanced enough that the things it recommended were the things I wanted to see.</p>
+
+<p>I fear that currently, the recommendations have become the things that they want me to see rather than what I want to see.</p>
+
+<h2 id="cockroach-nest">Cockroach Nest</h2>
+<p>It was just yesterday when my friend M who works at RD had to clean up a cockroach that was found under a couch.</p>
+
+<p>CDS is known for having more expensive and less tasty food than basically every other school. However, the hygiene has also been called into question because of a Reddit post by a supposed ex-cook.</p>
+
+<p>This is not news to anyone who looks at what the workers do when they cook. For instance, until very recently, they didn’t change their gloves between touching raw burger meat and grabbing a fistful of fries for you, or wrapping your burrito.</p>
+
+<p>Also, on one of the only days with good food, the famed Curry Wednesday, they use the same spatula to stir every batch of curry before it is served. So, if you want vegan curry, or can’t eat beef for religious reasons, they are going to use that same spatula to mix your curry and someone’s beef &amp; shrimp curry.</p>
+
+<p>Oh yeah, and you can’t get off the meal plan, because it’s required for all undergraduates. So if you’re Muslim, you are getting scammed out of thousands of dollars and having pork-contaminated food shoved down your throat.</p>
+
+<h2 id="rat-nest">Rat Nest</h2>
+<p>Last weekend, Avery House conducted the first-ever storage cleanout.</p>
+
+<p>The Avery storage is this musty area in the garage, about the size of two schoolbuses parked next to each other, where there are two sets of double-decker shelves: the right for construction stuff and the left for personal belongings. All of this is guarded by a wire fence and a keycode lock with 4-5 buttons.</p>
+
+<p>The issue with this fence is that the space underneath has plenty of room for bugs and rats to get through<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+
+<h3 id="cardboard">Cardboard</h3>
+<p>As said in <em>Jurassic Park</em>, “Life will find a way…” Especially if it’s through cardboard.</p>
+
+<p>The ingenuity of life severely affected the blankets of a girl who left them on the bottom deck.</p>
+
+<p>We cracked the box open and found fur and little black-brown pills covering the blanket, with those red, blue, yellow Lindt chocolate wrappers all over. Yuck! But a good lesson in never storing food in places accessible to rats.</p>
+
+<p>Based on the contents of that box, we decided to crack open all the boxes in hopes of more goodies. Among the numerous lucky blocks down there, we found about 8 large boxes of comics released around the 25th anniversary of Marvel, aged around 1985.</p>
+
+<p>People started estimating the value of the comics, and the value got as high as dozens of thousands. However, after some AI estimation, the value seems to have dropped to a maximum of $5000, since 1985 is around the time when people started speculating on comic books in the hopes of making money. So, most of our comic books actually decreased in value, considering inflation.</p>
+
+<p>We eventually cracked open a box of comics where there was a grey ball of fur inside. I thought it was rat fur, and I wasn’t wrong, but J picked it up and analyzed it, finding a tail, which suggests that it was actually an entire dead rat. I assume that the rat died and then dried up, causing its fur to become most of its volume.</p>
+
+<h3 id="poop-dust">Poop Dust</h3>
+<p>I<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup> and A made great sacrifices for Avery House when they volunteered to sweep up the rat poop. I was wearing a N95 mask and A was wearing a regular mask.</p>
+
+<p>A said that later when they blew their nose, it came out totally black, which seemed kind of nuts to me. Turns out the correct procedure is to first spray the poop with bleach or alcohol so that it doesn’t aerosolize.</p>
+
+<p>I’m not sure how housing thought to allow us to clean out the storage, since they could be held liable for any injuries sustained by students doing what they should be doing.</p>
+
+<h3 id="bird-nest">Bird Nest</h3>
+<p>Life seems to hand me sidequests at the strangest times. I forgot which day this was, but in the same week as the storage cleanout, Z found a baby bird that fell out of its nest.</p>
+
+<p>It was a hot afternoon, me and O went over to check it out and luckily it was in the shade of the staircase. I went to open kitchen to get some water and saw sunflower seeds, but O noted that the sunflower seeds were salted, which is very bad for birds. I actually never noticed they were salty, but I tasted them and they were indeed salted. So, we just got water.</p>
+
+<p>We went back up the stairs and tried giving it some water on a plate, but it seemed very scared of us and hopped into the corner, behind some kind of structure with a valve. It might be a gas or a hose valve, but either way, it was good that it had enough energy to hop around.</p>
+
+<p>O left, and R showed up to the staircase, recognizing the bird as a house finch, and stating that it may have been kicked out of the nest. After discussing what to do for 15 minutes, we called the non-emergency line and left, since we could hear birds all around us, but no birds coming over.</p>
+
+<h3 id="dog-walk">Dog Walk</h3>
+<p>I was doing laundry some weeks ago in the afternoon and ran into my friend K, and then we sat on the bench and talked for 30 minutes catching up with each other, and then we just decided to go get boba from Hoji. After that, it was basically dinner time, so we went to Chim!, a very nice Thai restaurant.</p>
+
+<p>On the walk there, we ran into an old lady who was asking us to help hold down her dog. It was one of those small white dogs and the leash harness fell off somehow, and so I held down the dog for her while she put the buckle back into place. The dog was quite nice and didn’t resist much, but I am not too used to handling animals, since my family has never kept “real pets.”</p>
+
+<p>After that, we ate at the restaurant and reminisced on how interesting that was. Some things happen completely by accident, not necessarily for any reason. Meeting up with an old friend, taking a neighborhood stroll, holding down an old lady’s little white dog: all of these serendipitous events never would have happened had I not ran out of underwear.</p>
+
+<h2 id="silver-and-gold">Silver and Gold</h2>
+<p>In the lounge UGT, we like to write random stuff on the whiteboard. During one point last year, we were very into inspirational quotes. Current senior D greatly enjoyed one that I came up with: “I searched for statues of bronze and chests of silver, but what I really needed was a heart of gold.”</p>
+
+<p>At the time, I didn’t think much of this quote, but now that the seniors are graduating, we both began to think about it again. At the send-off dinner at Presdient Thai, all the seniors gave a little speech, and D used my little quote in his, which almost made me cry.</p>
+
+<h3 id="taste-and-flavor">Taste and Flavor</h3>
+<p>This quarter, I took cooking class with some of my friends. It’s taught by Tom Mannion, one of the most interesting people in the world.</p>
+
+<p>I didn’t enjoy it much at first, since it didn’t teach me anythig about cooking, but that’s because it’s not about cooking; it’s about eating. That, I enjoyed very much.</p>
+
+<p>We won a challenge in the “Taste and Flavor” class where we were given little bits of many different foods and asked to make mini three-course meal. I think I clutched up on the dessert by not making a s’more like every other group. We had apple slices with honey on top, and a bit of chocolate, but my finishing touch of some small pieces of jalepeno definitely completed it. Jalepenos are very spicy, but sweetness counters spiciness, as we learned in the lecture. I think Tom must have appreciated that application of new knowledge.</p>
+
+<p>For winning the challenge, we were treated to dim sum at a restaurant called 888 something in San Gabriel.</p>
+
+<h3 id="bird-nest-pt-2">Bird Nest Pt. 2</h3>
+<p>As I was walking between my room and the laundry room in the shade on my last day in the oven heat of the Pasadena summer, I remembered when I got my Avery full membership under the alias of Washing Machine #31. Little did I know, there aren’t even that many washing machines on all of campus, probably.</p>
+
+<p>I remembered a call I made to my bird enthusiast friend, J. I asked what might have happened to the bird to make it fall out of the nest, you know, “Did it get kicked out or did it roll out of bed like, Caltech style?” He laughed and said, “Probably the second.” By the way, security came with a ladder later that day and put the fledgling back in its nest in the roof structure, since it’s quite hard for an adult finch to lift anything.</p>
+
+<p>They say home is where the heart is, but I think home is a place that gets harder to leave each time you return, which I hope is the case for that baby bird.</p>
+
+<p>Anwyay, I looked at the sky and the hazy vibrations from the still eternal heat. “Someone else is also going to sweat like a dog on a day like this in 2027, 2028, and so on,” I thought. Sure, the sky may be a different blue, the diffraction of light different by a little bit, and it might be a day that “feels like 26 degrees” instead of 25, but I’m sure we’ll be feeling the same thing.</p>
+
+<p>I looked down at the ground as I passed by the pillars back to my room. “They’ll have a different perspective than me, not knowing what lies ahead, or who walked on the same path as they did,” I thought. But do you know what they won’t know as they walk my path?</p>
+
+<p>Beneath my feet, I saw some white spots and twigs under every pillar, which I used to think were splashes of paint left from some maintenance work, but nothing around it was painted white. I looked up from the pillar I stood under and what did I see? A bird’s nest above every pillar in the rafters.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p><a href="https://en.wikipedia.org/wiki/Murphy%27s_law">Murphy’s Law</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>The letter “I” is not me. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Music" /><category term="AI" /><category term="Advice" /><category term="Nature" /><category term="Production" /><category term="Porter Robinson" /><category term="Kip Thorne" /><category term="Storage" /><category term="Birds" /><summary type="html"><![CDATA[“There’s never enough time to do all the nothing you want.” — Bill Waterson, 1988]]></summary></entry><entry><title type="html">Whimsy</title><link href="https://engitom.github.io/running/life/books/cs/whimsy/" rel="alternate" type="text/html" title="Whimsy" /><published>2026-04-15T07:00:01+00:00</published><updated>2026-04-15T07:00:01+00:00</updated><id>https://engitom.github.io/running/life/books/cs/whimsy</id><content type="html" xml:base="https://engitom.github.io/running/life/books/cs/whimsy/"><![CDATA[<p>“What horses consider play, monkeys consider business, but to Tom…” — Unknown</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/7k6jxIMMAcXjHnbbHmGC9H" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<h2 id="strava">Strava</h2>
+<p>I was running at night one day and thought, “Why don’t I record this on Strava<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> so that DMO can see it?” And then I pressed “Record” and put my phone in my pocket and kept running.</p>
+
+<p>By the time I got back, I took out my phone and found out that my phone was about to pay for an annual subscription to Strava! It had activated the Apple Pay screen and just needed me to double tap on the side and it would have gone through.</p>
+
+<h3 id="random-chance">Random Chance</h3>
+<p>It seems like the sweat from my pants was able to conduct electricity and touch the phone in just the right way.</p>
+
+<p>It felt like it could have been foul play, but I can definitely see it happening that perhaps it accidentally ended the run recording and then hit the subscription advertisement.</p>
+
+<p>Why don’t they just sell runners’ data like the rest of the companies? Oh wait, they do.</p>
+
+<h2 id="typos">Typos</h2>
+<p>I found my first typo in <em>The Iliad</em>, and it’s in the Penguin Classics red cover version of the book on line 410 of Book 21, during a battle between Athene (Athena) and Ares, where Athene hits Ares with a rock and he falls over, and she says, “You stupid food!” instead of “You stupid fool!”</p>
+
+<p>I emailed the Vice President of Penguin Classics about the typo, also mentioning that I wanted to start a book club in case they wanted to provide books.</p>
+
+<h2 id="process">Process</h2>
+<p>Art is not all about the finished product, in fact, it’s mostly random what you get out at the end.</p>
+
+<p>Art is a process to be experienced. The ink flows from your hand to the page, continuous consideration and plotting.</p>
+
+<p>I am excited for G and N to also learn to appreciate drawing this quarter.</p>
+
+<h3 id="of-elimination">Of Elimination</h3>
+<p>PS 12 is one of my favorite classes at Caltech and for good reason. The lecture is simply the most entertaining. This year, 150 students are taking it when only 40 did last year when I took it.</p>
+
+<p>A lot of them are freshmen, and I hope the class will inspire them to become better people. But it means the class is going to be noisier, since freshmen think that lecture is high school where they can just talk whenever they want.</p>
+
+<p>Also, it feels like at least 5 of the people in the room were alumni of the course like me. For example, there was a guy who I remember from last year and a girl who often engaged in the debate.</p>
+
+<p>When I was trying to get into Baxter lecture hall, she also showed up and when she looked at me, she had to do a double-take because she probably also remembered me from last year LOL.</p>
+
+<p>Prof. Kiewiet is as lively as ever, stating that the Athens ostracized people whom they didn’t like by voting on it. And that Caltech should also have such a system, but clarifying that 2-3 ostracisms would probably be enough.</p>
+
+<h2 id="whimsical-past">Whimsical Past</h2>
+<p>I was talking with E about interior decoration, which is something I do not know anything about, as is apparent from my room layout.</p>
+
+<p>However, when I started talking about my childhood room, with all of its stuffed animals, my former whimsy seemed to manifest itself.</p>
+
+<h3 id="pets">Pets</h3>
+<p>I call my stuffed animals “pets” because it’s more convenient to believe that they are living, kind of like how people call their pets “children” because it is more convenient to believe that they are human.</p>
+
+<p>Now, there are a cast of characters which inhabit my world:</p>
+<ul>
+  <li>Joshie, who is a honeybear (cousin of Winnie, the Pooh) pillow from Disneyworld. He is the principal and teacher at Joshie Bear Elementary School (JBES) and Joshie Bear High School (JBHS). Joshie can fly/glide like a bird when he is fanned out. He loves to eat pancakes and honey (and flowers).</li>
+  <li>Sealy, who is a whitecoated harp seal pup, related to the California sea lions of San Francisco’s Pier 39. He runs a tomato soup restaurant where he serves only tomato soup, because that is what we ate when we went to Pier 39. Sealy has the special ability of being incredibly slippery and being able to generate water on his body, so that he can escape from any situation. Sealy is actually a shared pet between me and my sister.</li>
+  <li>The Jeffys, who are roughly 1000 little bears alternating between yellow, green, blue, and red colors that make up a small blanket. They have the ability to put anyone to sleep by wrapping around them and making them super comfortable. Each of them have various professions and characteristics. Their leader is the blue helping-hand Jeffy, very reliable and trustworthy. They are also all firefighters because they can roll up like a sushi and blast water.</li>
+  <li>Flowery, which is a pink flower blanket with a flower and bee pattern on it. Kind of like my sister’s version of the Jeffys. It can also roll up like a sushi to become a firehose. I think it has some other powers but as of late the joke is that Joshie chews on it.</li>
+  <li>Ducky, who is a blue duck from Peepz (and is definitely not a chicken) that has the ability to fly by jumping in mid-air, kind of like the Scout, or wobbling back and forth like the Bicycle guy from Happy Wheels. He likes to eat blueberries and also plays the X-Files theme song whenever he’s slithering around because he has no feet.</li>
+  <li>Sharkdog, who is a rotund husky-puppy-great-white-shark hybrid with a highly malleable shape (pancake, cylinder, block). He swims by using his tail as a propeller. He sometimes becomes a burrito by being wrapped in a blanket. He is my sister’s pet.</li>
+</ul>
+
+<h3 id="forces-of-nature">Forces of Nature</h3>
+<p>Just like <em>The Odyssey</em>, there are monsters and other forces of nature in this world.</p>
+
+<ul>
+  <li>Dot field, who are a bunch of black dots on a blue blanket cover. They can act as the ocean or as sand dunes depending on the situation and have a will of their own. Not necessarily good or bad.</li>
+  <li>Feetie Monsters, they come in pairs of two and are the sandworms of the dot field and use the dot field to kidnap and digest prey by enveloping the prey on all sides. They can be defeated by RKO.</li>
+</ul>
+
+<h2 id="imagination">Imagination</h2>
+<p>Now that I think of it, this is basically Jojo’s Bizarre Adventure because every character has a special ability and can use them in unique ways.</p>
+
+<p>I’m grateful as someone who grew up in the iPad-kid-era that all post-Angry-Birds-Go mobile games are just slop, because that gave me the time to spend on developing this world and its characters.</p>
+
+<p>I’m grateful that even though I know nothing of interior design, in a room with white walls, a Minecraft poster, a bed, a table, a chair, and a lamp, I can imagine a world full of excitement and wonder.</p>
+
+<h3 id="yaser">Yaser</h3>
+<p>In CS 156b, a machine learning project class where groups try to classify lung xrays as various illnesses/conditions, I was able to make a founder of NeurIPS grin with my interesting feature engineering.</p>
+
+<p>This idea originates from when I was in elementary school when everyone was checked for scoliosis, which I thought might be useful since the spine is in the xray and the spine probably affects the lungs. I found some papers on the subject confirming my suspicion.</p>
+
+<p>Then, I found that there was a metric known as Cobb’s angle which measures how severe someone’s spine curvature is. However, it’s kind of hard to get with image processing.</p>
+
+<p>So, I thought, can’t I just take the middle column of the image and see if it’s dark? Since if someone’s spine is bendy, it won’t be in the middle!</p>
+
+<p>I think the professor and TAs enjoyed this greatly, since they were smiling ear to ear, but whether for amusement from foolishness or fiendishness, I do not know.</p>
+
+<p>The results were decent, but I think applying a real image processing technique relating to edge detection or gradient something-something would probably work better.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Pokemon Go for runners. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Running" /><category term="Life" /><category term="Books" /><category term="CS" /><category term="Strava" /><category term="Iliad" /><category term="Odyssey" /><summary type="html"><![CDATA[“What horses consider play, monkeys consider business, but to Tom…” — Unknown]]></summary></entry><entry><title type="html">Sayings</title><link href="https://engitom.github.io/music/literature/teaching/sayings/" rel="alternate" type="text/html" title="Sayings" /><published>2026-03-20T07:00:01+00:00</published><updated>2026-03-20T07:00:01+00:00</updated><id>https://engitom.github.io/music/literature/teaching/sayings</id><content type="html" xml:base="https://engitom.github.io/music/literature/teaching/sayings/"><![CDATA[<p>“Water under the bridge.”</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/7LMajLn4v2ZWmLcfE1a7DY" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<h2 id="sayings">Sayings</h2>
+<p>In E.B. White’s language style book, <em>Strunk and White</em>, he states that, the fewer cliches a piece of writing uses, the better. However, it seems to me like people naturally incorporate repeated phrases into their language. In fact, even LLMs seem to have their own preferred set of phrases.</p>
+
+<p>For instance, <a href="https://www.reddit.com/r/ChatGPTPromptGenius/comments/1dphlga/i_made_a_list_of_60_words_phrases_that_chatgpt/">ChatGPT loves to say “delve”</a> and it’s instantly recognizable when some piece of writing has AI-like features because even if you tell it not to sound like AI, it simply can’t help it<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+
+<p>People also have unique patterns. For example, when Jerma985 goes to the grocery store and almost bumps into someone, he says “Careful, traffic!”</p>
+
+<h3 id="traffic">Traffic</h3>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/s_v2_u-idY4" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>Another kind of voice-line that everyone also seems to have their own greetings, like I usually say “What’s up” or “Yo.”</p>
+
+<h3 id="npcs">NPCs</h3>
+<p>This may seem like “NPC behavior,” but I think that something that it defines each person’s unique identity.</p>
+
+<p>I remember clearly in Pokemon X &amp; Y, how the NPC friends/rivals gave the player a choice in what nickname they should call the player. One of the options was “Meister,” which I had never heard before and still don’t know the meaning of, but the way it sounded seemed to gel with my preferences at the time.</p>
+
+<h3 id="accepted-meaning">Accepted meaning</h3>
+<p>There is a saying, “No man ever steps in the same river twice,” which I often quote incorrectly as, “No man ever walks the same path twice,” or “Nobody ever eats the same Red Door quesadilla twice.”</p>
+
+<p>However, I feel like my version is better because using the imagery of a river implies that it is the river that changes and all the water from before has moved into the sea, but my version is more suited to a younger audience, where the person is the one that changes.</p>
+
+<p>But maybe this is all just water under the bridge.</p>
+
+<h3 id="salt">Salt</h3>
+<p>Haruki Murakami’s memoir, “What I Talk About When I Talk About Running,” starts with a fake saying:</p>
+
+<blockquote>
+  <p>There’s a wise saying that goes like this: A real gentleman never discusses women he’s broken up with or how much tax he’s paid. Actually, this is a total lie. I just made it up. Sorry! But if there really were such a saying, I think that one more condition for being a gentleman would be keeping quiet about what you do to stay healthy.</p>
+</blockquote>
+
+<p>I think this is an interesting point, because the existence of sayings implies that they are truthful, by some kind of natural selection over time which removes useless sayings from the public consciousness.</p>
+
+<p>However, since all sayings were once not-sayings (is this a chicken-and-the-egg issue or a cart-before-the-horse issue?), perhaps we should <em>take them with a grain of salt</em>.</p>
+
+<h3 id="the-sandwich-method">The Sandwich Method</h3>
+<p>DMO often discussed using the sandwich method for giving feedback, which is giving some nice feedback, criticism in the middle, and ending with a compliment.</p>
+
+<p>I learned from my classmate Y that in China there is also a sandwich method, except for writing essays, where you put a famous saying at the start and end of the essay, and BS in between.</p>
+
+<h3 id="water-under-the-bridge">Water Under the Bridge</h3>
+<p>Just as no man steps in the same river twice, when Murakami said, “Time had passed, students had come and gone, I’d aged ten years, and there’d literally been a lot of water under the bridge,” I got the image of integrating the flux of water through the plane cutting across the river, and generating the volume of a very long tube of water.</p>
+
+<p>I hadn’t really thought deeply about the saying, “Water under the bridge,” henceforth referred to as WUTB, before this, but getting the picture in my head really gives me a better understanding of the true meaning of the saying.</p>
+
+<p>And I think this is the intended effect, because when something is repeated enough, it loses some of its original meaning and takes on a new meaning in meme form.</p>
+
+<p>WUTB, as it’s used in America, usually implies forgiving others’ past mistakes, rather than representing the passage of time, and since Murakami is Japanese, WUTB probably carries some kind of different meaning in Japan relating to time.</p>
+
+<h2 id="autumn-in-new-york">Autumn In New York</h2>
+<p>Murakami also writes about the song “Autumn In New York,” where he points out the line, “It’s autumn in New York / It’s good to live it again.”</p>
+
+<p>According to <a href="https://en.wikipedia.org/wiki/Autumn_in_New_York_(song)">Wikipedia</a>, Vernon Duke actually composed the song in Westport, CT, which is quite the coincidence.</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/0f2489MzoisF9pKduawvce" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<p>I was going to write, “I quite like autumn in the east coast compared to LA,” but I actually quite like autumn in LA as well, because it brings back nostagic memories, even though the colors are duller than those of New England.</p>
+
+<h3 id="memory">Memory</h3>
+<p>I was watching some YouTube videos about <em>The Iliad</em> to supplement my reading of the book and one video said that it is very hard to read the story because it was meant to be spoken/heard.</p>
+
+<p>“Wouldn’t it be really hard to memorize the whole book?” Is a natural thought, but DMO memorized all of <em>Hamlet</em> and a large portion of <em>Moby Dick</em>, so I think it’s not unreasonable that someone specialized in memorizing stories could memorize <em>The Iliad</em>.</p>
+
+<p>Also, a big complaint that some people have about pop music is that it’s too repetitive, but I actually think that <em>The Iliad</em> is even more repetitive than most pop music nowadays.</p>
+
+<h3 id="one-who-teaches">One who teaches</h3>
+<p>Teaching can be compared to Hanzel and Gretel, is what my old math teacher Mr. P told me, because the teacher’s job is to leave crumbs along the way and have the student arrive at the destination.</p>
+
+<p>“You can lead a horse to water, but you can’t force it to drink,” is what he may have felt in at least one of the classes that he taught.</p>
+
+<p>My roommate E asked me at Browne dining hall if teaching will even be around in a few years because AI is going to replace teachers. This makes no sense because of teacher’s unions and also I don’t think anyone would trust AI to teach kids.</p>
+
+<h2 id="adc">ADC</h2>
+<p>I’ve been playing ADC instead of jungle and it’s been quite a good experience because…</p>
+
+<p>One day after I wrote the above line, I now revise my statement. Playing solo queue has been a mixed bag. On one hand, it is nice to improve my play, on the other, I need to deal with the shameless grown children on my team who don’t want to win.</p>
+
+<p>XFN Saber, an educational ADC content creator, has said that the mark of a bad player is attempting to argue iwth your teammates. I wholeheartedly agree with this statement because it is not one’s job to fix other people’s mistakes, but rather to work on resolving your own.</p>
+
+<p>After a series of poor games, I was more inclined to read than to play. I believe this is the best part of LoL, because it encourages you to stop playing by its frustrating nature.</p>
+
+<p>Also, never play at night, just play during 3-6 or don’t play.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Or so I’ve heard. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Music" /><category term="Literature" /><category term="Teaching" /><category term="Strunk and White" /><category term="The Iliad" /><category term="Murakami" /><summary type="html"><![CDATA[“Water under the bridge.”]]></summary></entry><entry><title type="html">Styles</title><link href="https://engitom.github.io/styles/" rel="alternate" type="text/html" title="Styles" /><published>2026-02-26T08:00:01+00:00</published><updated>2026-02-26T08:00:01+00:00</updated><id>https://engitom.github.io/styles</id><content type="html" xml:base="https://engitom.github.io/styles/"><![CDATA[<p>“Look at the sky, it’s still here.” — Porter Robinson</p>
+
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/7LMajLn4v2ZWmLcfE1a7DY" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+</div>
+
+<h2 id="r">R</h2>
+<p>is the worst programming language I have ever used.</p>
+
+<p>I was using it for Ec/ACM/CS 112: Bayesian Statistics and it was originally just kind of annoying because it has some strange conventions like using “&lt;-“ instead of equal sign (=).</p>
+
+<p>However, the real issue I discovered today is that if you make a matrix from a vector, it does so in COLUMNS instead of ROWS. I don’t think any reasonable people would ever think that would be the case, since most people in the world read from left to right and then top to down.</p>
+
+<p>So, I had completely wrong results compared to J, who I was checking with.</p>
+
+<p>Prof. Rangel did say that students may “think nasty thoughts about my mother” when learning R, and I cannot confirm if that is true, but it’s possible that some students may feel that way.</p>
+
+<h2 id="comics">Comics</h2>
+<p>I’ve thought about starting a comic strip in the school newspaper, and here’s an idea I had for a four-panel comic.</p>
+
+<h3 id="double-entendre">Double Entendre</h3>
+<ol>
+  <li>I’m wearing like a lanyard and a propeller hat to show that I’m a freshman, and I’ve got my backpack on.</li>
+  <li>Some woman comes up to me to ask for directions to Beckman Institute.</li>
+  <li>My speech bubble: “I don’t know, you should probably ask a senior.”</li>
+  <li>Woman goes up to old couple, comic end.</li>
+</ol>
+
+<h3 id="art-style">Art Style</h3>
+<p>I’ve always wondered how people find their art style. It probably just happens randomly, but today I had an experience where I realized what my art style might be.</p>
+
+<p>I was in Drawing and Painting and I noticed that the figures which I enjoyed drawing were very rock-like. When I draw with pastel it kind of looks like it’s carved out of rock rather than being smoothly pasted into the paper.</p>
+
+<p>Rock-style doesn’t seem cohesive enough to be a complete art style, but I think it’s a good start.</p>
+
+<p>If I must compare myself to an existing artist, it would unironically probably be Araki, since the figures I draw, because of the sharp edges, have a mannequin-like shape. Also, I use Jojo’s characters as my references quite often so that’s probably the main reason why my style is similar.</p>
+
+<h3 id="gary-larson">Gary Larson</h3>
+<p>makes very interesting comics and is most well-known for <em>The Far Side</em> which featured a lot of confusing comics.</p>
+
+<p>The most controversial one is “Cow Tools,” which is featured in this video on single-panel comics:</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/4npsyTE-m_k" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>I personally think that the images give a sort of ominous vibe, but apparently Larson only meant for it to mean that if cows had tools they would be kind of rudimentary.</p>
+
+<p>One thing that makes the image kind of scary is how the cow has no eyes, only a line across its face where the eyes would be. It reminds me of Marty’s dad from <em>Cloudy with a Chance of Meatballs</em>, but it could just be me.</p>
+
+<h2 id="midterms">Midterms</h2>
+<p>I think that midterms should just not exist because they really destroy the momentum of the quarter. Everyone basically falls behind on work during and after midterms.</p>
+
+<p>It basically happens consistently for me every single term, where the first few weeks I’m ahead on work, and then from week 4 to 10 it’s just a race to the bottom.</p>
+
+<h3 id="yoga">Yoga</h3>
+<p>has been quite interesting because I’m realizing that it’s quite connected with art. In order to draw something, you need to capture the object in your mind. But also, to meditate, you need to capture something in your mind with a very powerful image without realizing that you are able to do it.</p>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><summary type="html"><![CDATA[“Look at the sky, it’s still here.” — Porter Robinson]]></summary></entry><entry><title type="html">Homesweet</title><link href="https://engitom.github.io/gaming/science/language/food/art/homesweet/" rel="alternate" type="text/html" title="Homesweet" /><published>2025-12-31T05:00:01+00:00</published><updated>2025-12-31T05:00:01+00:00</updated><id>https://engitom.github.io/gaming/science/language/food/art/homesweet</id><content type="html" xml:base="https://engitom.github.io/gaming/science/language/food/art/homesweet/"><![CDATA[<p>“I feel completely refreshed, like I just put on fresh underwear on New Year’s Day.” — Josuke Higashikata</p>
+
+<h2 id="feeling-artsy">Feeling Artsy</h2>
+<p>I’ve been drawing with Pentel brush pens and it’s been quite interesting because it requires a lot of control but also it’s been very rewarding with its ability to control the emphasis on the subject.</p>
+
+<p>It’s much more fluid than using a typical pen or pencil and requires stronger intuition for the gestures. You’re allowed to mess up though, because you can just cover it up.</p>
+
+<p>I borrowed my brush pen to my friend I and they thought it was quite nice to use as well, so I might have created another brush pen fan.</p>
+
+<h2 id="shine-bright">Shine Bright</h2>
+<p>I have the unfortunate habit of playing League of Legends, a 5v5 game with ranks. Fortunately, I hit diamond three days before I am going to leave for winter break. Last time I hit diamond was two years ago, also playing jungle.</p>
+
+<p>Jungle is by far the strongest of the five roles, followed by support, and then mid, top, and adc. The thing about jungle is that everyone else needs to stay in their part of the map, more or less, so the jungler is the one who gets to create numbers advantages in fights.</p>
+
+<p>But also, junglers can mostly safely get gold, while other players are always at risk of being attacked by the enemy.</p>
+
+<h3 id="how-to-win">How to win?</h3>
+<p>I reached diamond from emerald 3 because I went on two incredibly long win-streaks which I got by playing Jax and Volibear. Before that, I was playing kind of random champions in random roles, but settling down for just two champions makes it easy to be consistent.</p>
+
+<p>Basically, full clear if nothing is happening, invade if your laner is ahead, and do objectives. That’s all you need to do to win jungle.</p>
+
+<h3 id="a-message">A message</h3>
+<p>Before finals, I had a disastrous loss to an Aatrox jungle, who completely smoked me by invading level 2. So, that’s when I decided I would stop playing and prep for my finals.</p>
+
+<h3 id="champ-selection">Champ selection</h3>
+<p>Why did I choose Jax and Volibear? They were at the top of the tierlists. I think there’s a good reason for that too: they are both extremely good in skirmishes of 1-2 people.</p>
+
+<p>They both get shutdown by CC, but when there’s only ~1 source of CC in the fight, you can just dodge it and win the battle because they have basically undodgeable CC and high defence + damage.</p>
+
+<h3 id="discrete">Discrete</h3>
+<p>Part of the reason why I think bots cannot beat people at League yet is because League is techincally a continuous input with huge variations. It’s like driving, but way harder.</p>
+
+<p>Playing League can feel like driving a car with babies crying in the back while trying to avoid meteors and catching fish at the same time.</p>
+
+<p>However, if you can internalize the mechanics of the game, then the decision-making becomes very discrete. At each time, there are only two or three options to choose between.</p>
+
+<h2 id="smells-like-home">Smells like Home</h2>
+<p>Memories are tied to smell more than any other sense, even more than taste. When people say that something tastes like home, they actually mean smell because taste is 50% smell.</p>
+
+<p>This <a href="https://www.ice.edu/blog/smell-taste-flavor-connection">blog</a> from ICE (Institute of Culinary Education) states that</p>
+
+<blockquote>
+  <p>Every person has between 5,000 and 10,000 taste buds, and each taste bud has between 50 and 100 specialized sensory cells. — ICE</p>
+</blockquote>
+
+<p>If you want to calculate the expected number of sensory cells, you need to use a bit of probability. If you assume the number of taste buds ($X$) and cells per bud ($Y$) are independent, and you know that those two give the number of cells ($Z=XY$), then</p>
+
+<p>$\mathbb{E}(Z) = \mathbb{E}(XY) = \mathbb{E}(X)\mathbb{E}(Y)$</p>
+
+<p>So, we get 7.5K times 75 which is $100 (4900 + 700 + 25) = 562500$.</p>
+
+<h3 id="vegetable-hack">Vegetable hack</h3>
+<p>I don’t know if there’s any kids reading this but if you don’t want to taste your vegetables, just hold your breath and then you won’t be able to taste it anymore.</p>
+
+<h3 id="korean">Korean</h3>
+<p>I’ve been learning Korean, and reading the characters is quite doable because there’s a very simple mapping between the shapes and the sounds, and it’s far more segmented than Japanese characters.</p>
+
+<p>To read Japanese text, you usually need to read a very long string from left to right, but for Korean, a greater focus is on each character because within each character is usually three components that form the sound.</p>
+
+<p>For example, Jap-chae, or glass noodles, is written as 잡채. The left character makes the “Jap” sound, and the three components are the “Juh” consonant, “Ah” vowel, and “Puh” consonant.</p>
+
+<p>The right character is “Chae” sound, where the left half is “Ch” consonant and the right is “Ayy” vowel. So, it’s quite intuitive.</p>
+
+<h3 id="cia--caltech">CIA @ Caltech</h3>
+<p>My mom’s cooking is so much better than the school food that it can’t be compared. However, the one thing that school food does well is desserts, all thanks to a recent hire last year from the CIA<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+
+<p>I don’t know what it is with food-related things having the same name as government organizations, but CIA stands for Culinary Institute of America. They should just have this person redesign all of the food.</p>
+
+<h2 id="reflections">Reflections</h2>
+<p>Citing my first post of the big ‘25, let’s see if I accomplished any of my goals.</p>
+
+<ul>
+  <li>Watching less reels and YouTube and Webtoons 😔 (No)</li>
+  <li>Learn something new and meaningful every day (Kind of)</li>
+  <li>100 pushups, 100 situps, and 100 squats every day (No, but exercising more)</li>
+  <li>Healthy sleep schedule (No)</li>
+  <li>Fun machine learning application (Yes)</li>
+  <li>Fully produced song (No)</li>
+  <li>VSauce-style YT video (Close)</li>
+  <li>Mobile app available for download (Kind of)</li>
+  <li>At least one blog post per month (Yes, on average)</li>
+  <li>Cook for myself a few times (Yes)</li>
+</ul>
+
+<p>So, it seems like I succeeded on roughly 5/10 goals.</p>
+
+<p>This seems like a bad result, but it just means I did more stuff not on the list, like my drawing/observational skills, and probability-based thinking.</p>
+
+<h3 id="smartereveryday">SmarterEveryDay</h3>
+<p>As for learning something new every day, I don’t think I directly succeeded because some days I really don’t learn anything new. But, by reflecting on those days, I learn about the things that prevented me from learning something new.</p>
+
+<p>Also, there are certain days where I learn things that are worth much more than a single day’s worth of learning. Often, useful lessons are clustered together rather than evenly distributed.</p>
+
+<h3 id="smartereveryyear">SmarterEveryYear</h3>
+<p>My dad used to ask me the question of whether I feel like I’m smarter than I was a year ago.</p>
+
+<p>Currently, I can’t really say I feel it the same way I did years ago. This year, I feel like I learned a lot more “common sense” type of skills than technical skills.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p><a href="https://www.ciachef.edu">CIA: Culinary Institute of America</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Gaming" /><category term="Science" /><category term="Language" /><category term="Food" /><category term="Art" /><category term="Korean" /><category term="League of Legends" /><category term="Resolutions" /><summary type="html"><![CDATA[“I feel completely refreshed, like I just put on fresh underwear on New Year’s Day.” — Josuke Higashikata]]></summary></entry><entry><title type="html">Nothing Batter</title><link href="https://engitom.github.io/music/art/travel/gaming/youtube/food/baking/nothing-batter/" rel="alternate" type="text/html" title="Nothing Batter" /><published>2025-11-29T08:00:01+00:00</published><updated>2025-11-29T08:00:01+00:00</updated><id>https://engitom.github.io/music/art/travel/gaming/youtube/food/baking/nothing-batter</id><content type="html" xml:base="https://engitom.github.io/music/art/travel/gaming/youtube/food/baking/nothing-batter/"><![CDATA[<p>“A post about talking about writing a post?” — W</p>
+
+<h2 id="deja-vu">Deja Vu</h2>
+<p>In HK I was shocked by Shek O Beach because I saw a scene straight out of an art book from a middle school art class. The rocks, beach, and coastline looked exactly the same as a drawing I did back then.</p>
+
+<p style="text-align: center;"><img src="/assets/images/olddrawing.jpg" alt="alttext" />
+2019 landscape color pencil drawing of coastline.</p>
+
+<p>It was kind of magical until I realized that there’s probably hundreds of coastlines just like the one at Shek O with big red rocks and a mountain on the right side of the ocean.</p>
+
+<p style="text-align: center;"><img src="/assets/images/shekobeach.jpg" alt="alttext" />
+Shek O Beach coastline.</p>
+
+<h3 id="dj-vu">DJ Vu</h3>
+<p>My friend T was hosting DJ lessons for everyone who was interested in DJing for Ravery and I signed up for a quick lesson.</p>
+
+<p>I didn’t expect that I would become good enough to DJ at Ravery, but setting up my own transitions and being able to explore nostalgic songs from the 2010s was actually a lot of fun.</p>
+
+<p style="text-align: center;"><img src="/assets/images/raverydj.jpg" alt="alttext" />
+Me DJing at Ravery.</p>
+
+<p>However, one issue I have with Ravery is that there’s so much going on with food and games that there’s no one on the dance floor from 10 to 11.</p>
+
+<p>Despite my complaints as a new DJ, this was actually the best Ravery I’ve been to.</p>
+
+<h2 id="hollow-knight">Hollow Knight</h2>
+<p>is a great game that is quite difficult for people who are not used to movement-based games, but once you figure out how to pogo<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>, it becomes very fun.</p>
+
+<p>The music and art are also amazing, and I really appreciate the cute/creepy insect aesthetic.</p>
+
+<h2 id="silksong">Silksong</h2>
+<p>felt a bit more clunky when getting started, but I eventually got used to the movement.</p>
+
+<h3 id="old-habits">Old Habits</h3>
+<p>I seem to explore more than I’m supposed to and end up going into late-game fights when I’m severely undergeared. For example, I went to fight some ants, which was one of the most terrifying things ever.</p>
+
+<p>They all have their own complex attack/dodge patterns, even though they aren’t boss mobs, and also take 20 hits to defeat without any damage upgrades.</p>
+
+<p>This also happened when I played the prev game because I would find bosses before I found any upgrades, like there was some kind of jumping spider that also spit lava which took me about 20 attempts, and I don’t think there was even a good reward after that.</p>
+
+<h3 id="new-habits">New Habits</h3>
+<p>I’ve been trying to do 100 push-ups and 100 squats every day and it’s gone decently well so far, since I feel much more healthy every day.</p>
+
+<p>I even set up a website to let me keep track of it, where I have a counter for how many glasses of water I’ve drank so far, and whether I’ve played guitar/drawn/written.</p>
+
+<h2 id="down-with-the-sickness">Down with the Sickness</h2>
+<p>I may have mentioned this before, but since I don’t get sick that often, I get nostalgic about the last time I was sick, which was right after I got back from Japan last spring.</p>
+
+<p>My hypothesis is that it has something to do with the loss of smell and the way that memories and smells are intertwined.</p>
+
+<h3 id="orange-car">Orange Car</h3>
+<p>I visited Prof. W’s house and they have 3 very nice cats. The orange cat seemed to really like me because it kept coming up to smell me. However, I was too engrossed in eating chocolate chip cookies to pick it up. Maybe next time.</p>
+
+<h3 id="thankful">Thankful</h3>
+<p>One thing that I’m really thankful for at Caltech is that the lights in the hallways are always on, so there’s probably not going to be any scary monsters chasing me to my room at night.</p>
+
+<p>Also, the beds are all lofted, so there’s no room for monsters to crawl under and hide in.</p>
+
+<h2 id="tubers">Tubers</h2>
+<p>I was talking to W, M, and J at RD earlier and we were talking about my blog.</p>
+
+<p>Sometimes I think about making YouTube videos again but perhaps more in a artistic way kind of like VSauce or Solar Sands with some overarching narrative but with interesting ideas throughout jumping between topics.</p>
+
+<p>I think that if I went to any other school, that it would be possible to spend a ton of time on this and perhaps have a successful channel, but as of right now, it doesn’t seem like a possibility.</p>
+
+<h3 id="if-i-did">If I did</h3>
+<p>I would probably make a video with the theme of perspective, the central question being, “Are attractive people bad people?” as a bit of clickbait, and then incorporating humor, science, and art to make a broader point about the importance of perspective.</p>
+
+<h4 id="frieren">Frieren</h4>
+<p>There’s been a bit of a meme in the art community about how to draw portraits from the 45 degrees below and to the side angle, with a pretty funny drawing of Frieren from the anime of the same name.</p>
+
+<p>This reveals how art strives to portray subjects but artists don’t focus enough on perspective. Too often do people draw from the exact same perspective, head-on or 45 degrees to the side. Some might say this angle has been perfected, but future artists may see it as backward and uncreative.</p>
+
+<h4 id="artificial-intelligence">ARTificial Intelligence</h4>
+<p>Then, I’d use ChatGPT and have it rate the attractiveness of 100 prisoner mugshots from 0 to 100, and compare the ratings to 100 images of random people.</p>
+
+<p>Depending on the result, I’d make some sort of point about confounding variables but I can’t be certain until I actually do that.</p>
+
+<h4 id="morality">Morality</h4>
+<p>Then I’d ask, “Was what I just did moral?” Perhaps an excuse could be that I wasn’t the one who placed judgement on the prisoners on their looks nor actions. But is handing judgement off to an AI moral? Is it okay to judge the appearances of random people?</p>
+
+<p>Then I’d reveal that the picture of “random people” are actually people that do not exist from <a href="https://thispersondoesnotexist.com">https://thispersondoesnotexist.com</a>.</p>
+
+<h4 id="stories">Stories</h4>
+<p>Many children’s stories revolve around concepts of the correlation between external and internal beauty, including:</p>
+<ul>
+  <li>The Ugly Duckling</li>
+  <li>Beauty and the Beast</li>
+  <li>The Frog Prince</li>
+</ul>
+
+<h4 id="blind-leading-the-blind">Blind Leading the Blind</h4>
+<p>Perhaps a segment about being blind and how they avoid the concerns of appearance, interjected by a scientific sequence on how blind people can hear better than others, maybe something about echolocation.</p>
+
+<h2 id="nothing-batter">Nothing Batter</h2>
+<blockquote>
+  <p>“There’s nothing better than some flatbread and honey butter.” — Outdoor Boys.</p>
+</blockquote>
+
+<p>I’ve been binging YT vids from the channel <a href="https://www.youtube.com/outdoorboys">Outdoor Boys</a> a lot lately.</p>
+
+<p>Here’s a video tutorial:</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/hi4Df_gJgkw" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h3 id="something-batter">Something Batter</h3>
+<p>I was trying to make some dough before Thanksgiving dinner and a fire alarm got set off!</p>
+
+<p>So, I was outside with my hand in the ziploc bag with the siren going off and everyone watching me was giving me these weird looks.</p>
+
+<p>Turns out I didn’t put enough flour into the bag because the correct ratio of flour:water is 5:3 but I had some sort of concoction/solution where it was like 10% flour and 90% water.</p>
+
+<p>However, after adding flour and mixing, I placed it in a bowl in the fridge and waited a few hours for it to expand (yeast produces gas).</p>
+
+<h3 id="underrated">Underrated</h3>
+<p>I cooked some on a pan around midnight with my roommate T and dipped it in honey butter and let me just say that it was DELICIOUS!</p>
+
+<p>The day after, I made some for the other people who stayed over Thanksgiving and I think most of them really liked it.</p>
+
+<p>I was trying to convince C to eat it and they asked, “What’s in it?”</p>
+
+<p>“Dough!” was the answer.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Pogo: Downslash in mid-air at an enemy/obstacle to go upward <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="Music" /><category term="Art" /><category term="Travel" /><category term="Gaming" /><category term="YouTube" /><category term="Food" /><category term="Baking" /><category term="Hongkong" /><category term="Silksong" /><category term="Frieren" /><category term="Flatbread" /><summary type="html"><![CDATA[“A post about talking about writing a post?” — W]]></summary></entry><entry><title type="html">Buckets</title><link href="https://engitom.github.io/school/reflection/mindset/buckets/" rel="alternate" type="text/html" title="Buckets" /><published>2025-10-10T07:00:01+00:00</published><updated>2025-10-10T07:00:01+00:00</updated><id>https://engitom.github.io/school/reflection/mindset/buckets</id><content type="html" xml:base="https://engitom.github.io/school/reflection/mindset/buckets/"><![CDATA[<p>“Reality is stranger than fiction.” — Rohan Kishibe</p>
+
+<h2 id="broken-blog">Broken Blog</h2>
+<p>So, I think there was some kind of SSL error with my blog and I had to ask ChatGPT and Github Copilot a lot of questions because I have no idea what’s going on with these processes.</p>
+
+<h2 id="fragrant-port">Fragrant Port</h2>
+<p>I went to Hongkong over the Sep 4-7 weekend, rode some boats, saw some friends, and ate some egg tarts. I know it’s strange to include in this post instead of the previous one, but “Neon” is such a long post already.</p>
+
+<h3 id="hku">HKU</h3>
+<p>I went to a business course lecture with my friend C and the lecturer said there were 300 students and 5 subclasses with 60 students each. Standard referencing rubric rather than curve grading. 6 or 7 students per group in a project where they try to make a business plan proposal.</p>
+
+<p>Prof drew a distinction between app/product and business, because the product does not guarantee profitability long term. He discussed how HK PCCW tried streaming movies at home long before Netflix and he was one of the first trial users but it was way too slow.</p>
+
+<h3 id="reality">Reality</h3>
+<p>HK is kind of like the Chinatown of China, because walking around you could kind of sense how similar Chinatown in Manhattan is to HK.</p>
+
+<p>There are quite a few smokers in HK, and many are women, which I found quite interesting. However, a lot of the cigarettes in HK smell kind of like candy, which was quite strange, not sure what they put in there.</p>
+
+<h3 id="seaside">Seaside</h3>
+<p>I went to Tai O, a seaside village where the houses were on stilts. It felt like there weren’t many locals, but I did see like 10 kids playing around who seemed to be from the area.</p>
+
+<p>Since it was low tide, I went out onto the rocks and my shoes got quite dirty from stepping into the soft mud when I thought it would be more solid.</p>
+
+<p>I was wondering how kids here go to school, and I watched a movie on the plane called 《多幸运遇见你》 about how kids in a fishing village in China cannot get a good education because teachers don’t want to teach there. However, in Tai O, there seems to be sufficient schools and the kids just take the bus.</p>
+
+<h3 id="must-have-been-the-wind">Must have been the wind</h3>
+<p>There are quite a few reviews on Chinese forums harshly criticizing the movie, but it wasn’t as bad as they say because it was a chance to get perspective on how uneducated parents view education.</p>
+
+<p>For one of the students, his dad doesn’t want him to go to school anymore because it makes more sense to teach the kid how to fish, where one net cast could be worth thousands of dollars. However, the family gets scammed out of tens of thousands of dollars and the dad decides to send the kid to school because he needs to know math to not repeat that.</p>
+
+<h3 id="public-transportation">Public transportation</h3>
+<p>The train and bus system in HK is pretty good, but I don’t like how there aren’t any downward escalators in even some of the biggest stations in HK. I don’t like it because I’m lazy, but it’s quite inconvenient for the elderly, who have to squeeze on the elevator with the baby strollers and regular lazy people.</p>
+
+<p>Things should work out since there are less babies and more elderly these days.</p>
+
+<h2 id="scientific-ethics">Scientific Ethics</h2>
+<p>Ethics in science is quite complicated because most of the problems in ethics involve things which do not even exist yet. It is not the nature of the scientific procedure, but rather the act of the study itself.</p>
+
+<p>For example, while I was watching an Instagram reel about how beekeepers squash new queen larvae to prevent a bee civil war, I wondered about the ethics of even conducting an experiment based on this phenomenon.</p>
+
+<p>If anyone wished to study bee civil wars, they would be responsible for the deaths of thousands of bees because they would need to manufacture this in a controlled environment repeatedly, which seems pretty messed up.</p>
+
+<h2 id="coursework">Coursework</h2>
+<ul>
+  <li>ACM 104: Applied Linear Algebra</li>
+  <li>ACM 116: Probability Models</li>
+  <li>BEM 109: Finance of China</li>
+  <li>BEM 131: International Trade</li>
+  <li>CS 164: Compilers</li>
+</ul>
+
+<p>I was thinking about taking Ph/CS 219: Quantum Computing this spring with John Preskill. According to M, there’s no need to take quantum mechanics before quantum computing, so I’ll just do it since I took too many of the spring term ML courses already.</p>
+
+<p>Also, one of my friends T is interested in the content of 219 since she’s in quantum computing at a different school, so it would be interesting to see if there are any differences.</p>
+
+<h2 id="dj-school">DJ School</h2>
+<p>T, one of my good friends and amazing DJ, was giving a mini-class on how to DJ.</p>
+
+<p>Essentially, DJs are trying to combine two songs in a nice way and transition between them until the event is over.</p>
+
+<p>Me, A, V and some of the underclassmen were learning and at the end we tried to do our own transitions which went quite poorly, but then T showed us how it’s actually done, which was very impressive.</p>
+
+<h3 id="round-and-round">Round and Round</h3>
+<p>Before that, there was rotation, which was a lot of fun this year and I helped organize some of the events for Avery House.</p>
+
+<p>At karaoke, I was running the table and was completely overwhelmed and had a terrible time. I believe the word is “crashout.”</p>
+
+<p>Normally, T would be there to help run it, but I was operating the table basically by myself and had to do three things simultaneously:</p>
+
+<ol>
+  <li>Turn off the mics of the screamers, which requires quite a bit of testing</li>
+  <li>Control the volume of the music and mics</li>
+  <li>Take song requests and queue new songs</li>
+</ol>
+
+<p>This doesn’t sound too complicated, but trying to do it yourself for the first time is a very stressful process.</p>
+
+<h3 id="reflection">Reflection</h3>
+<p>When I was taking a shower that night, I thought about why I was feeling like shit, and realized that it was basically just in my head.</p>
+
+<p>Instead of being angry at the people screaming into the mics, I should just relax and have fun instead. It’s all about attitude, just like fishing.</p>
+
+<h3 id="laggy">Laggy</h3>
+<p>When I came back to campus, my sleep was only about 7 hours per night, but I felt amazing waking up every single day.</p>
+
+<p>In fact, I was extremely upbeat to a strange degree the morning after the shower. I was talking very fast and making a lot of jokes.</p>
+
+<p>I’m not sure what happened, but by week 3 of class, that attitude was completely gone. I now need to sleep 9 hours like I did before and I always feel some kind of pressure.</p>
+
+<p>In some ways, that felt like I was burning away my lifeforce in exchange for that kind of attitude. It felt inorganic, like the positivity was just swelling out of me.</p>
+
+<h3 id="deserved">Deserved</h3>
+<p>I don’t think it’s sustainable to feel that enlightened state forever. But I think it’s possible to move in that direction slowly over time.</p>]]></content><author><name>Tom Zhang</name><email>txzhang@caltech.edu</email></author><category term="School" /><category term="Reflection" /><category term="Mindset" /><category term="Courses" /><category term="Rotation" /><category term="DJ" /><category term="Jetlag" /><category term="Hongkong" /><summary type="html"><![CDATA[“Reality is stranger than fiction.” — Rohan Kishibe]]></summary></entry></feed>
