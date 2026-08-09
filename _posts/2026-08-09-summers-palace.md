@@ -42,9 +42,9 @@ They are right because the *Odyssey* is historically inaccurate by definition. H
 All the characters should be Greek people, speaking Greek, and not modern Greek. They should use the dialect they would have spoken 3000 years ago. All of the gods should appear on the screen, they should find a giant guy with one eye, a monster with long tentacles, and a whirlpool full of teeth. Oh yeah, and all of the actors should kill each other for real. 
 
 ## Escape from Spotify
-If you think about it, Spotify has a really good business model, because let's say you pay 150 every year to them, and you'll live for ~50 more years. If the interest rate is 3.5%, then with a discounted cash flow (DCF) model you are worth $3640 to them right now. 
+If you think about it, Spotify has a really good business model, because let's say you pay 150 every year to them, and you'll live for ~50 more years. If the interest rate is 3.5%, then with a discounted cash flow (DCF) model you are worth \$3640 to them right now. 
 
-The median annual income in the U.S. is $65k, and the median annual work hours logged is 1.8k. So, 1 hour is worth ~$36 dollars. This means that Spotify subscription costs 100 hours of the median person's present time.
+The median annual income in the U.S. is \$65k, and the median annual work hours logged is 1.8k. So, 1 hour is worth ~$36 dollars. This means that Spotify subscription costs 100 hours of the median person's present time.
 
 ### The Escape Plan
 Can I successfully escape from Spotify in 100 hours?
